@@ -1,0 +1,44 @@
+{
+  "topics": {
+    "俄乌与欧洲安全": ["ukraine", "russia", "nato", "乌克兰", "俄罗斯"],
+    "中东与穆斯林社会": ["iran", "israel", "palestine", "gaza", "syria", "pakistan", "indonesia", "伊朗", "加沙"],
+    "非洲政治与安全": ["sudan", "sahel", "congo", "nigeria", "kenya", "mali", "苏丹", "非洲"],
+    "AI与计算": ["artificial intelligence", "openai", "anthropic", "deepmind", "model", "github", "semiconductor", "人工智能", "模型"],
+    "全球政治与社会": ["election", "government", "court", "protest", "migration", "policy", "elections", "选举", "政府", "社会"],
+    "科学与思想": ["research", "study", "science", "philosophy", "book", "scientist", "研究", "科学", "哲学"]
+  },
+  "weights": {"Importance":30,"Relevance":25,"Novelty":20,"SourceQuality":10,"CrossSource":10,"Depth":5},
+  "rules": {
+    "min_text_chars": 400,
+    "important_source_priority": 5,
+    "important_min_chars": 35,
+    "allow_sources": [],
+    "deny_sources": [],
+    "exclude_keywords": ["sponsored content", "advertisement", "coupon code"],
+    "include_keywords": [],
+    "require_interest_match": false,
+    "excluded_path_patterns": ["/search", "/login", "/signin", "/subscribe", "/tag/", "/category/"],
+    "content_similarity": 0.9,
+    "title_duplicate_similarity": 0.92,
+    "cluster_similarity": 0.35,
+    "history_similarity": 0.48,
+    "max_cluster_hours": 96,
+    "minimum_score": 32,
+    "new_fact_terms": ["announced", "approved", "launched", "signed", "killed", "resigned", "reversed", "released", "ceasefire", "批准", "发布", "签署", "停火", "辞职", "死亡"]
+  },
+  "importance_signals": {
+    "major": ["war", "ceasefire", "invasion", "election", "supreme court", "nuclear", "earthquake", "coup", "sanctions", "战争", "政变", "选举", "制裁"],
+    "substantial": ["policy", "launch", "research", "billion", "million", "government", "parliament", "central bank", "政策", "研究", "议会", "央行"]
+  },
+  "scoring": {"base_importance":0.35,"major_signal_bonus":0.18,"substantial_signal_bonus":0.08,"no_interest_relevance":0.25,"depth_words":1600,"cross_source_cap":3},
+  "history_days":14,
+  "max_history_events":700,
+  "llm_candidate_clusters":30,
+  "deep_reads":3,
+  "deep_read_min_words":1000,
+  "deep_read_signals":["investigation","interview","paper","research","analysis","report","调查","访谈","论文","研究"],
+  "max_trends":4,
+  "trend_min_events":3,
+  "trend_min_days":2,
+  "trend_min_updates":1
+}
