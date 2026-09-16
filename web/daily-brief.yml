@@ -1,0 +1,83 @@
+name: Daily Kindle Brief
+on:
+  schedule:
+    - cron: '30 23 * * *'
+    - cron: '0 1 * * 6'
+  workflow_dispatch:
+    inputs:
+      kind:
+        type: choice
+        options: [daily, weekly]
+        default: daily
+      dry_run:
+        description: Generate only, do not send
+        type: boolean
+        default: true
+      force:
+        description: Resend even if already recorded (check Gmail first)
+        type: boolean
+        default: false
+      limit:
+        description: Candidate limit (1 to 600; blank uses config)
+        type: string
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: kindle-brief-state
+  cancel-in-progress: false
+jobs:
+  brief:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies and real Chromium
+        run: |
+          python -m pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Static checks and unit tests
+        run: |
+          python -m compileall -q briefing tests
+          python -m pytest -q
+      - name: Chromium dynamic DOM and screenshot smoke test
+        env:
+          RUN_BROWSER_TESTS: '1'
+        run: python -m pytest -q tests/test_browser.py
+      - name: Run brief once
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          KINDLE_EMAIL: ${{ secrets.KINDLE_EMAIL }}
+          APPROVED_SENDER_CONFIRMED: ${{ vars.APPROVED_SENDER_CONFIRMED }}
+          INPUT_KIND: ${{ inputs.kind }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+          INPUT_FORCE: ${{ inputs.force }}
+          INPUT_LIMIT: ${{ inputs.limit }}
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: python scripts/actions_run.py
+      - name: Stage readable artifacts and sanitized statistics
+        if: always()
+        run: python scripts/bundle_artifacts.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: kindle-brief-${{ github.run_id }}
+          path: test-results/artifacts/
+          retention-days: 7
+          if-no-files-found: ignore
