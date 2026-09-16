@@ -1,5 +1,6 @@
 import base64
 import time
+import logging
 from urllib.parse import urlparse
 import httpx
 from .core import secret
@@ -21,7 +22,22 @@ def strict_schema(model):
             for v in o: walk(v)
     walk(schema); return schema
 
+class ModelRequestError(ValueError):
+    """Only locally constructed diagnostics; never include raw provider text."""
+    def __init__(self, detail):
+        super().__init__(detail)
+        logging.error('[LLM] %s', detail)
+
 class BudgetExceeded(RuntimeError): pass
+
+SAFE_CODES = {'invalid_api_key', 'insufficient_quota', 'rate_limit_exceeded',
+              'model_not_found', 'invalid_json_schema', 'invalid_request_error',
+              'unsupported_parameter', 'unsupported_value', 'context_length_exceeded',
+              'max_output_tokens', 'content_filter', 'server_error'}
+
+def safe_code(value):
+    return value if isinstance(value, str) and value in SAFE_CODES else 'unavailable'
+
 
 class LLMClient:
     def __init__(self, settings):
@@ -52,20 +68,35 @@ class LLMClient:
                 response=httpx.post(self.s.api_base.rstrip('/')+'/responses',
                     headers={'Authorization':'Bearer '+secret('api_key')},json=body,timeout=150)
             except httpx.TransportError:
-                if attempt==2: raise ValueError('模型服务连接失败')
+                if attempt==2: raise ModelRequestError('transport_error: model service connection failed')
                 time.sleep(2**attempt); continue
             if response.status_code==429 or response.status_code>=500:
                 if attempt<2: time.sleep(2**attempt); continue
             if response.status_code>=400:
                 # Do not log provider bodies, which might contain submitted source data or credentials.
-                raise ValueError(f'模型请求失败 HTTP {response.status_code}；检查模型名称、权限与余额')
-            data=response.json()
+                try:
+                    error = response.json().get('error', {})
+                    code = safe_code(error.get('code')) if isinstance(error, dict) else 'unavailable'
+                except (ValueError, AttributeError, TypeError):
+                    code = 'unavailable'
+                raise ModelRequestError(f'HTTP {response.status_code}; code={code}; operation={model.__name__}')
+            try:
+                data=response.json()
+            except ValueError:
+                raise ModelRequestError('invalid_json_response') from None
             if data.get('status')!='completed':
-                raise ValueError('模型输出未完成，停止该步骤')
+                details=data.get('incomplete_details') or {}
+                reason=safe_code(details.get('reason')) if isinstance(details,dict) else 'unavailable'
+                raise ModelRequestError(f'response_not_completed; reason={reason}; operation={model.__name__}')
             self.usage.append(data.get('usage',{}))
             actual=data.get('usage',{}).get('total_tokens')
             if actual is not None: self.reserved_tokens+=int(actual)-estimated
             text=''.join(part.get('text','') for item in data.get('output',[]) if item.get('type')=='message' for part in item.get('content',[]) if part.get('type')=='output_text')
-            return model.model_validate_json(text)
+            if not text:
+                raise ModelRequestError(f'no_output_text; operation={model.__name__}')
+            try:
+                return model.model_validate_json(text)
+            except ValueError:
+                raise ModelRequestError(f'output_schema_validation_failed; operation={model.__name__}') from None
         raise ValueError('模型请求重试失败')
 
