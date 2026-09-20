@@ -172,6 +172,17 @@ python -m briefing.daily_brief --persist-git
 
 Artifacts 保存7天，只打包简报、所引用截图、统计和评分；不上传原网页 HTML、数据库、设置或密钥。下载后解压完整目录再打开 `editions/<id>/index.html`，才能显示相对路径截图。
 
+### 在 Windows 电脑上自动备份 EPUB
+
+云端运行不会自动写入本机磁盘。安装 [GitHub CLI](https://cli.github.com/) 后，在这台电脑运行 `gh auth login`，然后在仓库目录执行：
+
+```powershell
+python scripts/backup_local.py
+powershell -ExecutionPolicy Bypass -File scripts/install_backup_task.ps1
+```
+
+第一条命令立即同步，第二条创建每天 11:00 的 Windows 计划任务（电脑需要开机或稍后唤醒；错过的任务会在可用时启动）。备份默认保存在 `文档\Letters-from-the-World\backups`，按简报 ID 命名为 `.epub`，已有文件不会覆盖。即使邮件发送失败，只要生成阶段成功且 Actions 上传了产物，仍可同步。GitHub 产物只保留 7 天，所以长期关机后应手动到 Actions 下载漏掉的产物。本机直接运行简报时，原始 EPUB 也保存在 `data/editions/<id>/briefing.epub`。目前没有生成 PDF；EPUB 可直接手动发送至 Kindle。
+
 - `SourceAddressBlocked`：DNS 返回了内网/保留地址。当前开发电脑发现 Fake-IP 代理将新闻域名解析为 `198.18.x.x` / 私有 IPv6，采集器因此阻止访问；请在正常公共 DNS 的云端验收，或由使用者调整代理解析方式。程序没有关闭此保护。
 - 单篇失败 warning、单源失败 error，继续其他内容；无合格新闻、核心配置/模型/渲染/邮件失败则退出1。
 - 模型 token 预算耗尽时，只保留此前已完成截图复核的条目；如果不足最低条数则不发信。
