@@ -94,6 +94,7 @@ def build(s,cfg,kind='daily',end=None,dry_run=True,force=False,limit=None,persis
                 rep=g.articles[0]
                 if regions[rep.region]>=math.ceil(maximum*s.max_region_share): continue
                 opened={}; snaps={}; refs=[]
+                stage='reopen_sources'
                 try:
                     for aid in dict.fromkeys(event.article_ids):
                         a=available[aid]
@@ -108,8 +109,13 @@ def build(s,cfg,kind='daily',end=None,dry_run=True,force=False,limit=None,persis
                             if aid in opened: opened.pop(aid).close()
                     if not refs: raise ValueError('No source evidence')
                     docs=[{'article_id':a['id'],'source':a['source_name'],'group':a['group'],'published':a['published'],'url':a['url'],'blocks':snaps[a['id']]['blocks']} for a in refs]
-                    story=editor.write(event,docs,kind); validate_claims(story,snaps,refs)
+                    stage='draft_story'
+                    story=editor.write(event,docs,kind)
+                    stage='validate_quotes'
+                    validate_claims(story,snaps,refs)
+                    stage='capture_screenshots'
                     evidence=[browser.capture(opened[c.article_id],snaps[c.article_id],c.block_id,c.quote) for c in story.core]
+                    stage='audit_evidence'
                     audit=editor.audit(story,docs,evidence,{'update':event.update,'reason':event.update_reason,'history':recent})
                     if not all((audit.approved,audit.all_core_supported,audit.screenshots_readable,audit.no_extra_facts)): raise ValueError('Evidence audit rejected')
                     # Only attach metadata to the edition; raw documents never enter committed state.
@@ -132,12 +138,13 @@ def build(s,cfg,kind='daily',end=None,dry_run=True,force=False,limit=None,persis
                     logging.warning('[LLM] budget reached; retain only fully audited stories')
                     break
                 except Exception as exc:
-                    rejected.append({'event_id':g.id,'error':type(exc).__name__})
-                    logging.warning('[LLM] event=%s rejected error=%s',g.id,type(exc).__name__)
+                    rejected.append({'event_id':g.id,'stage':stage,'error':type(exc).__name__})
+                    logging.warning('[LLM] event=%s rejected stage=%s error=%s',g.id,stage,type(exc).__name__)
                     # Provider/budget failures are fatal, unlike a single article or editorial rejection.
                     if str(exc).startswith(('模型','LLM','请先')): raise
                 finally:
                     for page in opened.values(): page.close()
+        stats['rejections_by_stage']=dict(Counter(r['stage'] for r in rejected))
         if len(accepted)<s.min_stories: raise ValueError('Too few evidence-approved stories')
         overview=''
         for st in accepted:
