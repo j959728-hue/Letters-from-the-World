@@ -16,7 +16,7 @@
   "model":"",
   "api_base":"https://api.openai.com/v1",
   "api_format":"responses",
-  "max_output_tokens":6000,
+  "max_output_tokens":12000,
   "fetch_timeout_ms":35000,
   "body_wait_ms":8000,
   "scroll_steps":3,
