@@ -20,7 +20,20 @@ from .core import DATA, Settings, db, digest, iso, parse_time, now, health
 
 USER_AGENT = 'KindleBriefing/0.1 (personal RSS reader; evidence capture)'
 
+GATED_MARKERS = ('subscribe to continue', 'subscribe to read', 'subscription required',
+                 'exclusive to subscribers', 'this article is for subscribers',
+                 'already a subscriber')
+
+def publisher_alternate(current_url, href):
+    """Use only an alternate that the publisher links on its own hostname."""
+    if not href: return None
+    target=urljoin(current_url,href)
+    if urlparse(target).hostname!=urlparse(current_url).hostname: return None
+    public_url(target)
+    return target if canonical(target)!=canonical(current_url) else None
+
 class SourceAddressBlocked(ValueError): pass
+class AccessRestricted(ValueError): pass
 
 def canonical(url):
     p=urlparse(url)
@@ -133,6 +146,21 @@ class Browser:
             if response and response.status>=400:
                 raise ValueError(f'原文返回 HTTP {response.status}')
             page.wait_for_function("() => !!document.body && document.body.innerText.length > 35",timeout=self.s.body_wait_ms)
+            body=page.locator('body').inner_text()[:1600].lower()
+            main=page.locator('article,main,[role="main"]').first
+            visible=main.inner_text() if main.count() else body
+            if len(visible.strip())<500 and any(marker in body for marker in GATED_MARKERS):
+                alternate=page.locator('link[rel="amphtml"]').first
+                target=publisher_alternate(page.url,alternate.get_attribute('href') if alternate.count() else '')
+                if not target: raise AccessRestricted('订阅页面未提供同站公开版本；跳过受限原文')
+                response=page.goto(target,wait_until='domcontentloaded',timeout=self.s.fetch_timeout_ms)
+                if response and response.status>=400: raise ValueError('出版社替代页面不可访问')
+                page.wait_for_function("() => !!document.body && document.body.innerText.length > 35",timeout=self.s.body_wait_ms)
+                alternate_body=page.locator('body').inner_text()[:1600].lower()
+                alternate_main=page.locator('article,main,[role="main"]').first
+                alternate_visible=alternate_main.inner_text() if alternate_main.count() else alternate_body
+                if len(alternate_visible.strip())<500 and any(marker in alternate_body for marker in GATED_MARKERS):
+                    raise AccessRestricted('出版社替代页面仍需订阅；跳过受限原文')
             for _ in range(self.s.scroll_steps):
                 page.evaluate('window.scrollBy(0, window.innerHeight)')
                 page.wait_for_timeout(250)

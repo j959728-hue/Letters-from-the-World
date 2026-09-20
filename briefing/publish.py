@@ -52,6 +52,8 @@ def story_html(story,number,image_links):
     for i,claim in enumerate(story['core']):
         e=story['evidence'][i]
         parts.append(f'<p class="core">{esc(claim["text"])}</p><figure><img src="{esc(image_links[i])}" alt="原始来源关键段落截图"/><figcaption class="caption">证据 {i+1} · 原网页段落截图 · 截图时间 {esc(e["captured_at"])}<br/>来源域名：{esc(__import__("urllib.parse",fromlist=["urlparse"]).urlparse(e["url"]).hostname)}</figcaption></figure>')
+        if e.get('final_url') and e['final_url']!=e['url']:
+            parts.append(f'<p class="meta">截图页面：<a href="{esc(e["final_url"])}">{esc(e["final_url"])}</a></p>')
     if story.get('timeline'):
         parts.append('<h3>本周进展</h3><ul>'+''.join(f'<li>{esc(t)}</li>' for t in story['timeline'])+'</ul>')
     parts.append(f'<h3>为什么重要 · 分析</h3><p>{esc(story["why_it_matters"])}</p><h3>接下来观察</h3><p>{esc(story["watch_next"])}</p>')
