@@ -1,10 +1,270 @@
 {
   "version": 1,
-  "history": [],
+  "history": [
+    {
+      "fingerprint": "d7e315a40cda4ff06cde",
+      "delivery_id": "daily:2026-09-20",
+      "topic": "中东与穆斯林社会",
+      "title": "伊朗安全负责人经卡塔尔向美方提出停战条件，霍尔木兹航线受扰推高油价破百",
+      "titles": [
+        "What are Iran’s latest conditions to end its war with the US?"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us"
+      ],
+      "hashes": [
+        "1c11c9436f30f20ce7be2c811ef99f5363623ddb32c0b7f0071e2f553a3e92de"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "伊朗安全负责人穆赫辛·雷扎伊（Mohsen Rezaei）提出德黑兰结束对美战争的最新条件，这是半岛电视台独家专访披露的内容。 雷扎伊称，伊方已通过卡塔尔斡旋方把条件转达给美国；他并称伊朗现在比战争最初40天更能承受战事，战争始于2月底美以联合打击伊朗之后。 半岛电视台报道称，油轮在霍尔木兹海峡通行遭袭，加上胡塞武装实际上控制沙特用于出口石油的红海航线，导致近几周油价突破每桶100美元。",
+      "sent_at": "2026-09-20T12:04:19.964594+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "d2b858c7bde6ac6f5d0c8ccb",
+          "url": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us?traffic_source=rss",
+          "title": "What are Iran’s latest conditions to end its war with the US?",
+          "published": "2026-09-20T11:21:06+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "54e50eed27ae14aa2ef6",
+      "delivery_id": "daily:2026-09-20",
+      "topic": "中东与穆斯林社会",
+      "title": "土耳其称愿满足沙特防务需求，麦加联合防务协议面临首次重大考验",
+      "titles": [
+        "Turkiye says it’s ready to meet Saudi defence needs – what does that mean?"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/20/turkish-fm-says-ready-to-meet-saudi-defence-needs-what-does-that-mean"
+      ],
+      "hashes": [
+        "25466e59d004fa1e080b80f384d420332db34187e2dcd9c9c546e6c64bbbf305"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "土耳其外长哈坎·菲丹表示，由于胡塞武装持续袭击，沙特阿拉伯可能有军事需求，尤其涉及一些“技术问题”，安卡拉准备依据与沙特、巴基斯坦的防务协议提供协助；他没有说明具体将提供何种协助。 据半岛电视台报道，沙特阿拉伯、土耳其和巴基斯坦签署了《麦加联合防务协议》，其原则是把对三国中任一成员的武装攻击视为对三国的攻击。",
+      "sent_at": "2026-09-20T12:04:19.964594+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "b431b23698ea5b044015664e",
+          "url": "https://www.aljazeera.com/news/2026/9/20/turkish-fm-says-ready-to-meet-saudi-defence-needs-what-does-that-mean?traffic_source=rss",
+          "title": "Turkiye says it’s ready to meet Saudi defence needs – what does that mean?",
+          "published": "2026-09-20T10:23:33+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "d8de148575048c6b33d5",
+      "delivery_id": "daily:2026-09-20",
+      "topic": "中东与穆斯林社会",
+      "title": "加沙新学年复课：约54.1万学生返校，许多孩子仍在帐篷中上课",
+      "titles": [
+        "Back to school in Gaza: Learning in tents after years of disruption"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/features/2026/9/20/back-to-school-in-gaza-learning-in-tents-after-years-of-disruption"
+      ],
+      "hashes": [
+        "57c5c88405b7cd43b6e3b3396aaf91b6bcd9ffc42f071cbc6d139ac0277906c3"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据巴勒斯坦教育部与高等教育部的数据，加沙新学年于9月19日开始，约541,000名学生重返教育；半岛电视台报道称，这一复课发生在2025年10月停火后暴力“减少但未终止”的背景下。该数字由巴勒斯坦官方机构提供，经半岛电视台转述。 联合国儿童基金会表示，许多加沙儿童仍在帐篷及其他临时学习场所上课，空间拥挤、资源有限。该评估由 UNICEF 提供，经半岛电视台报道转述。",
+      "sent_at": "2026-09-20T12:04:19.964594+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "7e7a1ac8e1e4800d41324442",
+          "url": "https://www.aljazeera.com/features/2026/9/20/back-to-school-in-gaza-learning-in-tents-after-years-of-disruption?traffic_source=rss",
+          "title": "Back to school in Gaza: Learning in tents after years of disruption",
+          "published": "2026-09-20T11:26:20+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "bad4ef1e02b1f5b47d64",
+      "delivery_id": "daily:2026-09-20",
+      "topic": "中东与穆斯林社会",
+      "title": "半岛电视台评论提出“Echoicide”概念：内容未被删但触达被削弱，Meta 否认系统性压制",
+      "titles": [
+        "Echoicide: Who decides which truths survive in Gaza?"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news-analysis/2026/9/20/echoicide-who-decides-which-truths-survive-in-gaza"
+      ],
+      "hashes": [
+        "b30b0d5d54117520130a29036d98618800540f438f644c5501531071761cb0c3"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台2026年9月20日发表的评论文章提出“Echoicide”概念：一条信息可能未被删除，但承载它的媒介被削弱到令声音失去回响的程度；作者用该词描述社交媒体上一种表面上的传播干预趋势。 该评论援引人权观察的记录称，Instagram 删除了展示在以色列袭击中死亡或受伤的巴勒斯坦平民的图像和视频，理由是这些内容违反 Meta 的“暴力和煽动”规则。 Meta 发言人在回应中表示，认为该公司刻意且系统性地压制某一特定声音的说法是错误的。",
+      "sent_at": "2026-09-20T12:04:19.964594+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "85b7248231550eda972df1cc",
+          "url": "https://www.aljazeera.com/news-analysis/2026/9/20/echoicide-who-decides-which-truths-survive-in-gaza?traffic_source=rss",
+          "title": "Echoicide: Who decides which truths survive in Gaza?",
+          "published": "2026-09-20T08:32:45+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "79ac368951e9e310c4a6",
+      "delivery_id": "daily:2026-09-20",
+      "topic": "中东与穆斯林社会",
+      "title": "分析：美丹格陵兰安全协议内容未明，实际变化或被指有限",
+      "titles": [
+        "Trump’s Greenland deal: A triumph of optics?"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/opinions/2026/9/20/trumps-greenland-deal-a-triumph-of-optics"
+      ],
+      "hashes": [
+        "28bef2de180de8653d3742e6971eaa151e67025703a9044386e61054a9a116bc"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台这篇评论文章指出，美国、丹麦与格陵兰关于格陵兰安全的新协议内容尚未公开；作者称目前并不确切知道协议包含什么，但初步图景对丹麦和格陵兰而言接近“最好情形”，分歧似已被拉回外交轨道。 作者认为，新协议中不少内容其实在1951年防务协定（2004年经格陵兰自治政府参与更新）框架下已经可以实现，因此美国对格陵兰控制的实际变化“相对有限”，成果更多体现在观感层面。",
+      "sent_at": "2026-09-20T12:04:19.964594+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "02c051e4729c8b4b695abd8f",
+          "url": "https://www.aljazeera.com/opinions/2026/9/20/trumps-greenland-deal-a-triumph-of-optics?traffic_source=rss",
+          "title": "Trump’s Greenland deal: A triumph of optics?",
+          "published": "2026-09-20T10:49:10+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "7ac48d44b8b2466f9673",
+      "delivery_id": "daily:2026-09-20",
+      "topic": "科学与思想",
+      "title": "卫报：北京反驳美方对AI发展过快的警告，主张不同的安全与速度平衡",
+      "titles": [
+        "Why China is pushing back on US warnings over rapid AI development"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/20/why-china-is-pushing-back-on-us-warnings-over-rapid-ai-development"
+      ],
+      "hashes": [
+        "3c3e3e8d33b5acd515539b63fa36c72a57fd5e32b043c992c102a1dbf2557587"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "《卫报》报道称，北京认为要求放缓AI发展的呼声意在锁定美国的既有优势，中国正在安全与速度之间寻求一种不同的平衡。",
+      "sent_at": "2026-09-20T12:04:19.964594+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "03865c0f687225bd55aa2149",
+          "url": "https://www.theguardian.com/world/2026/sep/20/why-china-is-pushing-back-on-us-warnings-over-rapid-ai-development",
+          "title": "Why China is pushing back on US warnings over rapid AI development",
+          "published": "2026-09-20T06:00:09+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "21c25fe29cb5a22f1dc8",
+      "delivery_id": "daily:2026-09-20",
+      "topic": "全球政治与社会",
+      "title": "荷兰海牙极右翼反移民游行演变为暴力，警方驱散数百人并逮捕24人",
+      "titles": [
+        "Dutch riot police break up violent far-right protest in The Hague"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/19/far-right-protest-hague-violence-riot-police-malieveld"
+      ],
+      "hashes": [
+        "ac32ed0876a85291568e3930e749952cdd7c7a3377e3e8413bc0045c8e8f9b55"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "荷兰防暴警察周六在海牙驱散了数百名极右翼抗议者，此前发生暴力事件，地方当局禁止了原定的反移民与庇护政策游行。 据荷兰公共广播机构NOS报道，有24人被捕，此前一些抗议者向警察投掷烟花和其他投掷物。该数字由卫报转述NOS，卫报未独立核实。",
+      "sent_at": "2026-09-20T12:04:19.964594+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "5c47d4dd4fd83976ba7eda87",
+          "url": "https://www.theguardian.com/world/2026/sep/19/far-right-protest-hague-violence-riot-police-malieveld",
+          "title": "Dutch riot police break up violent far-right protest in The Hague",
+          "published": "2026-09-19T19:43:14+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    }
+  ],
   "deliveries": {
     "daily:2026-09-20": {
-      "status": "sending",
-      "updated": "2026-09-20T12:16:04.208057+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-20T12:16:10.671556+00:00",
       "attempt": 1
     }
   }
