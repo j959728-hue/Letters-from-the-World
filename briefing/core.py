@@ -79,6 +79,7 @@ class Settings(BaseModel):
     daily_lookback_hours: int = Field(default=24, ge=12, le=48)
     model: str = ''
     api_base: str = 'https://api.openai.com/v1'
+    api_format: Literal['responses', 'chat_completions'] = 'responses'
     max_output_tokens: int = Field(default=4500, ge=1000, le=16000)
     fetch_timeout_ms: int = Field(default=35000, ge=1000, le=90000)
     body_wait_ms: int = Field(default=8000, ge=100, le=30000)
@@ -122,7 +123,7 @@ def save_settings(s):
     atomic_json(DATA / 'settings.json', s.model_dump())
 
 def secret(name):
-    keys = {'api_key':('OPENAI_API_KEY','BRIEFING_API_KEY'), 'smtp_password':('SMTP_PASSWORD','BRIEFING_SMTP_PASSWORD')}[name]
+    keys = {'api_key':('LLM_API_KEY','OPENAI_API_KEY','BRIEFING_API_KEY'), 'smtp_password':('SMTP_PASSWORD','BRIEFING_SMTP_PASSWORD')}[name]
     for key in keys:
         if os.environ.get(key): return os.environ[key]
     path = DATA / 'secrets.dpapi'

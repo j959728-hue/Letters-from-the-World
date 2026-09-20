@@ -1,6 +1,7 @@
 import base64
 import time
 import logging
+import json
 from urllib.parse import urlparse
 import httpx
 from .core import secret
@@ -30,7 +31,9 @@ class ModelRequestError(ValueError):
 
 class BudgetExceeded(RuntimeError): pass
 
-SAFE_CODES = {'invalid_api_key', 'insufficient_quota', 'rate_limit_exceeded',
+SAFE_CODES = {'credit_balance_exhausted', 'organization_spend_limit_exceeded',
+              'project_spend_limit_exceeded', 'organization_usage_limit_exceeded',
+              'slow_down', 'rate_limit_error', 'invalid_api_key', 'insufficient_quota', 'rate_limit_exceeded',
               'model_not_found', 'invalid_json_schema', 'invalid_request_error',
               'unsupported_parameter', 'unsupported_value', 'context_length_exceeded',
               'max_output_tokens', 'content_filter', 'server_error'}
@@ -44,28 +47,53 @@ class LLMClient:
         self.s=settings; self.calls=0; self.usage=[]; self.reserved_tokens=0
         if not secret('api_key') or not settings.model:
             raise ValueError('请先在设置中填写模型 API 密钥和支持图像输入的模型名称')
-        if urlparse(settings.api_base).scheme!='https':
-            raise ValueError('模型服务地址必须使用 HTTPS')
+        url=urlparse(settings.api_base)
+        if url.scheme!='https' or not url.hostname or url.username or url.password or url.query or url.fragment:
+            raise ValueError('模型服务地址必须为不含账号、查询参数的 HTTPS API 根地址')
+
+    def _request(self, model, prompt, images):
+        if self.s.api_format=='responses':
+            content=[{'type':'input_text','text':prompt}]
+            for path in images:
+                content.append({'type':'input_image','image_url':'data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode(),'detail':'high'})
+            return 'responses', {'model':self.s.model,'store':False,'instructions':SYSTEM,
+                'input':[{'role':'user','content':content}],
+                'max_output_tokens':self.s.max_output_tokens,
+                'text':{'format':{'type':'json_schema','name':model.__name__,'strict':True,'schema':strict_schema(model)}}}
+        if self.s.api_format=='chat_completions':
+            content=[{'type':'text','text':prompt+'\n只输出符合以下 JSON Schema 的 JSON 对象：'+json.dumps(strict_schema(model),ensure_ascii=False)}]
+            for path in images:
+                content.append({'type':'image_url','image_url':{'url':'data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode()}})
+            return 'chat/completions', {'model':self.s.model,
+                'messages':[{'role':'system','content':SYSTEM},{'role':'user','content':content}],
+                'response_format':{'type':'json_object'},'max_tokens':self.s.max_output_tokens}
+        raise ValueError('Unsupported LLM API format')
+
+    def _output(self, data, model):
+        if self.s.api_format=='responses':
+            if data.get('status')!='completed':
+                details=data.get('incomplete_details') or {}
+                reason=safe_code(details.get('reason')) if isinstance(details,dict) else 'unavailable'
+                raise ModelRequestError(f'response_not_completed; reason={reason}; operation={model.__name__}')
+            return ''.join(part.get('text','') for item in data.get('output',[]) if item.get('type')=='message' for part in item.get('content',[]) if part.get('type')=='output_text')
+        choices=data.get('choices') or []
+        if not choices or choices[0].get('finish_reason')!='stop':
+            raise ModelRequestError(f'chat_response_not_completed; operation={model.__name__}')
+        return choices[0].get('message',{}).get('content') or ''
 
     def ask(self, model, prompt, images=()):
         ascii_chars=sum(ord(c)<128 for c in prompt)
         estimated=int(ascii_chars/3+(len(prompt)-ascii_chars)*1.5)+self.s.max_output_tokens+len(images)*4000
         if self.reserved_tokens+estimated>self.s.llm_token_budget: raise BudgetExceeded('LLM token budget exhausted')
         if self.calls>=120: raise BudgetExceeded('LLM call budget exhausted')
-        content=[{'type':'input_text','text':prompt}]
-        for path in images:
-            content.append({'type':'input_image','image_url':'data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode(),'detail':'high'})
-        body={'model':self.s.model,'store':False,'instructions':SYSTEM,
-              'input':[{'role':'user','content':content}],
-              'max_output_tokens':self.s.max_output_tokens,
-              'text':{'format':{'type':'json_schema','name':model.__name__,'strict':True,'schema':strict_schema(model)}}}
+        endpoint,body=self._request(model,prompt,images)
         for attempt in range(3):
             if self.calls>=120: raise BudgetExceeded('LLM call budget exhausted')
             if self.reserved_tokens+estimated>self.s.llm_token_budget: raise BudgetExceeded('LLM token budget exhausted')
             self.reserved_tokens+=estimated
             self.calls+=1
             try:
-                response=httpx.post(self.s.api_base.rstrip('/')+'/responses',
+                response=httpx.post(self.s.api_base.rstrip('/')+'/'+endpoint,
                     headers={'Authorization':'Bearer '+secret('api_key')},json=body,timeout=150)
             except httpx.TransportError:
                 if attempt==2: raise ModelRequestError('transport_error: model service connection failed')
@@ -84,14 +112,10 @@ class LLMClient:
                 data=response.json()
             except ValueError:
                 raise ModelRequestError('invalid_json_response') from None
-            if data.get('status')!='completed':
-                details=data.get('incomplete_details') or {}
-                reason=safe_code(details.get('reason')) if isinstance(details,dict) else 'unavailable'
-                raise ModelRequestError(f'response_not_completed; reason={reason}; operation={model.__name__}')
-            self.usage.append(data.get('usage',{}))
-            actual=data.get('usage',{}).get('total_tokens')
+            self.usage.append(data.get('usage') or {})
+            actual=(data.get('usage') or {}).get('total_tokens')
             if actual is not None: self.reserved_tokens+=int(actual)-estimated
-            text=''.join(part.get('text','') for item in data.get('output',[]) if item.get('type')=='message' for part in item.get('content',[]) if part.get('type')=='output_text')
+            text=self._output(data,model)
             if not text:
                 raise ModelRequestError(f'no_output_text; operation={model.__name__}')
             try:

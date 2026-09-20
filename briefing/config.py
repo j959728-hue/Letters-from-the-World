@@ -32,7 +32,8 @@ class CurationConfig(BaseModel):
             raise ValueError('评分参数无效')
         return self
 
-ENV_FIELDS={'OPENAI_MODEL':'model','OPENAI_BASE_URL':'api_base','SMTP_HOST':'smtp_host','SMTP_PORT':'smtp_port',
+ENV_FIELDS={'OPENAI_MODEL':'model','LLM_MODEL':'model','OPENAI_BASE_URL':'api_base','LLM_API_BASE_URL':'api_base',
+    'LLM_API_FORMAT':'api_format','SMTP_HOST':'smtp_host','SMTP_PORT':'smtp_port',
     'SMTP_USERNAME':'smtp_user','EMAIL_FROM':'sender_email','KINDLE_EMAIL':'kindle_email','SMTP_SECURITY':'smtp_security',
     'MAX_CANDIDATES':'max_candidates','MAX_FINAL_ITEMS':'daily_limit','TIMEZONE':'timezone',
     'APPROVED_SENDER_CONFIRMED':'approved_sender_confirmed','LLM_TOKEN_BUDGET':'llm_token_budget',

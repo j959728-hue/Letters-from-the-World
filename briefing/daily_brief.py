@@ -29,8 +29,8 @@ def main(argv=None):
         for item in configured: upsert_source(item)
         if not args.collect_only:
             missing=[]
-            if not secret('api_key'): missing.append('OPENAI_API_KEY')
-            if not s.model: missing.append('OPENAI_MODEL')
+            if not secret('api_key'): missing.append('LLM_API_KEY (or OPENAI_API_KEY)')
+            if not s.model: missing.append('LLM_MODEL (or OPENAI_MODEL)')
             if missing:
                 logging.error('[CONFIG] missing=%s',','.join(missing))
                 return 1
