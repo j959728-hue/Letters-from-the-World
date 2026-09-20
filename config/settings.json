@@ -15,6 +15,7 @@
   "daily_lookback_hours":24,
   "model":"",
   "api_base":"https://api.openai.com/v1",
+  "api_format":"responses",
   "max_output_tokens":6000,
   "fetch_timeout_ms":35000,
   "body_wait_ms":8000,
