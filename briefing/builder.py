@@ -117,7 +117,8 @@ def build(s,cfg,kind='daily',end=None,dry_run=True,force=False,limit=None,persis
                     evidence=[browser.capture(opened[c.article_id],snaps[c.article_id],c.block_id,c.quote) for c in story.core]
                     stage='audit_evidence'
                     audit=editor.audit(story,docs,evidence,{'update':event.update,'reason':event.update_reason,'history':recent})
-                    if not all((audit.approved,audit.all_core_supported,audit.screenshots_readable,audit.no_extra_facts)): raise ValueError('Evidence audit rejected')
+                    failed_checks=[name for name in ('approved','all_core_supported','screenshots_readable','no_extra_facts') if not getattr(audit,name)]
+                    if failed_checks: raise ValueError('audit_flags='+','.join(failed_checks))
                     # Only attach metadata to the edition; raw documents never enter committed state.
                     reference_keys=('id','source_id','source_name','title','url','published','author','canonical_url','group')
                     st=dict(story.model_dump(),event_key=g.id,region=rep.region,category=rep.category,importance=event.importance,
@@ -138,8 +139,14 @@ def build(s,cfg,kind='daily',end=None,dry_run=True,force=False,limit=None,persis
                     logging.warning('[LLM] budget reached; retain only fully audited stories')
                     break
                 except Exception as exc:
-                    rejected.append({'event_id':g.id,'stage':stage,'error':type(exc).__name__})
-                    logging.warning('[LLM] event=%s rejected stage=%s error=%s',g.id,stage,type(exc).__name__)
+                    # Only emit known local failure categories; never log model prose or article text.
+                    safe_reasons={'证据引文不在选定原文段落中':'quote_not_in_block',
+                        '页面已变化，截图与引文不匹配':'page_changed',
+                        '证据段落不适合可读截图；请缩小证据范围':'screenshot_unreadable'}
+                    reason=(str(exc) if stage=='audit_evidence' and str(exc).startswith('audit_flags=')
+                        else safe_reasons.get(str(exc),'unavailable'))
+                    rejected.append({'event_id':g.id,'stage':stage,'error':type(exc).__name__,'reason':reason})
+                    logging.warning('[LLM] event=%s rejected stage=%s error=%s reason=%s',g.id,stage,type(exc).__name__,reason)
                     # Provider/budget failures are fatal, unlike a single article or editorial rejection.
                     if str(exc).startswith(('模型','LLM','请先')): raise
                 finally:

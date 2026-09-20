@@ -73,6 +73,7 @@ event_key 是简短稳定的事件标识。日报避免重复昨日已讲且没�
     def write(self,event,documents,kind):
         return self.ask(Story,f'''用{self.s.language}编写一条简报。类型：{kind}。事件候选：{event.model_dump_json()}。
 以原文为准，可纠正候选标题。核心事实 core 每项都必须绑定一篇文章的 article_id、原文 block_id 和逐字 quote。
+优先只写一条最重要、证据最明确的 core。quote 必须是所选 block 原文中连续出现的至少12个字符，不改写标点、不拼接句子、不加省略号。
 引文只截取支持核心信息的短片段，不能拼接不连续句子；每条核心句限一个明确可核查命题。
 标题的事实必须被核心证据支持。why_it_matters 是解释／分析，watch_next 是观察问题，不得添加未经提供的事实。
 uncertainty 写清分歧与未确认之处，无需制造不确定性。timeline 在周报中只写材料可支持的日期与进展，日报可空。

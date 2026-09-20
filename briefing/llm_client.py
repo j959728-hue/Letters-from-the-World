@@ -53,7 +53,7 @@ class LLMClient:
 
     def _request(self, model, prompt, images):
         if self.s.api_format=='responses':
-            content=[{'type':'input_text','text':prompt}]
+            content=[{'type':'input_text','text':prompt+'\n仅输出符合以下 JSON Schema 的对象：'+json.dumps(strict_schema(model),ensure_ascii=False)}]
             for path in images:
                 content.append({'type':'input_image','image_url':'data:image/png;base64,'+base64.b64encode(path.read_bytes()).decode(),'detail':'high'})
             return 'responses', {'model':self.s.model,'store':False,'instructions':SYSTEM,
@@ -120,7 +120,9 @@ class LLMClient:
                 raise ModelRequestError(f'no_output_text; operation={model.__name__}')
             try:
                 return model.model_validate_json(text)
-            except ValueError:
-                raise ModelRequestError(f'output_schema_validation_failed; operation={model.__name__}') from None
+            except ValueError as exc:
+                errors=exc.errors() if hasattr(exc,'errors') else []
+                kinds=sorted({e.get('type','') for e in errors if isinstance(e,dict) and isinstance(e.get('type'),str) and e['type'].replace('_','').isalnum()})[:3]
+                raise ModelRequestError(f'output_schema_validation_failed; operation={model.__name__}; error_types={",".join(kinds) or "unknown"}') from None
         raise ValueError('模型请求重试失败')
 
