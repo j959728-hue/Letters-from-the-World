@@ -6,11 +6,46 @@ from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from urllib.parse import urlparse
 import pytest
 from briefing.core import Settings,iso,DATA,now
-from briefing.collect import Browser
+from briefing.collect import Browser, publisher_alternate
 from briefing.curation import from_snapshot
 
-pytestmark=pytest.mark.skipif(os.getenv('RUN_BROWSER_TESTS')!='1',reason='Opt-in real Chromium integration')
+def test_publisher_alternate_opens_linked_public_page(monkeypatch):
+    monkeypatch.setattr('briefing.collect.public_url',lambda url:url)
+    original='https://news.example.org/story'
+    assert publisher_alternate(original,'/amp/story')=='https://news.example.org/amp/story'
+    assert publisher_alternate(original,'https://other.example.org/story') is None
+    assert publisher_alternate(original,original) is None
 
+
+@pytest.mark.skipif(os.getenv('RUN_BROWSER_TESTS')!='1',reason='Opt-in real Chromium integration')
+def test_gated_page_uses_same_publisher_public_alternate(monkeypatch):
+    body='The publisher released the full public report with several verified details. '*5
+    class Handler(BaseHTTPRequestHandler):
+        def do_GET(self):
+            if self.path=='/story':
+                page='<html><head><link rel="amphtml" href="/amp/story"></head><body><main><p>Subscribe to continue reading this article.</p></main></body></html>'
+            else:
+                page=f'<html><body><main><h1>Public edition</h1><p>{body}</p></main></body></html>'
+            self.send_response(200);self.send_header('Content-Type','text/html; charset=utf-8');self.end_headers();self.wfile.write(page.encode())
+        def log_message(self,*args): pass
+    server=ThreadingHTTPServer(('127.0.0.1',0),Handler)
+    threading.Thread(target=server.serve_forever,daemon=True).start()
+    url=f'http://127.0.0.1:{server.server_port}/story'
+    original=__import__('briefing.collect',fromlist=['public_url']).public_url
+    monkeypatch.setattr('briefing.collect.public_url',lambda u:u if urlparse(u).hostname=='127.0.0.1' and urlparse(u).port==server.server_port else original(u))
+    try:
+        with Browser(Settings(scroll_steps=0)) as browser:
+            page=browser.open(url)
+            try:
+                assert page.url.endswith('/amp/story')
+                snap=browser.extract(page,'public-alt-fixture',url)
+                block=next(b for b in snap['blocks'] if 'publisher released' in b['text'])
+                evidence=browser.capture(page,snap,block['id'],'The publisher released the full public report')
+                assert evidence['url']==url and evidence['final_url'].endswith('/amp/story')
+            finally: page.close()
+    finally: server.shutdown();server.server_close()
+
+@pytest.mark.skipif(os.getenv('RUN_BROWSER_TESTS')!='1',reason='Opt-in real Chromium integration')
 def test_dynamic_body_metadata_and_native_screenshot(monkeypatch):
     text='The research team released its detailed findings after three years of experiments. '+('Researchers described the methods and limits of their analysis. '*5)
     publication=iso(now()-timedelta(minutes=1))
