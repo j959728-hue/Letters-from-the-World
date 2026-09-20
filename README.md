@@ -2,7 +2,16 @@
 
 个人新闻简报服务。保留原项目的来源管理、真实原文截图核查、HTML 和 EPUB 排版，将同一条流水线用于 Windows 本地试运行及 GitHub Actions Ubuntu 一次性任务。
 
-**当前交付状态：代码与本地测试已完成；尚未上传目标仓库、执行 Ubuntu Actions、调用真实模型或完成 Gmail → Kindle 投递。不能把本地通过视为云端已上线。** 需要指定仓库并完成下述 Secrets 配置。
+**当前状态：基础版已上传目标仓库并通过 Ubuntu Chromium 测试；真实模型调用因 API 额度问题尚未成功，Kindle 投递尚未验证。本次模型切换功能仍需上传并测试。**
+
+
+## 切换模型 API 服务商
+
+云端 GitHub Actions 的 **Secrets** 中设置 `LLM_API_KEY`（新服务商密钥）；**Variables** 中设置 `LLM_MODEL`（该服务商的准确模型 ID）、`LLM_API_BASE_URL`（HTTPS API 根地址，例 `https://example.com/v1`）、`LLM_API_FORMAT`（`responses` 或 `chat_completions`）。这些配置覆盖旧的 `OPENAI_API_KEY`、`OPENAI_MODEL`、`OPENAI_BASE_URL`；旧配置继续可用。切换前先确认密钥、模型、地址属于同一服务商。不要在聊天或仓库文件中填写密钥。
+
+`responses` 适用于兼容 OpenAI Responses API 的服务；`chat_completions` 适用于兼容 Chat Completions API 且支持 `response_format: json_object`、图片输入的服务。程序会将目标 JSON Schema 放进提示词，并在收到结果后用 Pydantic 校验；输出不符合结构或事实证据核查失败时不会生成可投递简报。兼容 Chat Completions 并不保证图像、JSON 模式、token 参数都可用，需先用 `dry_run=true` 验证。API 根地址不要包含 `/responses` 或 `/chat/completions`，程序会按格式追加路径。
+
+本地可用同名环境变量，或在管理页面设置 API 根地址、接口格式、模型名称与密钥。GitHub Variables/Secrets 仅作用于云端，管理页面保存的本机密钥不会上传 GitHub。
 
 ## 1. 流程与边界
 
@@ -67,7 +76,7 @@ python -m briefing.daily_brief --dry-run --limit 10
 1. 建立私有仓库或 Fork/使用现有仓库，将本项目文件放在**仓库根目录**，不要把包含个人运行数据的 `data/` 整个上传。发布 ZIP 已仅包含空 `data/state.json`。
 2. Push 默认分支。确认 `.github/workflows/daily-brief.yml` 和 `test.yml` 已存在。
 3. 进入 **Settings → Secrets and variables → Actions → New repository secret**，添加下表所有 Secrets。
-4. 在同一页面的 **Variables** 添加 `OPENAI_MODEL`，设置 `APPROVED_SENDER_CONFIRMED=true`（先完成 Amazon 白名单）。模型需支持 Responses API、图像输入及严格 JSON Schema。
+4. 在同一页面的 **Variables** 添加 `LLM_MODEL`、`LLM_API_BASE_URL`、`LLM_API_FORMAT`；完成 Amazon 白名单后设置 `APPROVED_SENDER_CONFIRMED=true`。OpenAI 旧变量 `OPENAI_MODEL` 继续可用。
 5. **Actions → Verify Python and Chromium → Run workflow**。这个验收任务不需要模型/邮箱密钥，使用 Ubuntu 真 Chromium 打开本地动态测试页并生成真实截图，执行单元及集成测试。
 6. **Actions → Daily Kindle Brief → Run workflow**，第一次保持 `dry_run=true`、`limit=10`。成功后下载 Artifacts 查看 HTML/EPUB 与统计。
 7. 确认截图和文章质量，再手动运行 `dry_run=false` 验证 Gmail → Kindle。随后保持 workflow enabled，个人电脑可以关机。
@@ -78,7 +87,7 @@ python -m briefing.daily_brief --dry-run --limit 10
 
 | 名称 | 内容 |
 |---|---|
-| `OPENAI_API_KEY` | 模型 API 密钥 |
+| `LLM_API_KEY` | 当前服务商的模型 API 密钥；旧的 `OPENAI_API_KEY` 仍兼容 |
 | `SMTP_HOST` | Gmail 填 `smtp.gmail.com` |
 | `SMTP_PORT` | SSL 填 `465`；STARTTLS 填 `587` 并修改 smtp_security |
 | `SMTP_USERNAME` | 完整 Gmail 地址 |
@@ -90,7 +99,7 @@ Gmail 账号须允许使用应用专用密码，通常需要两步验证。Amazo
 
 ### 可选覆盖项
 
-本地支持 `OPENAI_BASE_URL`、`SMTP_SECURITY`、`MAX_CANDIDATES`、`MAX_FINAL_ITEMS`、`TIMEZONE`、`LLM_TOKEN_BUDGET`。云端工作流目前直接映射必填 Secrets 与上述两个 Variables，其余默认读取 config；若需要以 Variables 覆盖，请在 workflow 的 `env` 中显式映射对应值。
+本地支持 `LLM_API_BASE_URL`、`LLM_API_FORMAT`、`SMTP_SECURITY`、`MAX_CANDIDATES`、`MAX_FINAL_ITEMS`、`TIMEZONE`、`LLM_TOKEN_BUDGET`。云端工作流已映射模型密钥、模型 ID、API 根地址和接口格式；其余覆盖项默认读取 config。
 
 支持 `LLM_INPUT_USD_PER_MILLION` / `LLM_OUTPUT_USD_PER_MILLION`（或对应 settings 字段）。填写你实际模型的每百万 token 单价后，统计输出估计费用；未填写时只报告 token，不捏造金额。估值按普通输入/输出价计算，不细分缓存折扣。
 
