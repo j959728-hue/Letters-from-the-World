@@ -496,6 +496,304 @@
           "priority": 3
         }
       ]
+    },
+    {
+      "fingerprint": "0add014eb3c4ece0ba6b",
+      "delivery_id": "weekly:2026-09-21",
+      "topic": "全球政治与社会",
+      "title": "美媒报道：特朗普政府据报准备对国际刑事法院实施大范围制裁",
+      "titles": [
+        "Trump administration readies sweeping sanctions against ICC, reports say"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say"
+      ],
+      "hashes": [
+        "9e53ab44cc22f51505f93405e36e6a224d9a4415a1fc89838a174a38b7f4f4ad"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，特朗普政府据报正准备对国际刑事法院（ICC）实施大范围制裁，措施可能扰乱该法院的财务和日常运作；该报道将消息归于《华尔街日报》和路透社的说法，尚未见美国官方确认。",
+      "sent_at": "2026-09-21T02:47:27.686856+00:00",
+      "kind": "weekly",
+      "update": false,
+      "articles": [
+        {
+          "id": "946eb77f15501a4cafd13576",
+          "url": "https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say?traffic_source=rss",
+          "title": "Trump administration readies sweeping sanctions against ICC, reports say",
+          "published": "2026-09-21T01:19:42+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "47d80e0afa444a6fc703",
+      "delivery_id": "weekly:2026-09-21",
+      "topic": "科学与思想",
+      "title": "分析：清洁能源激增使印度电力部门排放连续两年持平，但整体排放仍因钢铁与水泥上升",
+      "titles": [
+        "Analysis: India’s power-sector emissions flat for two years due to clean-energy surge - Carbon Brief"
+      ],
+      "urls": [
+        "https://www.carbonbrief.org/analysis-indias-power-sector-emissions-flat-for-two-years-due-to-clean-energy-surge"
+      ],
+      "hashes": [
+        "b4d62369d69bb6d0f7a63c8ea299f2a2063e2d622a168ac98c1761ba1e0f691a"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "Carbon Brief 刊发的分析称，印度电力部门二氧化碳排放在 2026 年上半年与 2024 年同期持平，连续两年没有增长；该分析由能源与清洁空气研究中心（CREA）分析师 Lauri Myllyvirta 与 Anubha Aggarwal 撰写。 该分析称，两年间印度电力需求上升 7%，其全部增量由清洁能源满足，新增发电量约 63 太瓦时。 同一分析同时指出，由于钢铁、水泥及其他行业排放增加，印度整体排放 2026 年上半年同比增长 3.7%。",
+      "sent_at": "2026-09-21T02:47:27.686856+00:00",
+      "kind": "weekly",
+      "update": false,
+      "articles": [
+        {
+          "id": "2436dd287d862930271cfd7c",
+          "url": "https://www.carbonbrief.org/analysis-indias-power-sector-emissions-flat-for-two-years-due-to-clean-energy-surge",
+          "title": "Analysis: India’s power-sector emissions flat for two years due to clean-energy surge - Carbon Brief",
+          "published": "2026-09-16T23:01:00+00:00",
+          "source_id": "s095",
+          "source_name": "Carbon Brief",
+          "group": "source-95",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "92112584d547918a9b48",
+      "delivery_id": "weekly:2026-09-21",
+      "topic": "中东与穆斯林社会",
+      "title": "分析：霍尔木兹危机下，2026年全球化石燃料排放预计下降约0.5%",
+      "titles": [
+        "Analysis: Global fossil-fuel emissions set to fall in 2026 amid Hormuz crisis - Carbon Brief"
+      ],
+      "urls": [
+        "https://www.carbonbrief.org/analysis-global-fossil-fuel-emissions-set-to-fall-in-2026-amid-hormuz-crisis"
+      ],
+      "hashes": [
+        "02eb6e37581cc3d40d4aced8839d61eeb7a39543d838d46c9ad226f9bcb000e5"
+      ],
+      "facts": {
+        "numbers": [
+          "2026"
+        ],
+        "actions": []
+      },
+      "summary": "Carbon Brief分析称，受霍尔木兹危机影响，2026年全球化石燃料排放预计比2025年下降约0.5%。 该分析所依据的IEA预测显示，到2026年9月，IEA预计2026年全球石油需求下降250万桶/日，相当于较2025年下降2.4%，与年初预计增加93万桶/日形成逆转。",
+      "sent_at": "2026-09-21T02:47:27.686856+00:00",
+      "kind": "weekly",
+      "update": false,
+      "articles": [
+        {
+          "id": "49f8467cc14dd456bbbb2162",
+          "url": "https://www.carbonbrief.org/analysis-global-fossil-fuel-emissions-set-to-fall-in-2026-amid-hormuz-crisis",
+          "title": "Analysis: Global fossil-fuel emissions set to fall in 2026 amid Hormuz crisis - Carbon Brief",
+          "published": "2026-09-16T13:34:02+00:00",
+          "source_id": "s095",
+          "source_name": "Carbon Brief",
+          "group": "source-95",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "a001d830fa367bc049a7",
+      "delivery_id": "weekly:2026-09-21",
+      "topic": "中东与穆斯林社会",
+      "title": "叙利亚阿勒颇附近军方武器库发生爆炸，至少4人受伤",
+      "titles": [
+        "Powerful explosions at Syrian army site near Aleppo injure at least four"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/21/powerful-explosions-at-syrian-army-site-near-aleppo-injures-at-least-four"
+      ],
+      "hashes": [
+        "33c53028d51a4f8f21c94165a984977522f56ad48f299aaba04e180af0e96128"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据叙利亚国家媒体消息，叙利亚北部一处武器库发生强烈爆炸，造成至少4人受伤；事发地点位于阿勒颇以南的 al-Eis 镇附近一处叙军方场地。",
+      "sent_at": "2026-09-21T02:47:27.686856+00:00",
+      "kind": "weekly",
+      "update": false,
+      "articles": [
+        {
+          "id": "6a485b64441f0b5381cf262e",
+          "url": "https://www.aljazeera.com/news/2026/9/21/powerful-explosions-at-syrian-army-site-near-aleppo-injures-at-least-four?traffic_source=rss",
+          "title": "Powerful explosions at Syrian army site near Aleppo injure at least four",
+          "published": "2026-09-21T01:30:46+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "dfc45d22b2fb4b4a0fa4",
+      "delivery_id": "weekly:2026-09-21",
+      "topic": "俄乌与欧洲安全",
+      "title": "ProPublica 报道：俄寡头被指秘密为小特朗普婚礼周末埋单",
+      "titles": [
+        "“Our Dear Friend Umar”: How We Uncovered That a Russian Oligarch Bankrolled Donald Trump Jr.’s Wedding"
+      ],
+      "urls": [
+        "https://www.propublica.org/article/donald-trump-jr-wedding-umar-kremlev-reporting"
+      ],
+      "hashes": [
+        "1d37a7b263c73706b7b3637052ef65c12ad4f1ee83127b3d50eabbbfcb8643b2"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "ProPublica 报道称，根据其审阅的记录以及对三名知情人士的采访，俄罗斯寡头乌马尔·克列姆廖夫秘密为小唐纳德·特朗普婚礼周末的大部分费用埋单，其中包括租下私人岛屿等大额项目。该报道由 ProPublica 单独发布，付款范围与性质的其他说法见下。",
+      "sent_at": "2026-09-21T02:47:27.686856+00:00",
+      "kind": "weekly",
+      "update": false,
+      "articles": [
+        {
+          "id": "60378064c588007018c6c5b7",
+          "url": "https://www.propublica.org/article/donald-trump-jr-wedding-umar-kremlev-reporting",
+          "title": "“Our Dear Friend Umar”: How We Uncovered That a Russian Oligarch Bankrolled Donald Trump Jr.’s Wedding",
+          "published": "2026-09-19T09:00:00+00:00",
+          "source_id": "s021",
+          "source_name": "ProPublica",
+          "group": "source-21",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "368cd693c2e525e1f4b8",
+      "delivery_id": "weekly:2026-09-21",
+      "topic": "其他",
+      "title": "巴西学者警告最高法院公信力危机：涉莫赖斯案特别会议以“请求复审”收场，最长90天",
+      "titles": [
+        "“STF está em ponto de não retorno”, diz pesquisadora sobre crise de credibilidade da Corte"
+      ],
+      "urls": [
+        "https://apublica.org/2026/09/stf-esta-em-ponto-de-nao-retorno-diz-pesquisadora-sobre-crise-de-credibilidade-da-corte/"
+      ],
+      "hashes": [
+        "15631cd8e3d3e5cd44c51748a835b96631b6c6a8b0e46b25d0e3886693dd9750"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据巴西媒体 Agência Pública 报道，巴西最高法院（STF）9月15日（周二）的特别会议原应确定涉及部长亚历山大·德莫赖斯、与 Banco Master 案相关调查的走向，但最终以一名部长提出“请求复审”（pedido de vista）结束，重启期限最长可达90天。该报道同时称，会议是在部长弗拉维奥·迪诺提出请求复审后暂停的。 在该媒体播客中受访的瓦加斯基金会（FGV）法学教授、研究团体“Supremo em Pauta”协调人埃洛伊莎·马沙多·德阿尔梅达评价称，这场危机已越过“无法回头的地步”，既没有快速也没有容易的出路，最高法院当前所处阶段是“止损”，她还称自己对此“相当悲观”。这属于受访学者的个人评估，而非法院或调查机关的结论。",
+      "sent_at": "2026-09-21T02:47:27.686856+00:00",
+      "kind": "weekly",
+      "update": false,
+      "articles": [
+        {
+          "id": "63dd037eba51a1bb52fc6d23",
+          "url": "https://apublica.org/2026/09/stf-esta-em-ponto-de-nao-retorno-diz-pesquisadora-sobre-crise-de-credibilidade-da-corte/",
+          "title": "“STF está em ponto de não retorno”, diz pesquisadora sobre crise de credibilidade da Corte",
+          "published": "2026-09-20T07:00:00+00:00",
+          "source_id": "s054",
+          "source_name": "Agência Pública",
+          "group": "source-54",
+          "region": "拉丁美洲",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "4c8b46cfb30570dab20a",
+      "delivery_id": "weekly:2026-09-21",
+      "topic": "全球政治与社会",
+      "title": "美联邦法官拒绝终止对马里科帕县警局的监督，称拉丁裔仍遭歧视性执法",
+      "titles": [
+        "Judge Denies Efforts to End Oversight of Maricopa County Sheriff’s Office as Racial Profiling of Latinos Persists"
+      ],
+      "urls": [
+        "https://www.propublica.org/article/maricopa-county-sheriff-oversight-judge-ruling"
+      ],
+      "hashes": [
+        "3334e9196bf9d0902684a9b1fc3d9856827d661e4549ae77a805c75424e937a0"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "美国一名联邦法官拒绝解除对马里科帕县警局（MCSO）的法庭监督，称该机构在拉丁裔交通逮捕方面仍存在种族差异，且没有足够证据表明若无法律监督，改善措施能够持续。该报道由 ProPublica 与 Arizona Luminaria 联合发布，属单一来源报道。 法官在裁决中援引数据称，马里科帕县警员的搜车和逮捕对象中拉丁裔比例高于白人；报道另提到，由原告方委托加州大学伯克利分校一名计算机科学教授对该警局交通报告所作的分析估算，西语裔驾驶者被逮捕的可能性比白人高40%、被拦停时间长30%、被搜车的可能性是白人的2.5倍。这些估算出自原告方委托的分析，而非本报道独立验证的数据。",
+      "sent_at": "2026-09-21T02:47:27.686856+00:00",
+      "kind": "weekly",
+      "update": false,
+      "articles": [
+        {
+          "id": "1431febd13450afa34772e15",
+          "url": "https://www.propublica.org/article/maricopa-county-sheriff-oversight-judge-ruling",
+          "title": "Judge Denies Efforts to End Oversight of Maricopa County Sheriff’s Office as Racial Profiling of Latinos Persists",
+          "published": "2026-09-18T17:10:00+00:00",
+          "source_id": "s021",
+          "source_name": "ProPublica",
+          "group": "source-21",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "b10f00653b4781b9aba3",
+      "delivery_id": "weekly:2026-09-21",
+      "topic": "其他",
+      "title": "巴西调查报道：泽马任内令状允许Cedro矿业公司在马里亚纳使用两处农场",
+      "titles": [
+        "Decreto de Romeu Zema beneficia mineradora de Lucas Kallas, ligado a Daniel Vorcaro"
+      ],
+      "urls": [
+        "https://apublica.org/2026/09/decreto-de-romeu-zema-beneficiou-mineradora-de-lucas-kallas-ligado-a-daniel-vorcaro/"
+      ],
+      "hashes": [
+        "d30b6558d99221559874383c7489cefd23327f5fb17487988bf6eb9d22be90af"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "巴西调查机构Agência Pública报道称，时任米纳斯吉拉斯州州长、总统候选人罗梅乌·泽马（Novo党）于今年2月6日发布的令状，规定马里亚纳市的两处农场可供Cedro Mineração Mariana公司用于采矿活动；该报道称该公司隶属Lucas Prado Kallas创立的Cedro集团。",
+      "sent_at": "2026-09-21T02:47:27.686856+00:00",
+      "kind": "weekly",
+      "update": false,
+      "articles": [
+        {
+          "id": "a8c99770c6f942cd71679f00",
+          "url": "https://apublica.org/2026/09/decreto-de-romeu-zema-beneficiou-mineradora-de-lucas-kallas-ligado-a-daniel-vorcaro/",
+          "title": "Decreto de Romeu Zema beneficia mineradora de Lucas Kallas, ligado a Daniel Vorcaro",
+          "published": "2026-09-19T19:52:19+00:00",
+          "source_id": "s054",
+          "source_name": "Agência Pública",
+          "group": "source-54",
+          "region": "拉丁美洲",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -510,8 +808,8 @@
       "attempt": 1
     },
     "weekly:2026-09-21": {
-      "status": "sending",
-      "updated": "2026-09-21T02:56:13.079230+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-21T02:56:18.133202+00:00",
       "attempt": 1
     }
   }
