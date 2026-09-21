@@ -34,11 +34,11 @@ def sync(destination, repo=REPO, limit=30):
             except subprocess.CalledProcessError:
                 # A run can fail before rendering and therefore have no EPUB artifact.
                 continue
-            for epub in (Path(temp) / 'editions').glob('*/briefing.epub'):
+            for epub in (Path(temp) / 'editions').glob('*/*.epub'):
                 edition_id = epub.parent.name
                 if not edition_id or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in edition_id):
                     continue
-                target = destination / f'{edition_id}.epub'
+                target = destination / epub.name
                 if not target.exists():
                     shutil.copy2(epub, target)
                     saved.append(target)
