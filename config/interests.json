@@ -33,7 +33,7 @@
   "scoring": {"base_importance":0.35,"major_signal_bonus":0.18,"substantial_signal_bonus":0.08,"no_interest_relevance":0.25,"depth_words":1600,"cross_source_cap":3},
   "history_days":14,
   "max_history_events":700,
-  "llm_candidate_clusters":30,
+  "llm_candidate_clusters":40,
   "deep_reads":3,
   "deep_read_min_words":1000,
   "deep_read_signals":["investigation","interview","paper","research","analysis","report","调查","访谈","论文","研究"],
