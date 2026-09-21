@@ -81,10 +81,11 @@ def historical_reads(stories, editor, browser, sources, start, minimum_words=700
                     final=canonical(snap['canonical_url'])
                     if final in {r['url'] for r in result}:
                         continue
+                    note=editor.background_note(snap['title'],source['name'],published,snap['blocks'])
                     result.append({'focus':stories[item.story_index]['title'],'title':snap['title'],
                                    'source':source['name'],'published':published,'url':final,
                                    'minutes':max(1,round(words/220)),'priority':source['priority'],
-                                   'reason':'历史深读：对照本周事件，了解较早阶段的背景与相关人物；请留意报道当时的时间和视角。'})
+                                   **note.model_dump()})
                     kept+=1
                 except Exception as exc:
                     logging.warning('[BACKGROUND] article error=%s',type(exc).__name__)

@@ -73,7 +73,11 @@ def extras_html(edition):
             items=sorted((item for item in edition['background_reads'] if item['focus']==focus),key=lambda item:item['published'])
             parts.append('<h3>'+esc(focus)+'</h3><p>按发表时间回顾相关报道，先看较早阶段，再与本周进展对照。</p><ol>')
             for item in items:
-                parts.append('<li><a href="'+esc(item['url'])+'">'+esc(item['title'])+'</a><br/><span class="meta">'+esc(item['source'])+' · '+esc(item['published'][:10])+' · 约'+str(item['minutes'])+'分钟</span></li>')
+                parts.append('<li><h4>'+esc(item['translated_title'])+'</h4><p class="meta">原文：<a href="'+esc(item['url'])+'">'+esc(item['title'])+'</a><br/>'+esc(item['source'])+' · '+esc(item['published'][:10])+' · 原文约'+str(item['minutes'])+'分钟</p>')
+                parts.append('<h4>中文译读摘要</h4><p>'+esc(item['translated_summary'])+'</p><h4>文章要点</h4><ul>')
+                for point in item['key_points']:
+                    parts.append('<li>'+esc(point)+'</li>')
+                parts.append('</ul><h4>理解本周事件的价值</h4><p>'+esc(item['historical_context'])+'</p><p class="meta">译读说明：'+esc(item['limits'])+'</p></li>')
             parts.append('</ol>')
         if not edition.get('background_reads'):
             parts.append('<p>本周未找到同时满足原站可读、日期明确和主题相关条件的历史深读。</p>')
