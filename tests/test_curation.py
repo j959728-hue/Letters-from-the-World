@@ -54,8 +54,8 @@ def test_rules():
     assert not passes(article(published_at=iso(start-timedelta(seconds=1))),cfg,start,end)
 
 def test_config(monkeypatch):
-    monkeypatch.setenv('MAX_CANDIDATES','123'); monkeypatch.setenv('SMTP_PORT','587')
-    assert load_settings().max_candidates==123 and load_settings().smtp_port==587
+    monkeypatch.setenv('MAX_CANDIDATES','123'); monkeypatch.setenv('SMTP_PORT','587'); monkeypatch.setenv('MAX_WEEKLY_ITEMS','22')
+    assert load_settings().max_candidates==123 and load_settings().smtp_port==587 and load_settings().weekly_limit==22
     monkeypatch.setenv('MAX_CANDIDATES','9999')
     with pytest.raises(ValueError): load_settings()
     obj=load_interests().model_dump(); obj['weights']['Depth']=10
