@@ -170,7 +170,9 @@ python -m briefing.daily_brief --persist-git
 `*.scores.json`：事件各维度得分和新颖性理由。
 `data/editions/<id>/index.html` / `briefing.epub`：可读产物。
 
-Artifacts 保存7天，只打包简报、所引用截图、统计和评分；不上传原网页 HTML、数据库、设置或密钥。下载后解压完整目录再打开 `editions/<id>/index.html`，才能显示相对路径截图。
+Artifacts 保存7天，只打包简报、所引用截图、统计和评分；不上传原网页 HTML、数据库、设置或密钥。下载后解压完整目录再打开 `editions/<id>/index.html`，才能显示相对路径截图。邮件附件和下载的 EPUB 统一命名为 `日期_世界来信-日报或周报_本期头条.epub`；服务内部仍保留 `briefing.epub`，不影响旧投递流程。
+
+周报除一周新闻和原有“值得深读”外，新增“热点背景深读”：根据本周前两条重点新闻提炼事件／人物搜索词，在较早年份搜寻报道，仅保留能打开原站、确认发表日期、正文足够长且与主题相关的来源。栏目明确标注历史发表日期与原文链接，旧报道不冒充本周最新消息。搜索依赖 Google News RSS 的历史检索；如果检索或原站访问失败，周报照常生成，并说明本期没有通过筛选的背景文章。该栏目是延伸阅读导览，不把旧报道中的未经截图核对的细节写成新的核心新闻事实。
 
 ### 在 Windows 电脑上自动备份 EPUB
 
@@ -181,7 +183,7 @@ python scripts/backup_local.py
 powershell -ExecutionPolicy Bypass -File scripts/install_backup_task.ps1
 ```
 
-第一条命令立即同步，第二条创建每天 11:00 的 Windows 计划任务（电脑需要开机或稍后唤醒；错过的任务会在可用时启动）。备份默认保存在 `文档\Letters-from-the-World\backups`，按简报 ID 命名为 `.epub`，已有文件不会覆盖。即使邮件发送失败，只要生成阶段成功且 Actions 上传了产物，仍可同步。GitHub 产物只保留 7 天，所以长期关机后应手动到 Actions 下载漏掉的产物。本机直接运行简报时，原始 EPUB 也保存在 `data/editions/<id>/briefing.epub`。目前没有生成 PDF；EPUB 可直接手动发送至 Kindle。
+第一条命令立即同步，第二条创建每天 11:00 的 Windows 计划任务（电脑需要开机或稍后唤醒；错过的任务会在可用时启动）。备份默认保存在 `文档\Letters-from-the-World\backups`，使用与邮件附件相同的易读文件名，已有文件不会覆盖。即使邮件发送失败，只要生成阶段成功且 Actions 上传了产物，仍可同步。GitHub 产物只保留 7 天，所以长期关机后应手动到 Actions 下载漏掉的产物。本机直接运行简报时，原始 EPUB 也保存在 `data/editions/<id>/briefing.epub`。目前没有生成 PDF；EPUB 可直接手动发送至 Kindle。
 
 - `SourceAddressBlocked`：DNS 返回了内网/保留地址。当前开发电脑发现 Fake-IP 代理将新闻域名解析为 `198.18.x.x` / 私有 IPv6，采集器因此阻止访问；请在正常公共 DNS 的云端验收，或由使用者调整代理解析方式。程序没有关闭此保护。
 - 单篇失败 warning、单源失败 error，继续其他内容；无合格新闻、核心配置/模型/渲染/邮件失败则退出1。
