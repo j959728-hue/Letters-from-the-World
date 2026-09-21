@@ -65,7 +65,20 @@ def story_html(story,number,image_links):
     return ''.join(parts)
 
 def extras_html(edition):
-    parts=['<section><h2>过去7天正在形成的趋势</h2>']
+    parts=[]
+    if edition.get('kind')=='weekly':
+        parts.append('<section><h2>热点背景深读</h2><p class="meta">以下是过去发表的报道，供回顾事件和人物背景；它们不代表本周最新进展。每篇均核对了原站正文与发布日期。</p>')
+        focuses=list(dict.fromkeys(item['focus'] for item in edition.get('background_reads',[])))
+        for focus in focuses:
+            items=sorted((item for item in edition['background_reads'] if item['focus']==focus),key=lambda item:item['published'])
+            parts.append('<h3>'+esc(focus)+'</h3><p>按发表时间回顾相关报道，先看较早阶段，再与本周进展对照。</p><ol>')
+            for item in items:
+                parts.append('<li><a href="'+esc(item['url'])+'">'+esc(item['title'])+'</a><br/><span class="meta">'+esc(item['source'])+' · '+esc(item['published'][:10])+' · 约'+str(item['minutes'])+'分钟</span></li>')
+            parts.append('</ol>')
+        if not edition.get('background_reads'):
+            parts.append('<p>本周未找到同时满足原站可读、日期明确和主题相关条件的历史深读。</p>')
+        parts.append('</section>')
+    parts.append('<section><h2>过去7天正在形成的趋势</h2>')
     for trend in edition.get('trends',[]):
         parts.append('<h3>'+esc(trend['topic'])+'</h3><p>'+esc(trend['text'])+'</p><ul>')
         for ref in trend['references']: parts.append('<li><a href="'+esc(ref['url'])+'">'+esc(ref['title'])+'</a></li>')

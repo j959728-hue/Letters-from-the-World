@@ -15,6 +15,7 @@ from .editor import Editor, validate_claims
 from .publish import render
 from .mailer import deliver
 from .state import State
+from .background import historical_reads
 
 def build(s,cfg,kind='daily',end=None,dry_run=True,force=False,limit=None,persist_git=False,jid=None,collect_only=False):
     started=time.monotonic(); end=end or now(); jid=jid or uuid.uuid4().hex
@@ -151,6 +152,8 @@ def build(s,cfg,kind='daily',end=None,dry_run=True,force=False,limit=None,persis
                     if str(exc).startswith(('模型','LLM','请先')): raise
                 finally:
                     for page in opened.values(): page.close()
+            background=historical_reads(accepted,editor,browser,active,start) if kind=='weekly' and len(accepted)>=s.min_stories else []
+            if kind=='weekly': logging.info('[BACKGROUND] accepted=%d',len(background))
         stats['rejections_by_stage']=dict(Counter(r['stage'] for r in rejected))
         if len(accepted)<s.min_stories: raise ValueError('Too few evidence-approved stories')
         overview=''
@@ -161,11 +164,12 @@ def build(s,cfg,kind='daily',end=None,dry_run=True,force=False,limit=None,persis
         edition={'id':jid,'delivery_id':key,'kind':kind,'title':f'Daily Intelligence Brief · {day}' if kind=='daily' else f'Weekly Intelligence Brief · {day}',
             'created':iso(),'start':iso(start),'end':iso(end),'stories':accepted,'overview':overview.strip(),
             'trends':trends(state.history+records,cfg,end),'deep_reads':deep_reads(read_candidates,cfg),
+            'background_reads':background,
             'history_records':records,'model':s.model,'model_usage':editor.usage,'rejected':rejected,'sample':False,
             'coverage':{'enabled':len(active),'successful':sum(x.get('health',{}).get('status')=='ok' for x in sources(True))}}
         render(edition); logging.info('[RENDER] EPUB + HTML ready id=%s',jid)
         with db() as c: c.execute('INSERT OR REPLACE INTO editions VALUES(?,?,?,?,?)',(jid,kind,iso(),json.dumps(edition,ensure_ascii=False),'ready'))
-        stats.update(final_stories=len(accepted),deep_reads=len(edition['deep_reads']),llm_calls=editor.calls,
+        stats.update(final_stories=len(accepted),deep_reads=len(edition['deep_reads']),background_reads=len(background),llm_calls=editor.calls,
             llm_usage=editor.usage,token_budget_reserved=editor.reserved_tokens)
         if s.input_usd_per_million is not None and s.output_usd_per_million is not None:
             stats['estimated_cost_usd']=round(sum(u.get('input_tokens',0)*s.input_usd_per_million+u.get('output_tokens',0)*s.output_usd_per_million for u in editor.usage)/1_000_000,6)

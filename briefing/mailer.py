@@ -10,6 +10,7 @@ from email.policy import SMTP
 from .core import DATA, iso, secret, db
 from .publish import validate_epub, verify_evidence
 from .state import State
+from .naming import edition_filename
 
 def mail_ready(s):
     errors=[]
@@ -84,7 +85,7 @@ def _deliver(edition,s,state=None,force=False):
     if path.stat().st_size>s.max_attachment_mb*1024*1024: raise ValueError('EPUB attachment too large')
     msg=EmailMessage(policy=SMTP)
     msg['From']=s.sender_email; msg['To']=s.kindle_email
-    msg['Subject']=('Weekly Brief' if edition['kind']=='weekly' else 'Daily Brief')+' · '+key.split(':',1)[1]
+    msg['Subject']=edition_filename(edition).removesuffix('.epub')
     msg['Message-ID']=f'<briefing-{key.replace(":","-")}-{state.body["deliveries"].get(key,{}).get("attempt",0)+1}@{s.sender_email.split("@")[-1]}>'
     msg.set_content('本期简报见 HTML 正文和 EPUB 附件；每条核心信息附原文截图和核查链接。')
     html=(folder/'index.html').read_text(encoding='utf-8')
@@ -93,7 +94,7 @@ def _deliver(edition,s,state=None,force=False):
     msg.add_alternative(html,subtype='html')
     for i,path_image in enumerate(images.values()):
         msg.get_payload()[-1].add_related(path_image.read_bytes(),maintype='image',subtype='png',cid=f'<evidence-{i}>')
-    msg.add_attachment(path.read_bytes(),maintype='application',subtype='epub+zip',filename='briefing.epub')
+    msg.add_attachment(path.read_bytes(),maintype='application',subtype='epub+zip',filename=edition_filename(edition))
     if len(msg.as_bytes())>24*1024*1024: raise ValueError('Encoded email exceeds 24 MB; reduce images or final items')
     client=connect_with_retry(s)
     try:

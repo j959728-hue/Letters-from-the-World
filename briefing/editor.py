@@ -45,9 +45,23 @@ class Audit(BaseModel):
     no_extra_facts: bool
     issues: list[str]
 
+class BackgroundQuery(BaseModel):
+    story_index: int = Field(ge=0,le=1)
+    query: str = Field(min_length=3,max_length=90)
+
+class BackgroundPlan(BaseModel):
+    searches: list[BackgroundQuery] = Field(max_length=2)
+
 from .llm_client import LLMClient, strict_schema
 
 class Editor(LLMClient):
+    def background_queries(self,stories):
+        titles=[s['title'] for s in stories[:2]]
+        return self.ask(BackgroundPlan,f'''为周报前两条重点新闻各提炼一个历史报道搜索词，最多两项。
+搜索词只含事件名称、关键人物或组织，以及必要的地点；不要包含本周日期、结论或搜索运算符。
+story_index 只能对应标题序号 0 或 1。优先能找到过往背景调查、人物报道和关键转折的词。
+标题：{json.dumps(titles,ensure_ascii=False)}''').searches
+
     def select_clusters(self,clusters,kind,limit,recent):
         compact=[{'event_key':g.id,'topic':g.topic,'score':g.score,'dimensions':g.dimensions,'novelty':g.novelty_reason,
             'articles':[{'id':a.id,'title':a.title,'source':a.source,'group':a.group,'published':a.published_at,'excerpt':a.text[:600]} for a in g.articles[:4]]} for g in clusters]
