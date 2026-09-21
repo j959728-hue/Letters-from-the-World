@@ -259,6 +259,243 @@
           "priority": 3
         }
       ]
+    },
+    {
+      "fingerprint": "096161b9ebb4cf5b460e",
+      "delivery_id": "daily:2026-09-21",
+      "topic": "全球政治与社会",
+      "title": "俄罗斯战时首次议会选举投票结束，执政党统一俄罗斯党预计主导",
+      "titles": [
+        "Polls close in Russian wartime election with ruling party set to dominate"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/20/polls-close-in-russian-wartime-election-with-ruling-party-set-to-dominate"
+      ],
+      "hashes": [
+        "ae42344c25881a92a2d98a02f8df0c68be29ef495a9876f5953e243dc38256bd"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "俄罗斯首次战时议会选举投票已经结束，执政的统一俄罗斯党预计将在这场受到严格管控的投票中获胜。 据半岛电视台报道，初步结果显示统一俄罗斯党大幅领先，俄罗斯中央选举委员会称投票结束时投票率为56.66%。 首批官方结果和投票率预计于周一上午公布。",
+      "sent_at": "2026-09-21T01:18:45.970727+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "e8e24de362ec72c41735fe18",
+          "url": "https://www.aljazeera.com/news/2026/9/20/polls-close-in-russian-wartime-election-with-ruling-party-set-to-dominate?traffic_source=rss",
+          "title": "Polls close in Russian wartime election with ruling party set to dominate",
+          "published": "2026-09-20T22:54:00+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "5d8ac85d3304f04ca07b",
+      "delivery_id": "daily:2026-09-21",
+      "topic": "全球政治与社会",
+      "title": "伊朗称美方或再发动打击并警告将“无限制”报复，也门战斗持续",
+      "titles": [
+        "Iran warns US against any new attacks as deadly fighting rages in Yemen"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/9/21/iran-war-live-tehran-warns-us-against-new-strikes-fighting-rages-in-yemen"
+      ],
+      "hashes": [
+        "e4be5a8b546af783ff1b66a022042a78a7ece5892519d957af095cf4196d6e73"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，伊朗表示已获悉美国可能正在计划新一轮打击，并警告如果美方付诸行动，伊朗将“无限制”报复。该说法为伊方单方面表态，报道未说明美方是否回应。 同一报道的当日综述称，也门al-Jawf省有四人被报在胡塞武装与沙特支持武装的战斗中死亡，显示也门战事同期仍在延续。",
+      "sent_at": "2026-09-21T01:18:45.970727+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "0796fb1092323e004d1cdb69",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/21/iran-war-live-tehran-warns-us-against-new-strikes-fighting-rages-in-yemen?traffic_source=rss",
+          "title": "Iran warns US against any new attacks as deadly fighting rages in Yemen",
+          "published": "2026-09-21T00:00:47+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "64d6a4fffeccaeb2021b",
+      "delivery_id": "daily:2026-09-21",
+      "topic": "全球政治与社会",
+      "title": "德国州选举：初步结果显示基民盟得票4.9%，默茨称将留任",
+      "titles": [
+        "Friedrich Merz vows to stay in office after CDU ‘disaster’ in German state elections"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/20/friedrich-merz-chancellor-germany-state-elections-cdu-afd-linke-berlin"
+      ],
+      "hashes": [
+        "098352b9a8fc633c8fafb3c2f3a7aed09c04a3cd2c23443900f6768006de80bc"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "德国总理弗里德里希·默茨表示将留任，并继续推动着眼未来的经济改革，尽管其保守派阵营在两场州选举中遭遇重挫，一场输给极右翼，一场输给左翼政党。 卫报援引的初步结果显示，默茨所属的基民盟得票仅4.9%。报道称，该党可能因未过门槛而被排除在州议会之外。 报道称，极右翼德国选择党在梅克伦堡-前波莫瑞州获胜，左翼党则有望在柏林取胜。",
+      "sent_at": "2026-09-21T01:18:45.970727+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "8a518543a6f354049bab1d45",
+          "url": "https://www.theguardian.com/world/2026/sep/20/friedrich-merz-chancellor-germany-state-elections-cdu-afd-linke-berlin",
+          "title": "Friedrich Merz vows to stay in office after CDU ‘disaster’ in German state elections",
+          "published": "2026-09-20T18:33:02+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "de6e271e456a913834a2",
+      "delivery_id": "daily:2026-09-21",
+      "topic": "全球政治与社会",
+      "title": "美国检方开审华为案 指其为“犯罪企业” 华为否认",
+      "titles": [
+        "Why have US prosecutors labelled China’s Huawei a criminal enterprise?"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/20/why-have-us-prosecutors-labelled-chinas-huawei-a-criminal-enterprise"
+      ],
+      "hashes": [
+        "4332f0b6132d0b2d8ba1bea3a317b8bd3b5604db672042588ec9cdfca6f239f9"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，美国检方9月9日在纽约布鲁克林联邦法院启动对华为的刑事审判，将华为描述为一个用约二十年时间窃取美国公司技术、欺骗银行并规避对伊朗制裁的“犯罪企业”。",
+      "sent_at": "2026-09-21T01:18:45.970727+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "186a30a3df8b26ffe8df95bf",
+          "url": "https://www.aljazeera.com/news/2026/9/20/why-have-us-prosecutors-labelled-chinas-huawei-a-criminal-enterprise?traffic_source=rss",
+          "title": "Why have US prosecutors labelled China’s Huawei a criminal enterprise?",
+          "published": "2026-09-20T15:57:48+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "7f254de9dc0113ab0dec",
+      "delivery_id": "daily:2026-09-21",
+      "topic": "非洲政治与安全",
+      "title": "联合国马里维和任务终止后，萨赫勒参与转向外交与援助",
+      "titles": [
+        "The Sahel and the UN: a smaller footprint, a different role"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/21/the-sahel-and-the-un-a-smaller-footprint-a-different-role"
+      ],
+      "hashes": [
+        "66061393904469e002f2d1aa41fe0fae7ccb8932f8a9121b42748580b839d8e8"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "联合国安理会2013年设立的马里多层面综合稳定特派团（MINUSMA）应马里过渡政府要求，任务授权于2023年6月终止，并在同年年底完成撤出。该特派团曾长期是联合国在萨赫勒最显眼的存在。 布基纳法索、马里与尼日尔于2025年1月29日正式退出西非国家经济共同体（ECOWAS），三国同时通过萨赫勒国家联盟（AES）深化合作，把主权与战略自主置于其政治主张核心。报道称这改变了西非国家处理政治与安全危机的既有区域架构。",
+      "sent_at": "2026-09-21T01:18:45.970727+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "623d74d3ad10b47294bc963c",
+          "url": "https://www.aljazeera.com/news/2026/9/21/the-sahel-and-the-un-a-smaller-footprint-a-different-role?traffic_source=rss",
+          "title": "The Sahel and the UN: a smaller footprint, a different role",
+          "published": "2026-09-21T00:53:15+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "3d5fe948c610a5f1ccc4",
+      "delivery_id": "daily:2026-09-21",
+      "topic": "全球政治与社会",
+      "title": "特朗普称华盛顿拱门将兼作军事综合体，可部署无人机与狙击手",
+      "titles": [
+        "Trump says monumental arch in Washington, DC will also be military complex",
+        "Trump says triumphal arch will be military complex"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/20/trump-says-monumental-arch-in-washington-dc-will-also-be-military-complex",
+        "https://www.bbc.com/news/articles/cqdj4pez00dzo"
+      ],
+      "hashes": [
+        "7930ae19aaeeaabc70d0e6ce8c82a198574743c1c92d5f2513dd8a23fd731707",
+        "5bbd0a58c4949fca6c6cb56afbb6d4ed436b209c55ccc8d839bb00c4dafb1d78"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "美国总统特朗普表示，华盛顿特区拟建的凯旋拱门将同时用作军事综合体，用于储存无人机等军事装备，并具备在屋顶和广场区域快速使用大量无人机与狙击手的能力。",
+      "sent_at": "2026-09-21T01:18:45.970727+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "36d93e595128246c07105e55",
+          "url": "https://www.aljazeera.com/news/2026/9/20/trump-says-monumental-arch-in-washington-dc-will-also-be-military-complex?traffic_source=rss",
+          "title": "Trump says monumental arch in Washington, DC will also be military complex",
+          "published": "2026-09-20T15:16:38+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        },
+        {
+          "id": "124d8928b3585b38899b2fe1",
+          "url": "https://www.bbc.com/news/articles/cqdj4pez00dzo?at_campaign=rss&at_medium=RSS",
+          "title": "Trump says triumphal arch will be military complex",
+          "published": "2026-09-20T16:36:43.030000+00:00",
+          "source_id": "s015",
+          "source_name": "BBC News",
+          "group": "source-15",
+          "region": "全球",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -268,8 +505,8 @@
       "attempt": 1
     },
     "daily:2026-09-21": {
-      "status": "sending",
-      "updated": "2026-09-21T01:31:51.773460+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-21T01:31:56.472646+00:00",
       "attempt": 1
     }
   }
