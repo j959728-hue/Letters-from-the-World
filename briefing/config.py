@@ -35,7 +35,7 @@ class CurationConfig(BaseModel):
 ENV_FIELDS={'OPENAI_MODEL':'model','LLM_MODEL':'model','OPENAI_BASE_URL':'api_base','LLM_API_BASE_URL':'api_base',
     'LLM_API_FORMAT':'api_format','SMTP_HOST':'smtp_host','SMTP_PORT':'smtp_port',
     'SMTP_USERNAME':'smtp_user','EMAIL_FROM':'sender_email','KINDLE_EMAIL':'kindle_email','SMTP_SECURITY':'smtp_security',
-    'MAX_CANDIDATES':'max_candidates','MAX_FINAL_ITEMS':'daily_limit','TIMEZONE':'timezone',
+    'MAX_CANDIDATES':'max_candidates','MAX_FINAL_ITEMS':'daily_limit','MAX_WEEKLY_ITEMS':'weekly_limit','TIMEZONE':'timezone',
     'APPROVED_SENDER_CONFIRMED':'approved_sender_confirmed','LLM_TOKEN_BUDGET':'llm_token_budget',
     'LLM_INPUT_USD_PER_MILLION':'input_usd_per_million','LLM_OUTPUT_USD_PER_MILLION':'output_usd_per_million'}
 

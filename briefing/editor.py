@@ -82,8 +82,8 @@ story_index 只能对应标题序号 0 或 1。优先能找到过往背景调查
     def select_clusters(self,clusters,kind,limit,recent):
         compact=[{'event_key':g.id,'topic':g.topic,'score':g.score,'dimensions':g.dimensions,'novelty':g.novelty_reason,
             'articles':[{'id':a.id,'title':a.title,'source':a.source,'group':a.group,'published':a.published_at,'excerpt':a.text[:600]} for a in g.articles[:4]]} for g in clusters]
-        return self.ask(Selection,f'''从已规则筛选和评分的事件中选择最多{limit}项，类型{kind}。优先高分，但结合全球视野判断。
-同一事件只留一项，不机械凑数。只能使用提供的 event_key 和对应 article id（每组最多4篇）。
+        return self.ask(Selection,f'''从已规则筛选和评分的事件中选择最多{limit}项，类型{kind}。质量充足时，以15至25条最终可用新闻为目标；可额外选择少量候补供后续证据核查淘汰。优先高分，但结合全球视野判断。
+同一事件只留一项，不机械凑数；不足15项时如实少选，禁止用边缘新闻、重复进展或证据薄弱内容填满。只能使用提供的 event_key 和对应 article id（每组最多4篇）。
 每天已报道且无实质进展的事件不选。不能因为措辞或数字格式变化认定更新；需对照历史摘要。
 确认有实质进展才 update=true，并在 update_reason 明确写新旧变化。新事件 update=false。
 周报允许复盘日报事件，按一周的变化组织。来源多不代表独立确认，转载不能当独立证据。

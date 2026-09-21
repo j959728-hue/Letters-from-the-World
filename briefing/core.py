@@ -69,10 +69,10 @@ class Settings(BaseModel):
     schedule_enabled: bool = False
     auto_send: bool = False
     language: str = '简体中文'
-    daily_limit: int = Field(default=16, ge=1, le=30)
-    weekly_limit: int = Field(default=16, ge=1, le=30)
-    min_stories: int = Field(default=3, ge=1, le=20)
-    max_candidates: int = Field(default=300, ge=1, le=600)
+    daily_limit: int = Field(default=25, ge=1, le=30)
+    weekly_limit: int = Field(default=25, ge=1, le=30)
+    min_stories: int = Field(default=1, ge=1, le=20)
+    max_candidates: int = Field(default=500, ge=1, le=600)
     max_per_source: int = Field(default=12, ge=1, le=30)
     max_region_share: float = Field(default=0.5, ge=0.2, le=1)
     min_source_success_ratio: float = Field(default=0.5, ge=0.1, le=1)
@@ -85,7 +85,7 @@ class Settings(BaseModel):
     body_wait_ms: int = Field(default=8000, ge=100, le=30000)
     scroll_steps: int = Field(default=3, ge=0, le=8)
     max_text_chars: int = Field(default=16000, ge=1000, le=50000)
-    llm_token_budget: int = Field(default=180000, ge=5000, le=1000000)
+    llm_token_budget: int = Field(default=400000, ge=5000, le=1000000)
     input_usd_per_million: float | None = Field(default=None,ge=0)
     output_usd_per_million: float | None = Field(default=None,ge=0)
     kindle_email: str = ''
