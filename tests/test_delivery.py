@@ -30,6 +30,7 @@ def test_sends_once_with_html_and_epub(edition,tmp_path,monkeypatch):
     msg=client.send_message.call_args.args[0]
     assert any(p.get_content_type()=='text/html' for p in msg.walk())
     assert any(p.get_content_type()=='application/epub+zip' for p in msg.walk())
+    assert msg.get_payload()[-1].get_filename()=='%s_世界来信-日报_测试事件.epub' % edition['delivery_id'].split(':')[1]
     assert deliver(edition,settings(),state,force=True)=='smtp_accepted'
     assert client.send_message.call_count==2
 
