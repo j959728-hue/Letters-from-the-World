@@ -794,6 +794,565 @@
           "priority": 3
         }
       ]
+    },
+    {
+      "fingerprint": "937e717db0fd4950038c",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "俄乌与欧洲安全",
+      "title": "半岛电视台：俄罗斯议会选举初步结果显示统一俄罗斯党赢得超级多数",
+      "titles": [
+        "Putin’s party wins supermajority in Russia’s parliamentary election"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/21/pro-putin-party-wins-supermajority-amid-ramped-up-ukrainian-attacks"
+      ],
+      "hashes": [
+        "49f6c4a9de303ab627c3e9a9478ffa93177b550dbcf82a0b0b2aaeb996e852b0"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，在排除几乎全部真正反对派的议会选举中，接近完全的官方结果显示，普京领导的统一俄罗斯党赢得创纪录的超级多数；该党得票率超过58%，有望拿下国家杜马下院逾四分之三席位。 据半岛电视台引述俄中央选举委员会主席帕姆菲洛娃的说法，俄罗斯唯一注册的反战政党亚博卢党未能赢得任何全国层面席位。 半岛电视台报道称，俄罗斯未邀请欧洲安全与合作组织（OSCE）观察员观察此次选举。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "6ab68fd75a253b62526c0d15",
+          "url": "https://www.aljazeera.com/news/2026/9/21/pro-putin-party-wins-supermajority-amid-ramped-up-ukrainian-attacks?traffic_source=rss",
+          "title": "Putin’s party wins supermajority in Russia’s parliamentary election",
+          "published": "2026-09-21T20:17:39+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "64d6de1cfda5a01ac2c8",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "中东与穆斯林社会",
+      "title": "伊朗革命卫队称美以须接受撤出地区，美方称谈判大门仍然敞开",
+      "titles": [
+        "Iran’s IRGC says the US and Israel must withdraw from the region"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/9/22/iran-war-live-irgc-says-us-israel-must-accept-withdrawal-from-region"
+      ],
+      "hashes": [
+        "2bbe04882858582d059eeb1cafaf55ab486d78143ce0323325ccc50170ea3036"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "伊朗伊斯兰革命卫队（IRGC）表示，美国和以色列必须接受该地区摆脱其“邪恶和犯罪的存在”，即主张美以应最终撤出地区。 美国常驻联合国代表迈克·沃尔兹表示，特朗普总统决心确保伊朗永远不获得核武器，同时称只要伊朗“秉持诚意”，回到谈判桌的大门仍然敞开。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "774d62fc2b4b6b69dc0a981a",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/22/iran-war-live-irgc-says-us-israel-must-accept-withdrawal-from-region?traffic_source=rss",
+          "title": "Iran’s IRGC says the US and Israel must withdraw from the region",
+          "published": "2026-09-22T00:00:00+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "3d04a87e3ca6db18732c",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "全球政治与社会",
+      "title": "报告警告：美国退出援助项目后非洲医疗体系承压加剧",
+      "titles": [
+        "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns"
+      ],
+      "urls": [
+        "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl"
+      ],
+      "hashes": [
+        "75b9922b1ca2b35c54ed4be841c6b299bdd65f96e79d89c70d1742a33b65d610"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "一份新报告警告，美国退出关键援助项目，使非洲与全球南方的医疗体系“承受日益加剧的压力”。 该报告称，特朗普政府削减美国国际开发署（USAID）等项目，加上新冠疫情与全球生活成本上涨，使该地区医疗改革“更具紧迫性”。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "a2708d97c64691b10d7bfbc1",
+          "url": "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+          "title": "Healthcare in Africa ‘under growing strain’ after US withdrawal from aid programs, report warns",
+          "published": "2026-09-21T22:33:40+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "09db83e3b8c67ce626ea",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "全球政治与社会",
+      "title": "德国州选举重挫基民盟，默茨称“灾难”却誓言继续执政",
+      "titles": [
+        "Latest German election humiliation puts Merz on borrowed time as CDU unrest grows"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/21/german-state-election-humiliation-friedrich-merz-borrowed-time-cdu-unrest-grows"
+      ],
+      "hashes": [
+        "d56c07e5b780eeafeb13b8f6763f529d3f81d5ffa4baa5c726c87ca0d67ca2ab"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "德国总理弗里德里希·默茨将星期日州选举的结果称为“灾难”，并承认这对基民盟造成严重冲击。 默茨在柏林与梅克伦堡-前波美拉尼亚州投票结束后不久发表电视讲话，承诺继续留任并为其经济复苏计划而战。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "62916f95fe63f540efa0682a",
+          "url": "https://www.theguardian.com/world/2026/sep/21/german-state-election-humiliation-friedrich-merz-borrowed-time-cdu-unrest-grows",
+          "title": "Latest German election humiliation puts Merz on borrowed time as CDU unrest grows",
+          "published": "2026-09-21T10:04:46+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "75910bfedb162979b966",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "全球政治与社会",
+      "title": "摩洛哥青年把街头抗议诉求带入议会选举",
+      "titles": [
+        "Morocco’s youth take Gen Z protest demands to the polls"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/22/moroccos-youth-take-gen-z-protest-demands-to-the-polls"
+      ],
+      "hashes": [
+        "b1e039f782b19eea73f75d102c4d89fb5394912f757868ffae09558c89e053f8"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，28岁的环保企业家Hamza El Kharroubi近一年前还上街抗议，本次议会选举期间正在北部城市得土安竞选议席，并称对更多年轻摩洛哥人当选持谨慎乐观态度。 该报道援引7月敲定的选民册数据称，超过1580万人登记参加9月23日选举、改选众议院全部395席，但登记选民中仅约4%年龄在18至24岁之间；60岁及以上占逾29%，35至44岁占21%，2021年投票率略高于50%。 报道称，2025年9月27日开始的全国性示威以公立医疗、教育、就业和生活条件为诉求，由自称GenZ 212的无领导运动主要经Discord、TikTok和Instagram等平台动员。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "894a31352640b562b3cce359",
+          "url": "https://www.aljazeera.com/news/2026/9/22/moroccos-youth-take-gen-z-protest-demands-to-the-polls?traffic_source=rss",
+          "title": "Morocco’s youth take Gen Z protest demands to the polls",
+          "published": "2026-09-22T00:07:42+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "e60815f9dac34eada0be",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "AI与计算",
+      "title": "TypeSafe AI 发布 Jev：以浮点决策输出为特征的“System One”模型",
+      "titles": [
+        "Jev introduces a new shape of LLM—System One, aka Decision Models"
+      ],
+      "urls": [
+        "https://simonwillison.net/2026/Sep/21/jev/"
+      ],
+      "hashes": [
+        "80a395c06ff3a12a67fe44eb10b5af2d31a78ad93d2c2d79667f393d42c46ab0"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "科技博客作者西蒙·威利森（Simon Willison）撰文称，TypeSafe AI 于发文前一周发布 Jev，这是该公司称为“System One 模型”这一新类别模型的首个示例；据其描述，Jev 仍接受文本输入，但输出不是文本，而是对应类别、是/否问题、评分及其置信度的浮点数。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "b3e5263fa8976c3c350c33df",
+          "url": "https://simonwillison.net/2026/Sep/21/jev/",
+          "title": "Jev introduces a new shape of LLM—System One, aka Decision Models",
+          "published": "2026-09-21T23:09:20+00:00",
+          "source_id": "s103",
+          "source_name": "Simon Willison",
+          "group": "source-103",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "c18ff5983c185d3d0726",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "中东与穆斯林社会",
+      "title": "美国佛蒙特州陪审团裁定枪击三名巴勒斯坦学生的男子谋杀未遂罪成立",
+      "titles": [
+        "US man convicted in 2023 shooting of three Palestinian students in Vermont"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/21/us-man-convicted-in-2023-shooting-of-three-palestinian-students-in-vermont"
+      ],
+      "hashes": [
+        "1b378cadd6610979a07846d121c8df4363f4a437287a736f03ee299edefbb854"
+      ],
+      "facts": {
+        "numbers": [
+          "2023"
+        ],
+        "actions": []
+      },
+      "summary": "美国佛蒙特州一个陪审团裁定，一名男子因2023年枪击三名巴勒斯坦裔大学生犯有谋杀未遂罪，并驳回其以精神失常为由的无罪抗辩。 被告贾森·伊顿现年51岁，因这起发生在伯灵顿佛蒙特大学校园附近的袭击面临最高终身监禁。 袭击导致希沙姆·阿瓦塔尼腰部以下瘫痪，他的朋友塔辛·阿利亚哈马德和基南·阿卜杜勒哈米德受伤。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2e0098f6b30d40d34fdc8683",
+          "url": "https://www.aljazeera.com/news/2026/9/21/us-man-convicted-in-2023-shooting-of-three-palestinian-students-in-vermont?traffic_source=rss",
+          "title": "US man convicted in 2023 shooting of three Palestinian students in Vermont",
+          "published": "2026-09-21T20:05:07+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "5a67edbda5072f4c912a",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "非洲政治与安全",
+      "title": "英国检方首次就1994年卢旺达种族灭绝提起诉讼",
+      "titles": [
+        "UK prosecutors charge first person for Rwanda genocide"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/21/uk-prosecutors-charge-first-person-for-rwanda-genocide"
+      ],
+      "hashes": [
+        "eaa652268d64023d7ce0463c2b5703d1dd789273a7a2db007f236638af52dc8a"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，65岁医生文森特·布朗（原名文森特·巴吉尼亚）在历经七年调查后于周一被捕，被控一项与种族灭绝相关的行为罪及六项协助在卢旺达实施反人类罪的罪名，消息来自检方与地方当局。此案据称是英国首次就1994年卢旺达针对图西人的种族灭绝提起诉讼。 英国皇家检察署反恐部门负责人弗兰克·弗格森在声明中称，此案是英国首次就针对图西人的种族灭绝提出指控；他称布朗被指“指挥并煽动他人实施谋杀与种族灭绝行为”。该表述为官方指控方对尚未审结案件的指控性陈述。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "e081297183a8fca1f30a2bb0",
+          "url": "https://www.aljazeera.com/news/2026/9/21/uk-prosecutors-charge-first-person-for-rwanda-genocide?traffic_source=rss",
+          "title": "UK prosecutors charge first person for Rwanda genocide",
+          "published": "2026-09-21T19:48:58+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "0bbc2d0a72c669e923bc",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "AI与计算",
+      "title": "分析：巴西若复制萨尔瓦多“布克莱模式”，按比例或意味着逾400万人在押",
+      "titles": [
+        "“Modelo Bukele” no Brasil significaria 4 milhões de brasileiros na cadeia"
+      ],
+      "urls": [
+        "https://apublica.org/2026/09/modelo-bukele-no-brasil-significaria-4-milhoes-de-brasileiros-na-cadeia/"
+      ],
+      "hashes": [
+        "d7a76056de391c53b46adab9106e5d5f55065d627595026bfbd0922172356d09"
+      ],
+      "facts": {
+        "numbers": [
+          "4"
+        ],
+        "actions": []
+      },
+      "summary": "Agência Pública 专栏按萨尔瓦多“每50人中有1人在押、600万人口中约12万人被关押”的比例推算，若把这一监禁率搬到巴西，将意味着超过400万巴西人入狱；文中同时称巴西目前有逾96万名在押人员，为世界第三大监禁人口。这一数字是作者的等比外推，而非对巴西现实状况的实测。 该专栏称，“布克莱模式”在巴西被部分企业界人士推崇：圣保罗州工业联合会（Fiesp）于8月31日举办活动，邀请右翼候选人参加，包括以自由党（PL）身份竞选巴拉那州州长的前法官塞尔吉奥·莫罗，以及以进步党（PP）身份竞选圣保罗州参议员者吉列尔梅·德里特，听萨尔瓦多公共安全部长古斯塔沃·比亚托罗介绍经验。 专栏引述萨尔瓦多调查媒体《El Faro》联合创始人卡洛斯·达达的说法称，萨尔瓦多政府与黑帮达成的协议包括非法、秘密释放部分已在押的头目，以此换取凶杀案数量下降和在其社区为布克莱拉票。该指控归属为《El Faro》的调查，本材料未提供独立核验。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "cf2841f61dc0bfce900f9930",
+          "url": "https://apublica.org/2026/09/modelo-bukele-no-brasil-significaria-4-milhoes-de-brasileiros-na-cadeia/",
+          "title": "“Modelo Bukele” no Brasil significaria 4 milhões de brasileiros na cadeia",
+          "published": "2026-09-21T20:00:00+00:00",
+          "source_id": "s054",
+          "source_name": "Agência Pública",
+          "group": "source-54",
+          "region": "拉丁美洲",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "e6792a60b785c2d1596e",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "全球政治与社会",
+      "title": "法国多地抗议警察使用武力法案，批评者称其“杀人许可”",
+      "titles": [
+        "‘Licence to kill:’ French protests decry police use-of-force bill"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/21/licence-to-kill-french-protests-decry-police-use-of-force-bill"
+      ],
+      "hashes": [
+        "d989a62db69dca72591f73c74ebcd2be5615c84251ec1818a624e16327c7f0ee"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，法国多地数千名抗议者集会反对一项新法，他们称该法将赋予警察“杀人许可”。 同一报道称，该法案规定执法人员使用武力时被推定为其使用武器行为合法。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "cb1b9c9428adf1901a07e5a1",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/21/licence-to-kill-french-protests-decry-police-use-of-force-bill?traffic_source=rss",
+          "title": "‘Licence to kill:’ French protests decry police use-of-force bill",
+          "published": "2026-09-21T17:38:07+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "35773e256d22eb3c2131",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "全球政治与社会",
+      "title": "巴基斯坦伊斯兰大会党就燃油价格上涨发起向伊斯兰堡的抗议游行",
+      "titles": [
+        "Protesters march on Islamabad over soaring fuel prices"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/21/protesters-march-on-islamabad-over-soaring-fuel-prices"
+      ],
+      "hashes": [
+        "5d00158cd2e2f6ad5b95066ded07a67fcbf00e34ada0542e8397914821996e6d"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，巴基斯坦伊斯兰大会党（Jamaat-e-Islami）已发起一场前往伊斯兰堡的抗议游行，诉求针对不断上涨的燃油价格，并要求取消石油税（petroleum levy）。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "38867ed1c74725c31750ce52",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/21/protesters-march-on-islamabad-over-soaring-fuel-prices?traffic_source=rss",
+          "title": "Protesters march on Islamabad over soaring fuel prices",
+          "published": "2026-09-21T17:48:51+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "c573ccafca7b8d17347c",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "科学与思想",
+      "title": "分析：“超级厄尔尼诺”Niño 3.4异常值达3.07C，追平2015年纪录",
+      "titles": [
+        "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record - Carbon Brief"
+      ],
+      "urls": [
+        "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record"
+      ],
+      "hashes": [
+        "55fd23c778e761bbd5cbbbbfe42360599a6ff4fee8f20ec498e959c27c085d3a"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据Carbon Brief分析，截至9月19日，热带太平洋Niño 3.4区域日异常值达3.07C，与此前3.08C的纪录在统计上持平。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "01cd325530ef6d7cba4874b0",
+          "url": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
+          "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record - Carbon Brief",
+          "published": "2026-09-21T15:41:10+00:00",
+          "source_id": "s095",
+          "source_name": "Carbon Brief",
+          "group": "source-95",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "b89942c218226fec0af7",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "其他",
+      "title": "派拉蒙天舞就1100亿美元合并华纳兄弟探索的诉讼与12州及编剧工会达成和解",
+      "titles": [
+        "Paramount settles with US states, union to win Warner Bros takeover"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/economy/2026/9/21/paramount-settles-with-us-states-in-step-towards-merger-with-warner-bros"
+      ],
+      "hashes": [
+        "70fd49774b31392bb7085e03fbadd4b919bb5a3b17f514c0635aaf3fbb1a40b2"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，派拉蒙天舞在收购华纳兄弟探索的1100亿美元合并案中取得进展：它已与加利福尼亚州及另外11个州、以及提起诉讼阻止交易的好莱坞编剧工会达成和解，为这笔被称为史上最大媒体合并之一的交易扫清法律障碍。 报道称，和解内容将包括设立独立编辑委员会，监督CNN和CBS的报道，背景是外界担心政治压力可能影响这两家媒体的新闻内容；诉讼由一个由12州总检察长组成的联盟提起。 报道指出，若交易未能在9月30日后完成，派拉蒙需按日向华纳兄弟探索股东支付费用；和解将帮助其避免这笔每日700万美元的支出。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2a505e76d6f94d0c257ef7a4",
+          "url": "https://www.aljazeera.com/economy/2026/9/21/paramount-settles-with-us-states-in-step-towards-merger-with-warner-bros?traffic_source=rss",
+          "title": "Paramount settles with US states, union to win Warner Bros takeover",
+          "published": "2026-09-21T17:42:24+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "eb03937048f971bd6b34",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "科学与思想",
+      "title": "联合国大会前世界领导人聚焦气候危机",
+      "titles": [
+        "World leaders address climate crisis before UN meet amid record-breaking El Niño"
+      ],
+      "urls": [
+        "https://www.theguardian.com/environment/2026/sep/21/world-leaders-climate-crisis-el-nino"
+      ],
+      "hashes": [
+        "854567ad48143a883f4b872fabe25801101bb443663aa4c6008d597c17c9d79b"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "卫报报道，世界多国政治领导人正前往纽约参加联合国大会，其中部分领导人把气候危机列入议程，并于周一在纽约年度气候周开幕之际就此发声。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "b641baea726e0ccb7ac0dbc4",
+          "url": "https://www.theguardian.com/environment/2026/sep/21/world-leaders-climate-crisis-el-nino",
+          "title": "World leaders address climate crisis before UN meet amid record-breaking El Niño",
+          "published": "2026-09-21T21:26:55+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "a1ac8792edf4509d9786",
+      "delivery_id": "daily:2026-09-22",
+      "topic": "全球政治与社会",
+      "title": "美国多家电视网缺席白宫活动 抗议CNN被禁入场地",
+      "titles": [
+        "Trump speech inaudible as US networks boycott White House event"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/21/trump-speech-inaudible-as-us-networks-boycott-white-house-event"
+      ],
+      "hashes": [
+        "dd8ed34f19a08f93fd2d04ac61c6ede785346294cbf8515996f55dc6818ffe77"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，美国总统特朗普为白宫一处新的直升机停机坪揭幕时，多家美国主要电视网因CNN作为电视网“联合采访团”成员被禁止进入场地而缺席抗议。",
+      "sent_at": "2026-09-22T01:41:26.778412+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "e986c6dec865086e88699640",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/21/trump-speech-inaudible-as-us-networks-boycott-white-house-event?traffic_source=rss",
+          "title": "Trump speech inaudible as US networks boycott White House event",
+          "published": "2026-09-21T20:38:51+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -813,8 +1372,8 @@
       "attempt": 1
     },
     "daily:2026-09-22": {
-      "status": "sending",
-      "updated": "2026-09-22T02:04:33.462421+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-22T02:04:43.643971+00:00",
       "attempt": 1
     }
   }
