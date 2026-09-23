@@ -1353,6 +1353,546 @@
           "priority": 5
         }
       ]
+    },
+    {
+      "fingerprint": "333c61641c1c937b0e1e",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "中东与穆斯林社会",
+      "title": "特朗普称美伊官员在联大期间举行“非常好”的三小时会谈",
+      "titles": [
+        "Trump confirms ‘very good’ talks with Iranian delegation at UN"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/9/23/iran-war-live-trump-confirms-very-good-meeting-with-iran-at-un"
+      ],
+      "hashes": [
+        "55121c13eef344d7e5bcc41e0b56dab41e1a66598513900fa455538418791259"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，美国总统特朗普在纽约联合国大会对记者称，美国官员与伊朗领导人举行了“非常好”的三小时会谈。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "83b31a6f64e7bbc818e8f8e7",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/23/iran-war-live-trump-confirms-very-good-meeting-with-iran-at-un?traffic_source=rss",
+          "title": "Trump confirms ‘very good’ talks with Iranian delegation at UN",
+          "published": "2026-09-23T00:00:00+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "ce3978388ff9efe59ad1",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "AI与计算",
+      "title": "Anthropic 发布 Claude Opus 5.5，OpenAI 同日推出 GPT-6 Sol 与 Luna，低价竞争加剧",
+      "titles": [
+        "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war"
+      ],
+      "urls": [
+        "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+      ],
+      "hashes": [
+        "3336679896b90c942b46d6889864969c61c74b1390a85d4c144ff565e697c1fd"
+      ],
+      "facts": {
+        "numbers": [
+          "5.5",
+          "6"
+        ],
+        "actions": []
+      },
+      "summary": "Simon Willison 记述，Anthropic 当日发布 Claude Opus 5.5，约一小时后 OpenAI 发布 GPT-6 Sol 与 GPT-6 Luna，他认为需要一段时间才能充分了解这些新模型。 该文称 Opus 5.5 的价格较此前 Opus 4.5 至 5 长期维持的每百万 token 输入 5 美元、输出 25 美元下降 20%，降至 4 美元与 20 美元。 文中称 GPT-6 Luna 定价为每百万 token 输入 0.10 美元、输出 0.50 美元，是 OpenAI 史上最便宜的模型之一，仅高于能力弱得多的 GPT-4.1 Nano 与 GPT-5 Nano。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "6d6d661c684a6428063e4ff4",
+          "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+          "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+          "published": "2026-09-22T23:46:41+00:00",
+          "source_id": "s103",
+          "source_name": "Simon Willison",
+          "group": "source-103",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "956ce1e34ed6f7b0876b",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "中东与穆斯林社会",
+      "title": "卡塔尔埃米尔在联大警告海湾处于“最危险阶段”并呼吁外交解决",
+      "titles": [
+        "Qatar’s emir urges diplomacy as Gulf faces ‘dangerous phase’ amid Iran war"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/22/qatars-emir-urges-diplomacy-as-gulf-at-one-of-the-most-dangerous"
+      ],
+      "hashes": [
+        "e059928919f43c5dbab8d390da7e48c037990a4e7e05a64fdc438d9ad1c37494"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "卡塔尔埃米尔谢赫塔米姆·本·哈马德·阿勒萨尼在联合国大会上表示，由于美以对伊朗的战争，海湾正经历“最危险阶段”之一，并称这场战争“可以通过外交手段解决”。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "68a662b8234f78801d2f56cb",
+          "url": "https://www.aljazeera.com/news/2026/9/22/qatars-emir-urges-diplomacy-as-gulf-at-one-of-the-most-dangerous?traffic_source=rss",
+          "title": "Qatar’s emir urges diplomacy as Gulf faces ‘dangerous phase’ amid Iran war",
+          "published": "2026-09-22T18:48:37+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "601c2c900be419913d81",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "俄乌与欧洲安全",
+      "title": "美国、丹麦与格陵兰签署安全协议，美方将扩大在格陵兰军事存在",
+      "titles": [
+        "Trump signs ‘tremendous’ Arctic security deal with Denmark, Greenland",
+        "US signs ‘tremendous’ security deal with Denmark and Greenland"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/22/us-signs-tremendous-arctic-security-deal-with-denmark-greenland",
+        "https://www.aljazeera.com/video/newsfeed/2026/9/22/us-signs-tremendous-security-deal-with-denmark-and-greenland"
+      ],
+      "hashes": [
+        "17dea951df8f8af14faecbef3234b1564ced7233f3b5aafa6416bb7f87928429",
+        "52d08922955cc990c47807756e675b22a3890a0d322afd1d8a6b7cf2e7f5cb95"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "美国、丹麦与格陵兰在纽约联合国大会期间签署协议，给予华盛顿在这个面积接近大陆的北极岛屿上更大的军事存在。 协议允许美方“现代化并扩大”其在格陵兰西北部皮图菲克太空基地的活动，并将在南部纳萨尔苏瓦克和东部梅斯特斯维格设基地，还可选择“设立更多防务区域”并扩大行动。 同一报道称，该协议扩大美国在格陵兰的军事存在，同时使该岛继续处于丹麦主权之下。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "1fc3b63299716ef52575284c",
+          "url": "https://www.aljazeera.com/news/2026/9/22/us-signs-tremendous-arctic-security-deal-with-denmark-greenland?traffic_source=rss",
+          "title": "Trump signs ‘tremendous’ Arctic security deal with Denmark, Greenland",
+          "published": "2026-09-22T18:46:32+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        },
+        {
+          "id": "2248aca5708fccc4028aea36",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/us-signs-tremendous-security-deal-with-denmark-and-greenland?traffic_source=rss",
+          "title": "US signs ‘tremendous’ security deal with Denmark and Greenland",
+          "published": "2026-09-22T21:11:47+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "fd4e012c11fb35b96d5f",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "全球政治与社会",
+      "title": "加拿大不列颠哥伦比亚省起诉 OpenAI 与奥特曼，称枪手用 ChatGPT 策划校园枪击未被预警",
+      "titles": [
+        "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting"
+      ],
+      "urls": [
+        "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting"
+      ],
+      "hashes": [
+        "502b9945d0f5cd1b054d461ced69c9a9cecf6ab0422954dc83983bc1e8af6459"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据卫报报道，加拿大不列颠哥伦比亚省已起诉 OpenAI，称若该公司曾就枪手使用 ChatGPT 策划袭击一事警告当地执法部门，该省一所学校的枪击事件本可被阻止；此为该省的主张，未经法院认定。 报道称，该诉讼于周一提交至旧金山联邦法院，将 OpenAI 及其首席执行官萨姆·奥特曼列为被告，并寻求为袭击后的恢复工作提供资金赔偿，以及下令改变该公司处理可能导致暴力的 ChatGPT 对话的方式。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "be6e7db8a0fd45acd7d0a62d",
+          "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+          "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
+          "published": "2026-09-22T04:29:22+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "8e27ad29f09678e91fbf",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "中东与穆斯林社会",
+      "title": "埃尔多安在联大指控以色列“种族灭绝心态”，以色列代表团离场",
+      "titles": [
+        "Erdogan accuses Israel of ‘genocidal mindset’ at UNGA"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/22/erdogan-accuses-israel-of-genocidal-mindset-at-unga"
+      ],
+      "hashes": [
+        "9b6d1ff5d922ad6c95e5c43c0562fc0877fe3e380a3265370817fb3c988d9fff"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，土耳其总统埃尔多安在联合国大会上指控以色列持有“种族灭绝心态”，并表示联合国已无法履行其使命。 同一报道称，以色列代表团在埃尔多安发言期间离场。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "ce2476d6f695857d4177ff22",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/erdogan-accuses-israel-of-genocidal-mindset-at-unga?traffic_source=rss",
+          "title": "Erdogan accuses Israel of ‘genocidal mindset’ at UNGA",
+          "published": "2026-09-22T19:14:41+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "c4cff1e60b438b3e8465",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "中东与穆斯林社会",
+      "title": "伊朗飞往巴格达与马斯喀特航班将在美国航空制裁生效前取消",
+      "titles": [
+        "Iran flights to Baghdad, Muscat cancelled ahead of US aviation sanctions"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/22/iran-flights-to-baghdad-muscat-cancelled-ahead-of-us-aviation-sanctions"
+      ],
+      "hashes": [
+        "b8f73e353cdeb6f25dcad70977a5598dee9e9aa8f1c2a9b51f0686d55b80f053"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台引述塔斯尼姆通讯社报道，伊朗飞往巴格达和马斯喀特的航班将于午夜起取消，以应对周三生效的美国新制裁；伊朗民航组织发言人称正谈判把飞往巴格达的航班改道至伊拉克纳杰夫机场。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "a559d17efb46d701ecbbaa3a",
+          "url": "https://www.aljazeera.com/news/2026/9/22/iran-flights-to-baghdad-muscat-cancelled-ahead-of-us-aviation-sanctions?traffic_source=rss",
+          "title": "Iran flights to Baghdad, Muscat cancelled ahead of US aviation sanctions",
+          "published": "2026-09-22T23:46:06+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "0a895bd3e8b842551192",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "全球政治与社会",
+      "title": "牙买加部长称英国国王已将奴隶制赔偿请愿转交英国枢密院",
+      "titles": [
+        "Jamaica hails King’s decision to refer slavery reparations petition to privy council as ‘really big deal’"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/23/jamaica-king-charles-to-refer-slavery-reparations-petition-to-privy-council"
+      ],
+      "hashes": [
+        "f5ee4cb1e8ed7411865672881ec79497706d4c9dc38870b7f41dd15760b5be45"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据牙买加文化部长在议会宣布，英国国王查尔斯已将牙买加提出的一项具有里程碑意义的奴隶制赔偿请愿转交英国一个高级上诉法院，以寻求法律意见。 牙买加文化部长奥利维亚·格兰奇向该国议员表示，国王已确认他们的法律问题被转交至位于伦敦的枢密院。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "699b96a2740cc05a089d2a2e",
+          "url": "https://www.theguardian.com/world/2026/sep/23/jamaica-king-charles-to-refer-slavery-reparations-petition-to-privy-council",
+          "title": "Jamaica hails King’s decision to refer slavery reparations petition to privy council as ‘really big deal’",
+          "published": "2026-09-23T01:15:26+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "0b9ea4ea500ceb328bfe",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "中东与穆斯林社会",
+      "title": "巴勒斯坦裔美国人赴国会游说，反对美媒报道的2.8亿美元对以军援",
+      "titles": [
+        "Palestinian Americans meet US lawmakers as Trump seeks $2.8bn for Israel"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/22/palestinian-americans-meet-us-lawmakers-as-trump-seeks-2-8bn-for-israel"
+      ],
+      "hashes": [
+        "0b15f32966a60f45913c644d800fcf94464984d355d63404725a0916121d07c6"
+      ],
+      "facts": {
+        "numbers": [
+          "2"
+        ],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，组织方 AJP Action 表示，来自全美26个州的300多名选民参加了在华盛顿国会山举行的游说日，与100多个美国议员办公室会面，议题涉及加沙战争、约旦河西岸定居者暴力以及以移民法限制巴勒斯坦倡导活动。 半岛电视台在报道中称，美国媒体上周广泛报道特朗普政府批准了一项由美国纳税人出资、价值28亿美元的对以军事援助包，其中包含907公斤（2000磅）MK-84炸弹等弹药。 报道称，一些民主党人誓言阻止这笔武器转移，众议院外交事务委员会资深民主党人 Gregory Meeks 上周动用其影响力，至少延缓了国会的审批程序。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "231eb2af2050fa76cb7a5ae3",
+          "url": "https://www.aljazeera.com/news/2026/9/22/palestinian-americans-meet-us-lawmakers-as-trump-seeks-2-8bn-for-israel?traffic_source=rss",
+          "title": "Palestinian Americans meet US lawmakers as Trump seeks $2.8bn for Israel",
+          "published": "2026-09-22T21:30:51+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "4679b3c478ae8b8171fa",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "全球政治与社会",
+      "title": "特朗普政府请求最高法院推翻亲巴勒斯坦学者苏里获释裁决",
+      "titles": [
+        "Trump admin asks top US court to reverse pro-Palestinian scholar’s release"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/22/trump-admin-asks-top-us-court-to-reverse-pro-palestinian-scholars-release"
+      ],
+      "hashes": [
+        "990e9ef4816d441b37d33dd502660a9204669fecc5467d34abd22d21488e1df7"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "美国司法部已向最高法院提出申请，要求其审理联邦移民法是否禁止下级法院法官下令释放巴达尔·汗·苏里（Badar Khan Suri）。 特朗普政府要求最高法院推翻释放一名乔治敦大学学者的裁决；该学者曾主张巴勒斯坦人权利并反对以色列在加沙的战争。 位于弗吉尼亚的第四巡回上诉法院7月以2比1裁定，下级法院法官可以审理关于拘留违宪的主张，即便案件涉及移民法庭正在进行的遣返程序。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "43a0b427e865ae8d367d099d",
+          "url": "https://www.aljazeera.com/news/2026/9/22/trump-admin-asks-top-us-court-to-reverse-pro-palestinian-scholars-release?traffic_source=rss",
+          "title": "Trump admin asks top US court to reverse pro-Palestinian scholar’s release",
+          "published": "2026-09-22T19:52:16+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "961f2dbfe0488b5c8461",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "中东与穆斯林社会",
+      "title": "巴西总统卢拉在联大谴责加沙“痛苦与创伤”，并称联合国报告员不应被噤声",
+      "titles": [
+        "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/22/brazils-lula-gazas-pain-and-trauma-will-last-generations"
+      ],
+      "hashes": [
+        "aa09647f7da292156a3651fdb22b36c22489c8f8f808145387d365cdb6a1cd56"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，巴西总统卢拉·伊纳西奥·卢拉·达席尔瓦在联合国大会上谴责以色列政府在加沙造成的“痛苦与创伤”。 同一报道称，卢拉表示，联合国被占巴勒斯坦领土问题特别报告员弗兰切丝卡·阿尔巴内塞不应“因为说出真相而被噤声”。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2caf0a39a3cdaaae402e30e4",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/22/brazils-lula-gazas-pain-and-trauma-will-last-generations?traffic_source=rss",
+          "title": "Brazil’s Lula: Gaza’s ‘pain and trauma’ will last generations",
+          "published": "2026-09-22T19:59:36+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "51b3a4adf3500bc6d8ac",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "全球政治与社会",
+      "title": "英国首相伯纳姆在联大谴责俄干预选举，并宣布成立国家信息防卫中心",
+      "titles": [
+        "UK PM Burnham condemns ‘repulsive’ Russian electoral interference"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/23/uk-pm-burnham-condemns-repulsive-russian-electoral-interference"
+      ],
+      "hashes": [
+        "b382d4ea847ff240ad913bb9a48200c18ff36acfd3f864ef818d7f2d18e499fe"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，英国首相安迪·伯纳姆在联合国大会上发言，指称俄罗斯实施信息战并试图干预2019年选举。 同一报道称，伯纳姆还宣布成立“国家信息防卫中心”，用于应对来自敌对国家的信息攻击。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "e34ebe499d408537c517cae5",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/uk-pm-burnham-condemns-repulsive-russian-electoral-interference?traffic_source=rss",
+          "title": "UK PM Burnham condemns ‘repulsive’ Russian electoral interference",
+          "published": "2026-09-23T01:01:17+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "fb3c17156073d49da307",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "俄乌与欧洲安全",
+      "title": "美国共和党参议员柯蒂斯呼吁调查小特朗普的外国商业往来",
+      "titles": [
+        "US Republican calls for probe into Donald Trump Jr’s business dealings"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/22/us-republican-calls-for-probe-into-donald-trump-jrs-business-dealings"
+      ],
+      "hashes": [
+        "a844ece9a2b2f2deceab3ceac571545da2de94da1969497f6d27ef27deb8880b"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，美国犹他州共和党参议员约翰·柯蒂斯表示，围绕总统长子小特朗普与外国商界人士的关系以及他接受“大额礼物”一事“已出现疑问”，并称小特朗普可能因与总统的关系而个人获益。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "5526283ac7f404b031646bdf",
+          "url": "https://www.aljazeera.com/news/2026/9/22/us-republican-calls-for-probe-into-donald-trump-jrs-business-dealings?traffic_source=rss",
+          "title": "US Republican calls for probe into Donald Trump Jr’s business dealings",
+          "published": "2026-09-22T22:07:50+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "0eeb6246151b509fb922",
+      "delivery_id": "daily:2026-09-23",
+      "topic": "科学与思想",
+      "title": "卫报：研究称澳大利亚家庭抚养两个或以上孩子年成本升至至少3.65万澳元，20年上涨134%",
+      "titles": [
+        "Cost of raising two children in Australia has risen 134% in two decades, study says"
+      ],
+      "urls": [
+        "https://www.theguardian.com/australia-news/2026/sep/23/cost-of-raising-two-children-in-australia-has-risen-134-in-two-decades-study-says"
+      ],
+      "hashes": [
+        "e505a5a097fc4169dd8d3ccca912a34932e3b8d0481fc3df32972914df4a257b"
+      ],
+      "facts": {
+        "numbers": [
+          "134"
+        ],
+        "actions": []
+      },
+      "summary": "卫报报道称，一项新研究显示，澳大利亚家庭抚养两个或以上孩子的成本已升至每年至少3.65万澳元，20年间维持一个家庭所需资金上涨了134%。 同一报道称，倡导组织The Parenthood周三发布的数据显示，同期家庭收入仅增长102%；托育成本占当前育儿总成本的33%，2003年该比例为27%，分析由Connell Griffin公司完成。",
+      "sent_at": "2026-09-23T01:35:58.526338+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "9acb5ec8cc77feca7a8451ef",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/23/cost-of-raising-two-children-in-australia-has-risen-134-in-two-decades-study-says",
+          "title": "Cost of raising two children in Australia has risen 134% in two decades, study says",
+          "published": "2026-09-22T19:00:03+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -1377,8 +1917,8 @@
       "attempt": 1
     },
     "daily:2026-09-23": {
-      "status": "sending",
-      "updated": "2026-09-23T01:56:44.294556+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-23T01:56:51.107964+00:00",
       "attempt": 1
     }
   }
