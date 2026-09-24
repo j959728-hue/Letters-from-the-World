@@ -1893,6 +1893,458 @@
           "priority": 3
         }
       ]
+    },
+    {
+      "fingerprint": "54f51a7b6875919048df",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "全球政治与社会",
+      "title": "半岛电视台：提格雷武装与其他反叛组织夺取机场，引埃塞俄比亚内战重燃担忧",
+      "titles": [
+        "Ethiopia warns of ‘destruction’ as Tigray rebels launch offensive"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/23/ethiopia-warns-of-destruction-as-tigray-rebels-launch-offensive"
+      ],
+      "hashes": [
+        "84a7044e21e06e84f13754a0a32977507c23928f63ffe84b8c4b582d96aa0eac"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，提格雷武装与其他反叛组织联手夺取机场，并在埃塞俄比亚北部袭击政府阵地，引发内战重燃担忧。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "9dbfc774b79871042b6740b1",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/23/ethiopia-warns-of-destruction-as-tigray-rebels-launch-offensive?traffic_source=rss",
+          "title": "Ethiopia warns of ‘destruction’ as Tigray rebels launch offensive",
+          "published": "2026-09-23T20:37:18+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "f818f947b6b9a22a5c43",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "中东与穆斯林社会",
+      "title": "半岛电视台：特朗普接待习近平举行会谈与国宴，贸易、台湾、AI与伊朗战争列为首要议程",
+      "titles": [
+        "China’s Xi visits US as Trump bets on stabilising global relations"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/24/aje-onl-nf_trump-hosts-xi-amid-rising-tensions-1-230926"
+      ],
+      "hashes": [
+        "b8f399cd54e070c33d345cffcb62fbf9b908dab1377cd34777fc3a40766d9f42"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，美国总统特朗普接待中国国家主席习近平，双方举行会谈并设国宴。 同一报道称，贸易、台湾、人工智能以及对伊朗的战争被列为此次会谈的首要议程。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2b6685d5de8e0cb108081076",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/aje-onl-nf_trump-hosts-xi-amid-rising-tensions-1-230926?traffic_source=rss",
+          "title": "China’s Xi visits US as Trump bets on stabilising global relations",
+          "published": "2026-09-24T00:43:10+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "8620476ca1487b8a237e",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "中东与穆斯林社会",
+      "title": "伊朗总统联大称不屈服但对外谈判开放，美方称协议需长期努力并保留军事选项",
+      "titles": [
+        "Iran rejects US bullying, insists it remains open for negotiations"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/9/24/iran-war-live-tehran-says-it-wont-be-bullied-remains-open-for-talks"
+      ],
+      "hashes": [
+        "b93c5f649477a37bbf4a06fcb84fec312733abb74ca1c85488eed873a0a01a44"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，伊朗总统佩泽希齐扬在联合国大会发表强硬讲话，回击美国发出的“毁灭”威胁，同时为通过外交结束战争留有余地。 同一报道称，美国国务卿鲁比奥表示，达成伊朗协议需要长期努力，并指出军事选项仍然可用。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2ee37fc3bd1401d1d45b7ded",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/24/iran-war-live-tehran-says-it-wont-be-bullied-remains-open-for-talks?traffic_source=rss",
+          "title": "Iran rejects US bullying, insists it remains open for negotiations",
+          "published": "2026-09-24T00:00:00+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "89c5012fa4e81bcfd5a8",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "全球政治与社会",
+      "title": "FBI称正调查求职门户遭入侵，黑客组织声称获取数千员工敏感数据",
+      "titles": [
+        "FBI investigates alleged theft of ‘very sensitive’ employee data"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/23/fbi-says-investigating-breach-of-very-sensitive-data-by-hackers"
+      ],
+      "hashes": [
+        "75a59472903d2320b2b3a51a61b1db62947ef1e9681dcede8f0ed815f492dee3"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "美国联邦调查局表示，正在调查其求职门户遭黑客组织入侵一事；该组织声称已获取数千名员工的敏感数据。此为 FBI 的官方表态，黑客说法尚未获独立证实。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "86a7f67720ec170dd0655c98",
+          "url": "https://www.aljazeera.com/news/2026/9/23/fbi-says-investigating-breach-of-very-sensitive-data-by-hackers?traffic_source=rss",
+          "title": "FBI investigates alleged theft of ‘very sensitive’ employee data",
+          "published": "2026-09-23T21:18:22+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "162364a3519b7a5d3b6b",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "中东与穆斯林社会",
+      "title": "伊拉克总理办公室称土耳其同意逐步移交巴希卡军事基地",
+      "titles": [
+        "Turkiye agrees to gradual handover of Bashiqa base to Iraq"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/24/turkiye-agrees-to-gradual-handover-of-bashiqa-base-to-iraq"
+      ],
+      "hashes": [
+        "36d01a6c0daaac8a6b25f592a9479e2c5885350e35faec8bf67af1afa64d415c"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "根据伊拉克总理办公室发布的声明，土耳其与伊拉克已同意将土耳其在巴希卡（Bashiqa）的军事基地逐步移交给巴格达。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "62f55cc5cf4c289b519f78ac",
+          "url": "https://www.aljazeera.com/news/2026/9/24/turkiye-agrees-to-gradual-handover-of-bashiqa-base-to-iraq?traffic_source=rss",
+          "title": "Turkiye agrees to gradual handover of Bashiqa base to Iraq",
+          "published": "2026-09-24T01:04:28+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "65a1e3f781230d957e9d",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "俄乌与欧洲安全",
+      "title": "BBC：俄占奥莱什基居民称食物水中断，被迫煮野菜",
+      "titles": [
+        "Oleshky: Residents eating garden weeds in Russian-occupied city cut off from food and water"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c60qxywdx4vvo"
+      ],
+      "hashes": [
+        "e7a793eccc26ecd296a4b9b1c1de75693f5ade4fea2c5129ac54a74972d7d225"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "BBC引述化名Halia的居民称，她被困在俄军占领的乌克兰城市奥莱什基，当地持续遭炮击，食物和水供应被切断。 同一报道称，这名居民表示许多居民因夏天种的蔬菜吃完，转而煮花园杂草充饥。 BBC报道，克里姆林宫本周承认奥莱什基面临“危急情况”和“食品与药品供应问题”，但称俄军正努力解决，并把责任归咎于基辅。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "0dcc0581f11ccd1e8104faaf",
+          "url": "https://www.bbc.com/news/articles/c60qxywdx4vvo?at_campaign=rss&at_medium=RSS",
+          "title": "Oleshky: Residents eating garden weeds in Russian-occupied city cut off from food and water",
+          "published": "2026-09-23T23:58:50.626000+00:00",
+          "source_id": "s015",
+          "source_name": "BBC News",
+          "group": "source-15",
+          "region": "全球",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "33f4d4dbbac0a743b71c",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "中东与穆斯林社会",
+      "title": "韦恩斯坦在纽约性侵案重审后被判15年监禁",
+      "titles": [
+        "Harvey Weinstein sentenced to 15 years in New York sexual assault retrial"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/23/harvey-weinstein-sentenced-to-15-years-in-sexual-assault-retrial"
+      ],
+      "hashes": [
+        "34c9dfeb423a74fe35ae4b27ea14ac2dd8f2f3ae5f152d4c205250dcfcf523a9"
+      ],
+      "facts": {
+        "numbers": [
+          "15"
+        ],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，哈维·韦恩斯坦因一项重罪性犯罪在曼哈顿被判处15年监禁。 该报道称，此次量刑针对的是对曾任电视制作助理的米里亚姆·黑利（Miriam Haley）的性侵，此前经历逾六年的法律反复，包括纽约最高法院推翻其2020年定罪。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "9f7056df76c8fa0537996ae0",
+          "url": "https://www.aljazeera.com/news/2026/9/23/harvey-weinstein-sentenced-to-15-years-in-sexual-assault-retrial?traffic_source=rss",
+          "title": "Harvey Weinstein sentenced to 15 years in New York sexual assault retrial",
+          "published": "2026-09-23T19:58:00+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "288fbc966c286cdbf7f0",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "全球政治与社会",
+      "title": "肯尼亚暂停Tata Chemicals马加迪纯碱开采，监管合规与本地利益争议升温",
+      "titles": [
+        "Why is Kenya turning against Tata Chemicals in Magadi?"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/24/why-is-kenya-turning-against-tata-chemicals-in-magadi"
+      ],
+      "hashes": [
+        "0ff12aeb14275e331f021bad7302ac698e2570b26ddeea137ac947770f1569f6"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，肯尼亚矿业部以监管关切为由暂停了Tata Chemicals在马加迪的纯碱开采作业。 肯尼亚矿业部长Joho称，政府合规审计认定Tata未依《采矿法》申请矿权，而是依赖其土地特许权。 Tata否认忽视监管要求的说法。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2743645b4a2718f9434440a4",
+          "url": "https://www.aljazeera.com/news/2026/9/24/why-is-kenya-turning-against-tata-chemicals-in-magadi?traffic_source=rss",
+          "title": "Why is Kenya turning against Tata Chemicals in Magadi?",
+          "published": "2026-09-24T00:03:14+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "a56374c7e6423cd83714",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "俄乌与欧洲安全",
+      "title": "阿尔巴尼斯在联大期间会见泽连斯基，宣布澳大利亚再向乌克兰提供6000万美元支持",
+      "titles": [
+        "‘My friend’: Anthony Albanese announces $60m more for Ukraine at Zelenskyy meeting"
+      ],
+      "urls": [
+        "https://www.theguardian.com/australia-news/2026/sep/23/my-friend-anthony-albanese-announces-60m-more-for-ukraine-at-zelenskyy-meeting"
+      ],
+      "hashes": [
+        "ce791d6a80cc91dc4ac38040a404dbd128f5840383e27e7e7eef8273962d743b"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据《卫报》报道，澳大利亚总理安东尼·阿尔巴尼斯在纽约联合国会议期间与乌克兰总统泽连斯基会面，宣布澳大利亚将再提供6000万美元支持乌克兰对抗俄罗斯的入侵。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2e0e51ddcc7a70b4fc62bf54",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/23/my-friend-anthony-albanese-announces-60m-more-for-ukraine-at-zelenskyy-meeting",
+          "title": "‘My friend’: Anthony Albanese announces $60m more for Ukraine at Zelenskyy meeting",
+          "published": "2026-09-23T19:40:48+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "2397a6cad473c33639f8",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "科学与思想",
+      "title": "英国将加入欧盟主导的OceanEye海洋科学计划，以改进极端天气与气候预测",
+      "titles": [
+        "UK to join EU ocean science scheme to better predict extreme weather events"
+      ],
+      "urls": [
+        "https://www.theguardian.com/environment/2026/sep/23/britain-to-join-eu-global-ocean-monitoring-system-oceaneye"
+      ],
+      "hashes": [
+        "cb63eefe9295734d3678d85d1041d094231f96297672f0fec436cc5eb0328c47"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "卫报报道称，英国将加入一个由欧盟主导的大型海洋科学计划，以更好地预报极端天气与气候事件，环境大臣将在纽约宣布此事。 该计划的名称是OceanEye，目标是为全球海洋建立“实时”模型；卫报将此合作置于英国寻求加强与欧盟关系的背景之下。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "ac6c4a9fa445d9ebc3450afa",
+          "url": "https://www.theguardian.com/environment/2026/sep/23/britain-to-join-eu-global-ocean-monitoring-system-oceaneye",
+          "title": "UK to join EU ocean science scheme to better predict extreme weather events",
+          "published": "2026-09-23T14:24:37+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "2cc66c60f28ddc78de45",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "AI与计算",
+      "title": "Anthropic发布Claude Opus 5.5并下调API列表价20%，OpenAI同日推出GPT‑6 Sol与Luna",
+      "titles": [
+        "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%"
+      ],
+      "urls": [
+        "https://www.latent.space/p/ainews-claude-opus-55-the-new-default"
+      ],
+      "hashes": [
+        "ba3811b9a37cc27770c67fc8ecb66f481b17ab0ae06e8cc1e5e0c3a0e3b67fba"
+      ],
+      "facts": {
+        "numbers": [
+          "40",
+          "5.5",
+          "50"
+        ],
+        "actions": []
+      },
+      "summary": "行业通讯Latent Space的AINews称，Anthropic已发布Claude Opus 5.5，并把它描述为新的Claude 5.5家族的首款模型。该表述来自该通讯对发布情况的汇总。 同一篇通讯称，OpenAI在Anthropic发布约一小时之后推出了GPT‑6 Sol与Luna；通讯未给出这两款模型的完整规格。 该通讯在“定价与token经济”一节列出：API列表token价格下调20%，即每百万输入/输出token从5美元/25美元降至4美元/20美元，并注明数据来源为@ValsAI。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "19163c30f0a4c92555051d9a",
+          "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+          "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+          "published": "2026-09-23T06:41:41.225000+00:00",
+          "source_id": "s105",
+          "source_name": "Latent Space",
+          "group": "source-105",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "4b428d997911f1ee2c27",
+      "delivery_id": "daily:2026-09-24",
+      "topic": "全球政治与社会",
+      "title": "Choice调查：澳大利亚四大超市基本食品篮均价3月至6月上涨7%",
+      "titles": [
+        "Groceries rise by 7% across Coles, Woolworths, IGA and Aldi, Choice finds"
+      ],
+      "urls": [
+        "https://www.theguardian.com/australia-news/2026/sep/24/groceries-rise-by-7-across-australian-supermarket-chains-choice-finds"
+      ],
+      "hashes": [
+        "307ca3b4ee62a24ddb7fd11cc75f4432cef819c8791b24330d5a3d4bd3a923fe"
+      ],
+      "facts": {
+        "numbers": [
+          "7"
+        ],
+        "actions": []
+      },
+      "summary": "据卫报报道的消费者权益组织Choice调查，澳大利亚四大超市Coles、Woolworths、Aldi和IGA的基本食品篮平均价格上涨，3月至6月间涨幅为7%。",
+      "sent_at": "2026-09-24T01:32:44.885246+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "5336a329990bd7a969982063",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/24/groceries-rise-by-7-across-australian-supermarket-chains-choice-finds",
+          "title": "Groceries rise by 7% across Coles, Woolworths, IGA and Aldi, Choice finds",
+          "published": "2026-09-23T15:01:51+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -1922,8 +2374,8 @@
       "attempt": 1
     },
     "daily:2026-09-24": {
-      "status": "sending",
-      "updated": "2026-09-24T01:52:41.596799+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-24T01:52:47.686516+00:00",
       "attempt": 1
     }
   }
