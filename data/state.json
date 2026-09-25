@@ -2345,6 +2345,378 @@
           "priority": 3
         }
       ]
+    },
+    {
+      "fingerprint": "0e82fd144220f60f3014",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "全球政治与社会",
+      "title": "以色列选举委员会初步取消两个巴勒斯坦人主导参选名单资格，禁令未定待上诉",
+      "titles": [
+        "Israel moves to ban main Palestinian-led lists from election"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/24/09-24-israel-palestinian-parties-banned-sv"
+      ],
+      "hashes": [
+        "11b7a62559c4f73e08a8ca863c73b64eb32e865b0f9a3f9eaa37de98188f07cc"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "以色列选举委员会投票决定，取消两个主要由巴勒斯坦人主导的参选名单参加下月选举的资格。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "bfc09e0ee0a0ef1260765297",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/09-24-israel-palestinian-parties-banned-sv?traffic_source=rss",
+          "title": "Israel moves to ban main Palestinian-led lists from election",
+          "published": "2026-09-24T19:54:00+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "cde0863365b501e3a1dc",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "全球政治与社会",
+      "title": "阿巴斯在联大警告：以色列政策威胁巴勒斯坦人的“生存本身”",
+      "titles": [
+        "Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/24/israels-policies-threaten-very-existence-of-palestinians-abbas-tells-un"
+      ],
+      "hashes": [
+        "1ada0dd51e4506210ec6ab7b0b14b20429cce61718d9733904f7af712f7debab"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，巴勒斯坦权力机构主席马哈茂德·阿巴斯在联合国大会上警告，以色列的政策已不只是破坏两国方案，而是威胁到巴勒斯坦人的“生命与生存本身”。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "022b9a93a8f314a60f716945",
+          "url": "https://www.aljazeera.com/news/2026/9/24/israels-policies-threaten-very-existence-of-palestinians-abbas-tells-un?traffic_source=rss",
+          "title": "Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
+          "published": "2026-09-24T19:02:50+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "552cd9a9a6475305d435",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "全球政治与社会",
+      "title": "克罗地亚法院批准北溪爆炸案嫌疑人引渡至德国",
+      "titles": [
+        "Croatian court approves extradition in Nord Stream bombing case"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/24/croatian-court-approves-extradition-in-nord-stream-bombing-case"
+      ],
+      "hashes": [
+        "bbbddb9bf00b4384938fe9ce3f677e19acda7b977e969a38256899f0fd17f04b"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "克罗地亚一家法院批准将一名因2022年北溪天然气管道海底爆炸案而被德国通缉的乌克兰男子引渡。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "37219b90ad6697cf38349532",
+          "url": "https://www.aljazeera.com/news/2026/9/24/croatian-court-approves-extradition-in-nord-stream-bombing-case?traffic_source=rss",
+          "title": "Croatian court approves extradition in Nord Stream bombing case",
+          "published": "2026-09-24T21:47:44+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "f691fa1bf47fe7def60c",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "全球政治与社会",
+      "title": "Carbon Brief分析：中国已发布72份五年规划中54份涉及气候与能源",
+      "titles": [
+        "Interactive: What China’s dozens of ‘five-year plans’ say about climate and energy"
+      ],
+      "urls": [
+        "https://interactive.carbonbrief.org/china-plan-tracker/index.html"
+      ],
+      "hashes": [
+        "7e021136c0ca0afa9ba60f117aba6bcf14491c15505c20ab67397ac9074a1dcf"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "Carbon Brief 的分析称，中国今年已发布的72份五年规划中，有54份包含与气候变化和能源相关的政策或目标，即接近四分之三。该数据来自 Carbon Brief 对中央政府各部委已公开的第15个五年规划文件的自行梳理，并非官方统计。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "8fbe6ac49e7d7404203b81df",
+          "url": "https://interactive.carbonbrief.org/china-plan-tracker/index.html",
+          "title": "Interactive: What China’s dozens of ‘five-year plans’ say about climate and energy",
+          "published": "2026-09-24T14:00:00+00:00",
+          "source_id": "s095",
+          "source_name": "Carbon Brief",
+          "group": "source-95",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "a6552531fa50b73c774e",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "全球政治与社会",
+      "title": "纽约州起诉预测市场平台Polymarket，指控其违反该州反非法赌博法",
+      "titles": [
+        "New York sues Polymarket over allegations of illegal gambling operations"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/economy/2026/9/24/new-york-sues-polymarket-over-allegations-of-illegal-gambling-operations"
+      ],
+      "hashes": [
+        "c62ae4d25ad4264621b42bd4253bfcd62b068758190df01d57895b8f4152e491"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "纽约州已对预测市场公司Polymarket提起诉讼，指控其违反该州禁止非法赌博的法律。半岛电视台报道称，该诉讼由纽约州总检察长Letitia James于周四提交。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "10f99e64426d8b174209f9ba",
+          "url": "https://www.aljazeera.com/economy/2026/9/24/new-york-sues-polymarket-over-allegations-of-illegal-gambling-operations?traffic_source=rss",
+          "title": "New York sues Polymarket over allegations of illegal gambling operations",
+          "published": "2026-09-24T20:15:25+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "bc78c9c5106362f10d86",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "全球政治与社会",
+      "title": "英国食品饮料贸易逆差突破210亿英镑，为2000年以来最大",
+      "titles": [
+        "UK food and drink trade deficit largest since 2000 at £21bn"
+      ],
+      "urls": [
+        "https://www.theguardian.com/business/2026/sep/25/uk-food-drink-trade-deficit-homegrown-produce-national-security"
+      ],
+      "hashes": [
+        "81f6816d399a87ea971d0f24d3d666752fe4e9631164ec352349ee66b6e5c9a1"
+      ],
+      "facts": {
+        "numbers": [
+          "2000"
+        ],
+        "actions": []
+      },
+      "summary": "据《卫报》报道，英国食品和饮料贸易逆差已升至逾210亿英镑，为2000年以来最大。 同一报道称，行业领袖将这一逆差称为对政府的“警钟”，呼吁为国家安全利益保护本土农产品。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "3857f61bea32e6c78d8b34ed",
+          "url": "https://www.theguardian.com/business/2026/sep/25/uk-food-drink-trade-deficit-homegrown-produce-national-security",
+          "title": "UK food and drink trade deficit largest since 2000 at £21bn",
+          "published": "2026-09-24T23:01:32+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "04fe43e0b4f6504b96c7",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "全球政治与社会",
+      "title": "英国削减乌克兰难民寄宿补贴：每月“感谢金”从350英镑降至100英镑",
+      "titles": [
+        "Ukrainians in UK fear homelessness over host scheme funding cuts"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/24/uk-homes-for-ukraine-funding-cut-homeless"
+      ],
+      "hashes": [
+        "67be2692470a9d6cfa6913b92610c96321d734bb560593d1bef7cf39b166f6ba"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "《卫报》报道称，英国政府削减了“乌克兰之家”计划寄宿者七成资金，将每月“感谢金”从350英镑减至100英镑；报道称此举引发在英乌克兰人对无家可归的担忧。 同一报道称，“乌克兰之家”计划在2022年2月俄罗斯入侵乌克兰后启动，为此后赴英寻求庇护的23.4万乌克兰人中的18.1万人提供了支持。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "413ea31ca5b03f87fd916560",
+          "url": "https://www.theguardian.com/world/2026/sep/24/uk-homes-for-ukraine-funding-cut-homeless",
+          "title": "Ukrainians in UK fear homelessness over host scheme funding cuts",
+          "published": "2026-09-24T17:45:12+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "99c488e411e8cb05d80e",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "全球政治与社会",
+      "title": "Carbon Brief分析：英国电动车驾驶成本最低可至燃油车的九分之一",
+      "titles": [
+        "Analysis: EVs are now nine times cheaper than petrol or diesel to drive in the UK  - Carbon Brief"
+      ],
+      "urls": [
+        "https://www.carbonbrief.org/analysis-evs-are-now-nine-times-cheaper-than-petrol-or-diesel-to-drive-in-the-uk"
+      ],
+      "hashes": [
+        "e8a14d9ffce3b704805a0359e3c38f6d245f3c4e0492c38a01803432ec30e436"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "Carbon Brief的分析称，在英国，使用非高峰电价充电的电动车驾驶成本目前比汽油或柴油车便宜最多九倍，约为每英里2.3便士。 同一分析估算，按英国能源安全与净零部最新数据计算，柴油车每英里约21便士、汽油车约20.1便士。 即便按英国监管机构Ofgem设定的家庭能源价格上限充电，电动车每英里仍只需约7便士，约为油车成本的三分之一。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "7c739ce0593e8f65be517273",
+          "url": "https://www.carbonbrief.org/analysis-evs-are-now-nine-times-cheaper-than-petrol-or-diesel-to-drive-in-the-uk",
+          "title": "Analysis: EVs are now nine times cheaper than petrol or diesel to drive in the UK  - Carbon Brief",
+          "published": "2026-09-24T11:49:03+00:00",
+          "source_id": "s095",
+          "source_name": "Carbon Brief",
+          "group": "source-95",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "e4d1872fc69bf476ec31",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "俄乌与欧洲安全",
+      "title": "荷兰首相：内塔尼亚胡应出席联大，普京出席G20则发出“非常错误的信号”",
+      "titles": [
+        "Dutch PM’s contrasting stance on ICC-wanted Putin, Netanyahu"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/24/dutch-pms-contrasting-stance-on-icc-wanted-putin-netanyahu"
+      ],
+      "hashes": [
+        "c1c49cd39b311a2b5e383dededcf626631659e0d2220f9cee9e3f821cac5cf32"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，荷兰首相罗布·耶滕（Rob Jetten）在受访时表示，尽管国际刑事法院已对内塔尼亚胡发出逮捕令，以色列总理内塔尼亚胡仍应出席联合国大会；而同样面临国际刑事法院逮捕令的俄罗斯总统普京若出席G20，将发出“非常错误的信号”。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "bbf202c5c05460255a1f12f7",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/dutch-pms-contrasting-stance-on-icc-wanted-putin-netanyahu?traffic_source=rss",
+          "title": "Dutch PM’s contrasting stance on ICC-wanted Putin, Netanyahu",
+          "published": "2026-09-24T21:08:30+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "5e06cdb1b92ea3abee15",
+      "delivery_id": "daily:2026-09-25",
+      "topic": "科学与思想",
+      "title": "Runway 发布 GWM Worlds 2 研究预览，并推出 WorldPrompt 交互控制格式",
+      "titles": [
+        "Runway’s WorldPrompt and the Engineering of Real-Time Worlds"
+      ],
+      "urls": [
+        "https://www.latent.space/p/runway"
+      ],
+      "hashes": [
+        "f78d840d6d816216444e738484a386057cc4de2760f9ef1e5c26e97c20e9d332"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "Runway 推出 GWM Worlds 2，报道称其为“研究预览”，目标是“把高保真视频与音频生成变成实时交互式模拟”；Runway 将其称为“自回归扩散”模型。 新功能 WorldPrompt 是一种输入格式，用于指定生成的世界及其中的动作：可以固定模拟环境的某些方面（包括第一帧），再创建一串带时间戳的事件，动作甚至可实时提示。 报道列出 GWM Worlds 2 的运行规格：以连续 720p、24 帧每秒的视频和 48,000 Hz 音频流式输出实时交互世界。",
+      "sent_at": "2026-09-25T01:40:47.554404+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "80e2b78c480da5f78673eeff",
+          "url": "https://www.latent.space/p/runway",
+          "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+          "published": "2026-09-25T01:30:57.707000+00:00",
+          "source_id": "s105",
+          "source_name": "Latent Space",
+          "group": "source-105",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 3
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -2379,8 +2751,8 @@
       "attempt": 1
     },
     "daily:2026-09-25": {
-      "status": "sending",
-      "updated": "2026-09-25T01:55:19.906468+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-25T01:55:26.063511+00:00",
       "attempt": 1
     }
   }
