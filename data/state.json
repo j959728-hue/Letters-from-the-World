@@ -2717,6 +2717,228 @@
           "priority": 3
         }
       ]
+    },
+    {
+      "fingerprint": "70397066c0521ac4b083",
+      "delivery_id": "daily:2026-09-26",
+      "topic": "俄乌与欧洲安全",
+      "title": "俄军战场推进停滞之际转向经济战，乌方称俄发动“总体战”",
+      "titles": [
+        "Stuck on the Battlefield, Russia Wages ‘Total War’ on Ukraine’s Economy"
+      ],
+      "urls": [
+        "https://www.nytimes.com/2026/09/25/world/europe/ukraine-russia-economy.html"
+      ],
+      "hashes": [
+        "112a958b71edb915f9eed39fe92bf768c5e38b73c2712fef7c2686013e993e46"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "《纽约时报》报道称，随着俄军在战场上的推进基本停滞，俄罗斯已将重心转向经济战。 报道称，乌克兰官员将俄罗斯当前的攻势称为“总体战”，理由是其一味追求经济影响，而非战场收益或基础设施破坏等较窄目标。 报道称，俄方打击造成的经济损失——表现为销售损失、工作日中断和物流梗阻——已达数十亿美元。",
+      "sent_at": "2026-09-26T01:45:39.878210+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "120db6fed3d0aa128c585f4b",
+          "url": "https://www.nytimes.com/2026/09/25/world/europe/ukraine-russia-economy.html",
+          "title": "Stuck on the Battlefield, Russia Wages ‘Total War’ on Ukraine’s Economy",
+          "published": "2026-09-25T09:02:55+00:00",
+          "source_id": "s016",
+          "source_name": "The New York Times 纽约时报",
+          "group": "nytimes",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "528109aedd5e0339ddf0",
+      "delivery_id": "daily:2026-09-26",
+      "topic": "中东与穆斯林社会",
+      "title": "半岛调查：以色列“蓝线”团队与约旦河西岸土地改划争议",
+      "titles": [
+        "How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/features/2026/9/25/how-israels-blue-line-team-seizes-palestinian-land-in-the-west-bank"
+      ],
+      "hashes": [
+        "de2f259172e829f6d657170e3e3426accf1b1f602e32c8b9b5f0365a3d8414c3"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，据巴勒斯坦解放组织下属的“保卫土地与抵抗定居点全国委员会”报告，以色列“蓝线团队”近期在西岸北部和中部重新划界近0.2平方公里（49英亩）土地，将其从“国有土地”改划为指定用于定居点活动的土地，涉及Jalud、Qaryut、Turmusayya和al-Mughayyir等巴勒斯坦村庄。该数字与定性来自巴方机构报告，尚未获以方独立确认。",
+      "sent_at": "2026-09-26T01:45:39.878210+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "99d43013e50dfc467e80f29c",
+          "url": "https://www.aljazeera.com/features/2026/9/25/how-israels-blue-line-team-seizes-palestinian-land-in-the-west-bank?traffic_source=rss",
+          "title": "How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank",
+          "published": "2026-09-25T19:24:46+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "0b86b81e4fa224f08f16",
+      "delivery_id": "daily:2026-09-26",
+      "topic": "全球政治与社会",
+      "title": "卢拉竞选团队指控特朗普为攫取资源干预巴西大选，称其意在“殖民”巴西",
+      "titles": [
+        "Lula says Trump wants to ‘colonise’ and capture Brazil’s resources by meddling in election"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/25/lula-says-trump-wants-to-colonise-and-capture-brazils-resources-by-meddling-in-election"
+      ],
+      "hashes": [
+        "dda84e010837afff16f06d6aa549cf762eed0c9f82bc529173ed8cb491ab2793"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "卢拉的总统竞选团队公开指控特朗普企图通过干预下月巴西总统选举来“殖民”巴西，以便攫取其自然资源。 该指控由卢拉团队周四晚在社交媒体发布的竞选广告提出，并定于周五在电视上播出；报道称此举发生在对美国干预可能影响选票的担忧加剧之际。",
+      "sent_at": "2026-09-26T01:45:39.878210+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2aa03f64463f255820b78e87",
+          "url": "https://www.theguardian.com/world/2026/sep/25/lula-says-trump-wants-to-colonise-and-capture-brazils-resources-by-meddling-in-election",
+          "title": "Lula says Trump wants to ‘colonise’ and capture Brazil’s resources by meddling in election",
+          "published": "2026-09-25T03:33:48+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "882718d5505fe03bb2a2",
+      "delivery_id": "daily:2026-09-26",
+      "topic": "科学与思想",
+      "title": "新墨西哥州陪审团裁定 Facebook 违法，TikTok 以1亿美元与阿拉巴马州和解",
+      "titles": [
+        "Facebook found liable as TikTok settles for $100m over user safety"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/facebook-found-liable-as-tiktok-settles-for-100m-over-user-safety"
+      ],
+      "hashes": [
+        "ce57eb6c4b42a6138354c9fdec9b68452d9bcaf79b9a3b937786d2dbee1079f1"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，美国新墨西哥州的一个陪审团裁定 Facebook 违反该州消费者保护法；报道未解释其所称“43 million state consumer protection laws”这一表述的具体含义。 半岛电视台报道称，TikTok 同意支付1亿美元和解金；该报道同时提到 Facebook 被陪审团认定负有责任。",
+      "sent_at": "2026-09-26T01:45:39.878210+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "802c2bc62257c216575a0439",
+          "url": "https://www.aljazeera.com/news/2026/9/26/facebook-found-liable-as-tiktok-settles-for-100m-over-user-safety?traffic_source=rss",
+          "title": "Facebook found liable as TikTok settles for $100m over user safety",
+          "published": "2026-09-26T01:26:21+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "1195bbce076d9b7982b8",
+      "delivery_id": "daily:2026-09-26",
+      "topic": "全球政治与社会",
+      "title": "美国第六巡回上诉法院裁定各州可依赌博法监管Kalshi事件合约",
+      "titles": [
+        "US court rules against Kalshi, says states can regulate prediction markets"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/25/us-court-rules-against-kalshi-says-states-can-regulate-prediction-markets"
+      ],
+      "hashes": [
+        "4144a4c1c06f206a4bf91904044d04ce6de03f4bcbc1890558e28335ef2d1c49"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "美国一家上诉法院裁定，各州有权监管预测市场，驳回了Kalshi试图让所谓“事件合约”豁免州赌博法的诉求。 该裁定由位于辛辛那提的美国第六巡回上诉法院作出；法官Julia Smith Gibbons代表三名法官组成的合议庭一致认定，俄亥俄州与田纳西州可依其赌博法监管事件合约。 联邦上诉法院在预测市场监管问题上出现分歧：第九巡回法院上月认定Kalshi的事件合约受内华达州赌博法管辖，而第三巡回法院在4月表示其合约不受新泽西州相关法律管辖。",
+      "sent_at": "2026-09-26T01:45:39.878210+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "bc9511580d39f3045183aebe",
+          "url": "https://www.aljazeera.com/news/2026/9/25/us-court-rules-against-kalshi-says-states-can-regulate-prediction-markets?traffic_source=rss",
+          "title": "US court rules against Kalshi, says states can regulate prediction markets",
+          "published": "2026-09-25T23:56:46+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "2c19f6343a6843cecebe",
+      "delivery_id": "daily:2026-09-26",
+      "topic": "非洲政治与安全",
+      "title": "刚果（金）军机坠入居民区，至少14人死亡",
+      "titles": [
+        "Plane crash in DR Congo kills more than a dozen"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/plane-crash-in-dr-congo-kills-more-than-a-dozen"
+      ],
+      "hashes": [
+        "17f7e510d0fda920258d663acece96f46d7fd8798e42f2838d3c8d922cd0f2b6"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，一架刚果（金）军机在该国西南部坠毁，造成至少14人死亡，死者中包括高级军官。 刚果（金）军方发言人埃福米·埃肯格少将表示，这起坠机事故造成14人死亡。 埃肯格表示，已就事故原因展开调查。",
+      "sent_at": "2026-09-26T01:45:39.878210+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "bbce8ffa27d937d17def37c9",
+          "url": "https://www.aljazeera.com/news/2026/9/26/plane-crash-in-dr-congo-kills-more-than-a-dozen?traffic_source=rss",
+          "title": "Plane crash in DR Congo kills more than a dozen",
+          "published": "2026-09-26T01:32:36+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -2756,8 +2978,8 @@
       "attempt": 1
     },
     "daily:2026-09-26": {
-      "status": "sending",
-      "updated": "2026-09-26T02:03:52.185968+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-26T02:03:55.900519+00:00",
       "attempt": 1
     }
   }
