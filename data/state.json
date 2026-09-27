@@ -2939,6 +2939,617 @@
           "priority": 5
         }
       ]
+    },
+    {
+      "fingerprint": "d5e449582a35a4e6ff54",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "中东与穆斯林社会",
+      "title": "特朗普拒绝伊朗七天内重开霍尔木兹海峡的提议",
+      "titles": [
+        "Trump rejects Iranian offer to reopen Strait of Hormuz",
+        "Trump rejects Iran deal to reopen Strait of Hormuz in seven days"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/26/trump-rejects-iranian-offer-to-reopen-strait-of-hormuz",
+        "https://www.bbc.com/news/articles/cqgmrr9ekr7ko"
+      ],
+      "hashes": [
+        "9ed41086773e887ab4e8789e80baaba6472645613cbe3f6eb0c82cf7a696873b",
+        "89455cc22073acd4d35b53f544b8cf394de96a814f10fe0c1dfbcb0ef5dfb35e"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "英国广播公司报道，美国总统特朗普拒绝了伊朗提出的在一周内重开霍尔木兹海峡以供商业航运通行的方案。 半岛电视台同样报道特朗普拒绝了伊朗关于重开霍尔木兹海峡的最新提议，并称特朗普在白宫对记者表示，德黑兰想达成协议是因为在美国海军封锁下资金进不来。 伊朗外长阿拉格齐在社交平台Telegram发帖承认特朗普的表态，但表示德黑兰将等待调解方的正式回应。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2fd237246b2e4aa9ae4de89b",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/trump-rejects-iranian-offer-to-reopen-strait-of-hormuz?traffic_source=rss",
+          "title": "Trump rejects Iranian offer to reopen Strait of Hormuz",
+          "published": "2026-09-26T18:00:43+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        },
+        {
+          "id": "95446e514b589e90743518c5",
+          "url": "https://www.bbc.com/news/articles/cqgmrr9ekr7ko?at_campaign=rss&at_medium=RSS",
+          "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+          "published": "2026-09-26T22:15:59.939000+00:00",
+          "source_id": "s015",
+          "source_name": "BBC News",
+          "group": "source-15",
+          "region": "全球",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "d0fcfaba5f87fde4e861",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "俄乌与欧洲安全",
+      "title": "半岛电视台：拉夫罗夫在联大称俄在乌克兰的战争将继续“进行到底”",
+      "titles": [
+        "Lavrov: Russia’s war in Ukraine will continue ‘through to the end’"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/26/lavrov-russias-war-in-ukraine-will-continue-through-to-the"
+      ],
+      "hashes": [
+        "a83ab4d35f1bfdbf63613a5e864ca7486fc593cbf5fc9b074e214b1a77da7ddc"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，俄罗斯外长拉夫罗夫在联合国大会上表示，俄在乌克兰的“争取真理与正义”之战将继续“进行到底”，并誓言莫斯科军事行动的目标将会实现。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "04413d8040d2b509837a6ba4",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/lavrov-russias-war-in-ukraine-will-continue-through-to-the?traffic_source=rss",
+          "title": "Lavrov: Russia’s war in Ukraine will continue ‘through to the end’",
+          "published": "2026-09-26T19:40:14+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "0e8a8d139e60c330e836",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "俄乌与欧洲安全",
+      "title": "特朗普称美国不应在AI领域与中国合作，并拒绝为AI发展“踩刹车”",
+      "titles": [
+        "Trump rejects combining US-China AI efforts"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/trump-rejects-combining-us-china-ai-efforts"
+      ],
+      "hashes": [
+        "6cd34412c94fe043bc17f41f936f0f97977e309e0196c45bdaed01671fa556e7"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "特朗普在结束与中国国家主席习近平为期三天的峰会后表示，美国不应在人工智能技术上与中国合作。 特朗普称美国不会为人工智能发展“踩刹车”，尽管美国议员和一些大型科技公司首席执行官认为需要放缓步伐。 白宫周五表示美中同意建立针对AI事件的“双边沟通渠道”，报道称北京当时未立即就此置评。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "88285bc5e6ac7b3a8204d2c8",
+          "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-combining-us-china-ai-efforts?traffic_source=rss",
+          "title": "Trump rejects combining US-China AI efforts",
+          "published": "2026-09-26T17:39:18+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "1f399130cb9bc0c5495d",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "全球政治与社会",
+      "title": "半岛电视台：哥伦比亚向美国引渡武装组织头目，安全政策转向亲华盛顿",
+      "titles": [
+        "Colombia extradites leader of armed group to US in shift towards Washington"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/colombia-extradites-leader-of-armed-group-to-us-in-shift-towards-washington"
+      ],
+      "hashes": [
+        "306e84b431e183f4d0475bbf1dc1f112e2e1659e4cae5848fa96c3e20624bf70"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，哥伦比亚政府已将一名被指为贩毒头目的嫌疑人引渡至美国。报道说，总统阿贝拉多·德·拉埃斯普列塔于周五宣布引渡乔瓦尼·安德烈斯·罗哈斯（Geovany Andres Rojas），后者被指领导一个由前FARC叛乱成员组成的组织。 同一报道称，罗哈斯（绰号“蜘蛛”）被送往加利福尼亚，交由美国联邦探员羁押；报道还称他将在美国面临贩毒和恐怖主义指控。 报道称，哥伦比亚新总统自8月上任以来取消和平谈判并对武装组织发动军事行动，与前任总统古斯塔沃·佩特罗把罗哈斯留作谈判调解人的做法不同。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "8c6e7c261622008b95d26eb1",
+          "url": "https://www.aljazeera.com/news/2026/9/26/colombia-extradites-leader-of-armed-group-to-us-in-shift-towards-washington?traffic_source=rss",
+          "title": "Colombia extradites leader of armed group to US in shift towards Washington",
+          "published": "2026-09-26T19:21:53+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "73954081b8d332cbb1f9",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "全球政治与社会",
+      "title": "古巴外长在联大谴责美国石油封锁为“集体惩罚”",
+      "titles": [
+        "Cuba condemns US ‘collective punishment’ as Trump predicts deal"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/cuba-condemns-us-collective-punishment-as-trump-predicts-deal"
+      ],
+      "hashes": [
+        "8ee66ebee71adc5e9b92246c5b43961add6fecda05efec2f20295bd287e04e0a"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "古巴外长布鲁诺·罗德里格斯在联合国大会发言中谴责美国对古巴的石油封锁，称其为意在引发人道主义危机的“集体惩罚”行为。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "910ccc41224f30ee7d7df434",
+          "url": "https://www.aljazeera.com/news/2026/9/26/cuba-condemns-us-collective-punishment-as-trump-predicts-deal?traffic_source=rss",
+          "title": "Cuba condemns US ‘collective punishment’ as Trump predicts deal",
+          "published": "2026-09-26T17:22:44+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "e8badfc1e35933ce3fee",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "中东与穆斯林社会",
+      "title": "特朗普宣布撤销拜登时期汽车燃油经济性规定，新标准细节未公布",
+      "titles": [
+        "Trump says he is rolling back Biden-era US fuel economy rules for cars"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/trump-says-he-is-rolling-back-biden-era-us-fuel-economy-rules-for-cars"
+      ],
+      "hashes": [
+        "a9c0a05e23eddce97d15e53bafd22c4944e325b885702fc367dc032ac3f391de"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，美国总统特朗普宣布新的燃油经济性标准，撤销其前任拜登执政时期通过的油耗要求，他称此举将降低汽车价格并促使制造商扩大在美国的生产。 报道指出，特朗普未说明新燃油经济性标准的具体数值；他曾在2025年12月提出一项方案，拟将2031年轻型车全行业平均油耗设为约每加仑34.5英里，比拜登时期的规定低逾30%。 半岛电视台在报道中说明，特朗普与共和党人用“电动车强制令”指代拜登时期的更高燃油效率要求，但美国并无联邦准则或法律要求美国人购买电动车，或禁止销售燃油车。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "5f02cd0662f018e42a27dab4",
+          "url": "https://www.aljazeera.com/news/2026/9/26/trump-says-he-is-rolling-back-biden-era-us-fuel-economy-rules-for-cars?traffic_source=rss",
+          "title": "Trump says he is rolling back Biden-era US fuel economy rules for cars",
+          "published": "2026-09-26T21:51:56+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "643eea716e8e771c9a23",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "中东与穆斯林社会",
+      "title": "半岛电视台：巴基斯坦在阿富汗境内发动新一轮打击",
+      "titles": [
+        "Why is violence between Pakistan and Afghanistan recurring?"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/inside-story/2026/9/26/why-is-violence-between-pakistan-and-afghanistan-recurring"
+      ],
+      "hashes": [
+        "4c0fcb3ebcfc7b657e3279cbf6d67ed0e668eab234a3c6275c7ad59f58a1dbd7"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，巴基斯坦已在阿富汗境内实施新一轮打击。该报道未在文中说明打击的具体地点、时间、目标或伤亡情况。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "908c8ed49d22a59f728aa8e7",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/9/26/why-is-violence-between-pakistan-and-afghanistan-recurring?traffic_source=rss",
+          "title": "Why is violence between Pakistan and Afghanistan recurring?",
+          "published": "2026-09-26T20:55:44+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "4008c491801f2f6c04c7",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "中东与穆斯林社会",
+      "title": "沙特在联大指责伊朗“公然袭击”，并谴责胡塞武装威胁红海航运",
+      "titles": [
+        "Saudi FM accuses Iran of ‘flagrant attacks’ and condemns Houthis at UNGA"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/26/saudi-fm-accuses-iran-of-flagrant-attacks-and-condemns-houthis-at-unga"
+      ],
+      "hashes": [
+        "4f71c85b8703cf5e9c351b73b772658a09eb8d01dcdf58cee54993c9238d8957"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，沙特阿拉伯在联合国大会发言中指责伊朗对地区各地民用和经济目标实施“公然袭击”，并呼吁国际社会谴责胡塞武装威胁红海航运的行为。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "74475369bb3f424ad168326a",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/saudi-fm-accuses-iran-of-flagrant-attacks-and-condemns-houthis-at-unga?traffic_source=rss",
+          "title": "Saudi FM accuses Iran of ‘flagrant attacks’ and condemns Houthis at UNGA",
+          "published": "2026-09-26T19:43:03+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "334c260c1a3dd09d5381",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "全球政治与社会",
+      "title": "埃塞俄比亚“法诺”武装称在阿姆哈拉缴获军车与武器",
+      "titles": [
+        "Ethiopia’s Fano fighters claim capture of army vehicles and weapons"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/26/ethiopias-fano-fighters-claim-capture-of-army-vehicles-and-weapons"
+      ],
+      "hashes": [
+        "2911264d9bb68b08b54e986ae9d5d172afcdb7bedfc57f7bbe784f00424be5cf"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，埃塞俄比亚“法诺”武装人员声称在阿姆哈拉地区缴获了十余辆载有弹药、机枪和迫击炮弹的军用卡车。该说法由法诺一方提出，报道未说明是否获得独立核实。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "616714d2268be87d75d881e4",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/ethiopias-fano-fighters-claim-capture-of-army-vehicles-and-weapons?traffic_source=rss",
+          "title": "Ethiopia’s Fano fighters claim capture of army vehicles and weapons",
+          "published": "2026-09-26T17:15:43+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "9b7bc785da98a43cfe53",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "全球政治与社会",
+      "title": "卢拉在巴西总统选举首轮投票前一周多签署命令，禁止固定赔率体育博彩",
+      "titles": [
+        "Lula bans fixed-odds sports betting a week before Brazilian elections"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections"
+      ],
+      "hashes": [
+        "35d83eea951ae33efd13cf4266f9b570ca39f97b692b3a8374f23893754c79a8"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "巴西总统卢拉·伊纳西奥·达席尔瓦签署命令，禁止固定赔率体育博彩，时间点在总统选举首轮投票前一周多；他表示此举意在应对家庭陷入债务这一普遍问题。 按该报道的表述，这一决定终止博彩的运营、提供、中介与广告。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "f2eedd963de838d38e8b2894",
+          "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
+          "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
+          "published": "2026-09-26T07:58:05+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "fdf39b098fed54aedb06",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "其他",
+      "title": "强风暴袭击美国东北部，造成洪水与停电",
+      "titles": [
+        "Powerful storm brings flooding, power outages to northeastern United States"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/powerful-storm-brings-flooding-power-outages-to-northeastern-united-states"
+      ],
+      "hashes": [
+        "be674a891575e1ca53a0a58ef5fa3a29baa279e48b0d16fc3c46808a582e7153"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，美国东北部居民正遭遇一场名为 nor’easter 的强风暴，风暴已导致该地区断电并引发洪水。 同一报道称，这场风暴已造成超过400个航班取消、超过8.8万户家庭和企业断电；截至当地时间周六下午，断电数量低于当天早些时候11.9万户的高点。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "0a242fa6e8cb649f2eb7e7c0",
+          "url": "https://www.aljazeera.com/news/2026/9/26/powerful-storm-brings-flooding-power-outages-to-northeastern-united-states?traffic_source=rss",
+          "title": "Powerful storm brings flooding, power outages to northeastern United States",
+          "published": "2026-09-26T22:51:57+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "05c10db5fec3cc76877d",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "其他",
+      "title": "雅典普拉卡老城区建筑疑似燃气泄漏爆炸倒塌 致6人死亡、4名死者文件疑为美国公民",
+      "titles": [
+        "Four American tourists among 6 killed in suspected gas leak blast in Athens"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/four-american-tourists-among-6-killed-in-suspected-gas-leak-blast-in-athens"
+      ],
+      "hashes": [
+        "c31090ba93e49a4db0fd4c1892739527b9228a804fa4eef2d19c0f9b42b8480a"
+      ],
+      "facts": {
+        "numbers": [
+          "6"
+        ],
+        "actions": [
+          "killed"
+        ]
+      },
+      "summary": "据当地当局消息，救援队在希腊雅典历史中心一栋建筑倒塌现场找到6名遇难者遗体，倒塌发生在一次爆炸之后。 希腊国家广播机构ERT及其他当地媒体报道称，在其中4名遇难者（两男两女）身上发现的证件与物品显示他们是美国公民；该身份信息为媒体依据随身文件作出的报道，并非官方确认。 雅典市长哈里斯·杜卡斯表示，周五导致普拉卡这栋两层小楼倒塌的爆炸据信由一次大规模燃气泄漏引起，邻近建筑受损并被疏散。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "c8cc9c2a62a6a877a4a67757",
+          "url": "https://www.aljazeera.com/news/2026/9/26/four-american-tourists-among-6-killed-in-suspected-gas-leak-blast-in-athens?traffic_source=rss",
+          "title": "Four American tourists among 6 killed in suspected gas leak blast in Athens",
+          "published": "2026-09-26T23:26:31+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "1ad06146ca1a46ad0b83",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "其他",
+      "title": "南非约翰内斯堡附近再发现女性遗体，7月中以来累计10具",
+      "titles": [
+        "South African police discover body of 10th woman near Johannesburg"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/south-african-police-discover-body-of-10th-woman-near-johannesburg"
+      ],
+      "hashes": [
+        "d34e91b4e015249af64808d1ba313d2a147634c6d8f0485e2c04d4599224df61"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，南非警方在约翰内斯堡以东的埃库鲁莱尼地区再次发现一具女性遗体，使7月中旬以来在约翰内斯堡附近发现的女性遗体总数达到10具。 省警察负责人汤米·姆托姆贝尼表示，最新发现的受害者似乎是被石头砸死，将进行尸检以确定死因。 姆托姆贝尼称部分案件存在相似之处，但警告目前没有结论性证据表明是同一人或同一群体所为。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "a31ac5b583144a72fb4e3791",
+          "url": "https://www.aljazeera.com/news/2026/9/26/south-african-police-discover-body-of-10th-woman-near-johannesburg?traffic_source=rss",
+          "title": "South African police discover body of 10th woman near Johannesburg",
+          "published": "2026-09-26T18:08:12+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "3cdc0ce16a882903a2a6",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "科学与思想",
+      "title": "调查报道：记者模拟问题赌博下注后，DraftKings邀其参加VIP试训",
+      "titles": [
+        "I Deliberately Bet Like a Problem Gambler. DraftKings Made Me a VIP."
+      ],
+      "urls": [
+        "https://www.propublica.org/article/draftkings-sports-gambling-problem-vip-fanduel"
+      ],
+      "hashes": [
+        "cb350c0ff087c2b613e8d35b3c6d17d22f92ad2dd9f08b994fb08dce9c73ef37"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "ProPublica记者称，他刻意模仿问题赌博的下注方式，在一晚因追损在篮球投注中输掉近1800美元后的次日下午5时01分，收到DraftKings标题为“Welcome to the DraftKings VIP Showcase”的邮件。 DraftKings首席责任博彩官Lori Kalani向ProPublica表示，若客户出现过多警示信号，公司会主动关闭其账户；但当记者询问这种情况实际发生频率时，DraftKings不予回答。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "e69e8fde4116606bfb694a14",
+          "url": "https://www.propublica.org/article/draftkings-sports-gambling-problem-vip-fanduel",
+          "title": "I Deliberately Bet Like a Problem Gambler. DraftKings Made Me a VIP.",
+          "published": "2026-09-26T09:00:00+00:00",
+          "source_id": "s021",
+          "source_name": "ProPublica",
+          "group": "source-21",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "73f5b9a2b84d4cd243df",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "科学与思想",
+      "title": "卫报报道：研究建议用无人机加快向院外心脏骤停患者投送除颤器",
+      "titles": [
+        "Drones could speed up getting defibrillators to people having cardiac arrests, study suggests"
+      ],
+      "urls": [
+        "https://www.theguardian.com/society/2026/sep/26/drones-could-speed-up-getting-defibrillators-to-people-having-cardiac-arrests-study-suggests"
+      ],
+      "hashes": [
+        "a0600a0cb5b3a6f4bd227be6b9b3792d71efdf256eece97c4fbcf21a1c754757"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "卫报报道称，研究人员提出，无人机可能有助于缩短向非医院场所发生心脏骤停的人投送除颤器所需的时间。 报道引述英国心脏基金会的说法：仅在英国，每年就有超过3万例院外心脏骤停，急救医疗服务人员会对患者尝试复苏。 同一报道称，这类院外心脏骤停事件中存活者不到十分之一，且部分幸存者留有神经系统问题。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "367eade0afdc0e8d258eb07f",
+          "url": "https://www.theguardian.com/society/2026/sep/26/drones-could-speed-up-getting-defibrillators-to-people-having-cardiac-arrests-study-suggests",
+          "title": "Drones could speed up getting defibrillators to people having cardiac arrests, study suggests",
+          "published": "2026-09-26T05:00:28+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "c3e93c4a6793fbd9bbc1",
+      "delivery_id": "daily:2026-09-27",
+      "topic": "其他",
+      "title": "圣文森特和格林纳丁斯金斯敦附近枪击致4死4伤，警方追捕嫌疑人",
+      "titles": [
+        "Deadly shooting hits Caribbean islands of Saint Vincent and the Grenadines"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/26/deadly-shooting-hits-caribbean-islands-of-saint-vincent-and-the-grenadines"
+      ],
+      "hashes": [
+        "abc71e45d0f44f28d191ed16c88a0a964b2140c1041ca2689e1ca573daeb6763"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，圣文森特和格林纳丁斯警方正在追捕嫌疑人，此前首都金斯敦附近有4人遭枪击身亡、4人受伤，报道将事件描述为疑似帮派暴力。",
+      "sent_at": "2026-09-27T01:37:35.639732+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "37592fbb0d80180b80032e1f",
+          "url": "https://www.aljazeera.com/news/2026/9/26/deadly-shooting-hits-caribbean-islands-of-saint-vincent-and-the-grenadines?traffic_source=rss",
+          "title": "Deadly shooting hits Caribbean islands of Saint Vincent and the Grenadines",
+          "published": "2026-09-26T22:38:01+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -2983,8 +3594,8 @@
       "attempt": 1
     },
     "daily:2026-09-27": {
-      "status": "sending",
-      "updated": "2026-09-27T01:56:14.704160+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-27T01:56:18.465422+00:00",
       "attempt": 1
     }
   }
