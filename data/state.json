@@ -3550,6 +3550,530 @@
           "priority": 5
         }
       ]
+    },
+    {
+      "fingerprint": "7fc297fe87035f6b454f",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "中东与穆斯林社会",
+      "title": "美国拒绝伊朗重开霍尔木兹海峡方案，伊朗外长称已为战争重启做好准备",
+      "titles": [
+        "Iran says it’s ‘fully prepared’ for war to resume as US rejects drone claim"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions"
+      ],
+      "hashes": [
+        "577f2d94f650bf8b5cfd6ae0915e2239969b445e42ccfbaaf4df4be94ce0842b"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，伊朗外长阿拉格奇表示，如果与美国的战争重启，伊朗“完全准备好了”；此番表态发生在华盛顿拒绝德黑兰关于重开霍尔木兹海峡的七天路线图之后。 美国驻联合国特使迈克·沃尔兹称，华盛顿拒绝伊朗重开霍尔木兹海峡的七天提议，原因是该提议附带获取数十亿美元冻结资金以及解除制裁的要求；他是在接受NBC News采访时作此表述的。 据路透社数据，截至格林尼治时间00:36，布伦特原油期货上涨超过1%，至每桶105.64美元。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "4f92e36c7245c4e5a7d04972",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss",
+          "title": "Iran says it’s ‘fully prepared’ for war to resume as US rejects drone claim",
+          "published": "2026-09-28T00:00:00+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "341cd3bae6ce05e5de26",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "全球政治与社会",
+      "title": "法国国民联盟及其盟友在参议院选举获14席，距总统选举仅数月",
+      "titles": [
+        "France’s far-right National Rally surges in Senate elections"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/28/french-election-2026-far-right-senate-elections"
+      ],
+      "hashes": [
+        "25431953d1f5576d786fe493731788e73c5af9661ff724fbd70b0a90b1e17978"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "法国极右翼国民联盟（RN）及其盟友在参议院选举中获得创纪录的14个席位，在348席参议院中的席位数量增至约四倍，此时距总统选举仅数月。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "962c2e08fa3cd37ec0a5f6df",
+          "url": "https://www.theguardian.com/world/2026/sep/28/french-election-2026-far-right-senate-elections",
+          "title": "France’s far-right National Rally surges in Senate elections",
+          "published": "2026-09-28T01:31:45+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "9ce47ee45f83ef238f0e",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "中东与穆斯林社会",
+      "title": "半岛电视台：停火框架下以色列空袭与炮击仍在黎巴嫩南部持续",
+      "titles": [
+        "Israeli strikes continue in southern Lebanon despite ceasefire"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/27/israeli-strikes-continue-in-southern-lebanon-despite-ceasefire"
+      ],
+      "hashes": [
+        "a11ae75c4f6eecd69b1393df84666961647bca6b49c22047c019f9053d6e6997"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": [
+          "ceasefire"
+        ]
+      },
+      "summary": "半岛电视台报道称，尽管存在美国斡旋的停火框架，以色列的空袭与炮击仍在黎巴嫩南部多地持续，一架以色列阿帕奇直升机打击了 Mayfadoun 附近的一处商业中心。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "c158745476dc7dfde5a68470",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/israeli-strikes-continue-in-southern-lebanon-despite-ceasefire?traffic_source=rss",
+          "title": "Israeli strikes continue in southern Lebanon despite ceasefire",
+          "published": "2026-09-27T20:57:38+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "19fab56499d37ccb5bc3",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "科学与思想",
+      "title": "研究称近半数受访科学家每日使用某种形式的AI",
+      "titles": [
+        "AI in science - Marginal REVOLUTION"
+      ],
+      "urls": [
+        "https://marginalrevolution.com/marginalrevolution/2026/09/ai-in-science.html"
+      ],
+      "hashes": [
+        "85f30aca86e697266156ffbf944382fbdf5e102c3afc9734b5b32beb8b3c2c6f"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "Tyler Cowen 引述的一篇新论文摘要称，近半数受访科学家报告每天使用某种形式的人工智能。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "bd1d6385929c9a9fc429e0d4",
+          "url": "https://marginalrevolution.com/marginalrevolution/2026/09/ai-in-science.html",
+          "title": "AI in science - Marginal REVOLUTION",
+          "published": "2026-09-27T19:03:12+00:00",
+          "source_id": "s081",
+          "source_name": "Tyler Cowen 泰勒·考恩",
+          "group": "source-81",
+          "region": "全球",
+          "category": "人物与观点",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "080d82207025bd96017e",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "中东与穆斯林社会",
+      "title": "古巴副外长警告：美国若对古巴动武将构成“国际罪行”，并称制裁“等同于种族灭绝”",
+      "titles": [
+        "‘Atrocious’ crime: Cuban official decries possibility of US military action"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/27/atrocious-crime-cuban-official-decries-possibility-of-us-military-action"
+      ],
+      "hashes": [
+        "93c0d3228f4c054c249d1fdc0ae5d71854a5a02450ca74ea27ca56279a9c1b8d"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "古巴副外长卡洛斯·费尔南德斯·德科西奥在C-SPAN节目《Washington Journal》上表示，美国若对古巴动用军事力量将构成“残暴的国际罪行”，并称古巴是和平的邻国。 费尔南德斯·德科西奥称，通过阻断商业货运、试图以饥饿瘫痪民众、剥夺稳定医疗和切断燃料来胁迫不“服从”的国家，美国已“这样做九个月”，这“等同于种族灭绝”。 据半岛电视台报道，美国总统特朗普周六对记者谈及军事行动时说“我不认为我们会需要军队。古巴正严重失败”，此前他在联合国大会演讲中称“自由将降临”该岛，古巴代表团因此退出会场。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "8161830af07719cc595f5c20",
+          "url": "https://www.aljazeera.com/news/2026/9/27/atrocious-crime-cuban-official-decries-possibility-of-us-military-action?traffic_source=rss",
+          "title": "‘Atrocious’ crime: Cuban official decries possibility of US military action",
+          "published": "2026-09-27T20:34:09+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "7e665a0533b7e401ddac",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "中东与穆斯林社会",
+      "title": "强风暴连续第二天袭击美国东北部：低洼区再遭洪水，数万户断电",
+      "titles": [
+        "Powerful storm floods US Northeast, causes power outages"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/27/powerful-storm-floods-us-northeast-causes-power-outages"
+      ],
+      "hashes": [
+        "83fc0b9bce6e720bf663c39d5cd032eaee21c3c62a9653ea972de35788adb55f"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，一场强风暴连续第二天袭击美国东北部海岸线，在低洼地区造成新一轮洪水，并使数万户家庭断电。 报道援引 PowerOutage.us 数据称，周日东北部和中大西洋地区一度有超过10万用户断电，断电最集中的是自新泽西至康涅狄格沿海各县。 报道称，这场移动缓慢的风暴此前已导致一名纽约市房屋局工作人员死亡，当时一棵树在周六倒下砸中该人员。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "42ccd6c5c72a812e2b465be2",
+          "url": "https://www.aljazeera.com/news/2026/9/27/powerful-storm-floods-us-northeast-causes-power-outages?traffic_source=rss",
+          "title": "Powerful storm floods US Northeast, causes power outages",
+          "published": "2026-09-27T22:51:29+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "9ed1c38362d66cc2ad8a",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "AI与计算",
+      "title": "美国底特律一家夜间营业脱衣舞俱乐部发生枪击，警方称3死4伤",
+      "titles": [
+        "Three killed, four injured in shooting at Detroit, Michigan, strip club"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/27/three-killed-four-injured-in-shooting-at-detroit-michigan-strip-club"
+      ],
+      "hashes": [
+        "a1e784a9be8ddfd89726b516e1b9c07b9b52c290dde9c2b4227ff4075471ff8a"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": [
+          "killed"
+        ]
+      },
+      "summary": "半岛电视台报道，警方称美国密歇根州底特律一家夜间营业的脱衣舞俱乐部发生枪击，造成3人死亡、4人受伤。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "d780c862bef4d734f8120818",
+          "url": "https://www.aljazeera.com/news/2026/9/27/three-killed-four-injured-in-shooting-at-detroit-michigan-strip-club?traffic_source=rss",
+          "title": "Three killed, four injured in shooting at Detroit, Michigan, strip club",
+          "published": "2026-09-27T20:44:40+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "0974ebf620c1b37183ee",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "全球政治与社会",
+      "title": "半岛电视台：埃塞俄比亚军队据报夺回塞科塔镇，战事向阿姆哈拉、提格雷与阿法尔蔓延",
+      "titles": [
+        "Ethiopian army reportedly recaptures strategic town as fighting spreads"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/27/09-27-ethiopia-tigray-escalation-sv-mp4"
+      ],
+      "hashes": [
+        "48b9fbf365478e185b3c75a93699fc4e1b92ecc4fe4e811b3fcca6f8e2dd4004"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，埃塞俄比亚军队据报从提格雷武装手中夺回战略城镇塞科塔，同时战斗正蔓延至阿姆哈拉、提格雷和阿法尔三地。该报道同时提到，此次升级发生在七个武装团体结成联盟、寻求推翻总理阿比·艾哈迈德政府之后。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "ecf5b9ef7d20f6bbb3a713d2",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/09-27-ethiopia-tigray-escalation-sv-mp4?traffic_source=rss",
+          "title": "Ethiopian army reportedly recaptures strategic town as fighting spreads",
+          "published": "2026-09-27T20:44:50+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "b760a1774644d5a7c270",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "中东与穆斯林社会",
+      "title": "半岛电视台：本-格维尔发视频威胁杀死在押哈马斯高级成员萨拉梅",
+      "titles": [
+        "Ben-Gvir releases video threatening to kill senior Hamas figure in jail"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/28/ben-gvir-releases-video-threatening-to-kill-senior-hamas-figure-in-jail"
+      ],
+      "hashes": [
+        "b0afec4c0193414452871c8a971fb2e58efe2772b91ebe36f711bd747f171ec1"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，以色列国家安全部长伊塔马尔·本-格维尔发布了一段视频，视频中他威胁要杀死在押哈马斯高级成员哈桑·萨拉梅。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2f2ff6836342eb917413009b",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/ben-gvir-releases-video-threatening-to-kill-senior-hamas-figure-in-jail?traffic_source=rss",
+          "title": "Ben-Gvir releases video threatening to kill senior Hamas figure in jail",
+          "published": "2026-09-28T01:33:52+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "6943853b161d41e63cbe",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "中东与穆斯林社会",
+      "title": "南非德班难民担忧9月30日期限前再遭暴力",
+      "titles": [
+        "Refugees in South Africa fear new attacks as September 30 deadline looms"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/28/refugees-in-south-africa-fear-new-attacks-as-september-30-deadline-looms"
+      ],
+      "hashes": [
+        "abdcc0daf67f7788d9e3ffbe8605198bac8a4d3e4277a723557d01fc89750b97"
+      ],
+      "facts": {
+        "numbers": [
+          "30"
+        ],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，反移民运动“March and March”设定的9月30日期限，再次引发南非移民群体对暴力的担忧。 报道说，9月15日有274人从德班乘巴士被转移到林德拉，另有约150人选择留在德班寻找替代住处。 德班难民表示，在被赶出临时营地后，他们没有安全的去处可返回。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "21a86d6f00a55041da2f94ed",
+          "url": "https://www.aljazeera.com/news/2026/9/28/refugees-in-south-africa-fear-new-attacks-as-september-30-deadline-looms?traffic_source=rss",
+          "title": "Refugees in South Africa fear new attacks as September 30 deadline looms",
+          "published": "2026-09-28T00:29:25+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "a9d712e7d1bce8b9de2f",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "俄乌与欧洲安全",
+      "title": "俄占奥列什基最后居民食物耗尽，乌军向该市空投物资",
+      "titles": [
+        "‘Hell on earth’: last residents eat weeds to survive in Russian-occupied Oleshky"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/27/hell-on-earth-last-residents-eat-weeds-to-survive-in-russian-occupied-oleshky"
+      ],
+      "hashes": [
+        "cb81c8885947364f593d61edb0e24f41403c515dbd8e8db9ddcfa5c9a6080337"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "《卫报》报道称，俄占奥列什基及周边村庄剩余约2000名平民（包括50名儿童）的食物已经耗尽；这一说法来自从该市发出的一条电话信息。 同一报道称，乌克兰部队向该市空投了物资，报道同时提到当地因无人机带来的致命风险，遗体无人收殓。 一名等待占领方撤离的当地女性在信息中说，他们困在奥列什基无法离开、正在挨饿，并称当时自己没有任何食物。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "9730d9ebb44cb04c981b1af1",
+          "url": "https://www.theguardian.com/world/2026/sep/27/hell-on-earth-last-residents-eat-weeds-to-survive-in-russian-occupied-oleshky",
+          "title": "‘Hell on earth’: last residents eat weeds to survive in Russian-occupied Oleshky",
+          "published": "2026-09-27T11:00:04+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "80f22c707c92688fb250",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "全球政治与社会",
+      "title": "印度一大学据称发生校园强奸案，抗议演变为暴力",
+      "titles": [
+        "Alleged rape on campus sparks violent protest at Indian university"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/27/alleged-rape-on-campus-sparks-violent-protest-at-indian-university"
+      ],
+      "hashes": [
+        "03b8c154efc806db86507c78fe6d4ed37396000441eb3f0aebcb004c4dff51b3"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，印度北部拉夫里职业大学（Lovely Professional University）的学生抗议演变为暴力，起因是社交媒体声称一名女学生在女生宿舍遭一名工人强奸。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "178ffabae6062202fba7a475",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/alleged-rape-on-campus-sparks-violent-protest-at-indian-university?traffic_source=rss",
+          "title": "Alleged rape on campus sparks violent protest at Indian university",
+          "published": "2026-09-27T21:17:05+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "4af47525fcdff9a80d09",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "全球政治与社会",
+      "title": "英国外交大臣因“巴勒斯坦行动”禁令在利物浦遭质问，50余人被捕",
+      "titles": [
+        "UK Foreign Secretary confronted by activists over Palestine Action ban"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/28/uk-foreign-secretary-confronted-by-activists-over-palestine-action-ban"
+      ],
+      "hashes": [
+        "ffff8d910722d6e7699c4339a469ccf843520ba0d3280a6d6a1c40a9c475bb4a"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，英国外交大臣埃德·米利班德在利物浦一家 Pizza Express 餐厅内，因取缔“巴勒斯坦行动”一事遭活动人士当面质问。 同一报道称，附近有超过50名示威者在支持“巴勒斯坦行动”的抗议中被捕，地点在工党会议场外。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "f4f09a41ae5fbaf318c73a91",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/uk-foreign-secretary-confronted-by-activists-over-palestine-action-ban?traffic_source=rss",
+          "title": "UK Foreign Secretary confronted by activists over Palestine Action ban",
+          "published": "2026-09-28T01:37:27+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "e9f57d797319f62589c4",
+      "delivery_id": "daily:2026-09-28",
+      "topic": "中东与穆斯林社会",
+      "title": "半岛电视台：以军封路致拉姆安拉周边出行受阻，记者称45分钟车程耗时五小时",
+      "titles": [
+        "Stuck between Israeli military checkpoints"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/27/stuck-between-israeli-military-checkpoints"
+      ],
+      "hashes": [
+        "811766d95f8655b7a13570358ddb1819b638f4ed42d1620f303c88d19b0ac1c1"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台记者莱拉·瓦拉（Leila Warah）称，在以色列军队关闭拉姆安拉市周边道路后，一段原本45分钟的车程变成耗时五小时的行程。该说法出自半岛电视台自身报道，属该机构记者的亲历描述，尚未见其他来源交叉核实。",
+      "sent_at": "2026-09-28T01:49:21.349988+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "8eede1a6bf11808d1992cafa",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/stuck-between-israeli-military-checkpoints?traffic_source=rss",
+          "title": "Stuck between Israeli military checkpoints",
+          "published": "2026-09-27T19:04:21+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -3599,8 +4123,8 @@
       "attempt": 1
     },
     "daily:2026-09-28": {
-      "status": "sending",
-      "updated": "2026-09-28T02:06:45.347983+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-28T02:06:49.280748+00:00",
       "attempt": 1
     }
   }
