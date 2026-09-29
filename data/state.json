@@ -4074,6 +4074,455 @@
           "priority": 5
         }
       ]
+    },
+    {
+      "fingerprint": "70f0ed7a0e7c708e8bc5",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "中东与穆斯林社会",
+      "title": "特朗普否认向伊朗提出制裁减免，美伊经卡塔尔间接接触仍在继续",
+      "titles": [
+        "Trump dismisses ‘hoax’ reports he offered sanctions relief to Iran"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/9/29/iran-war-live-trump-says-he-did-not-offer-tehran-sanctions-relief"
+      ],
+      "hashes": [
+        "542f4e876aa94956dc655950c3e8b6909ecdbbc9497e68a553b7e180fa3156e9"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "美国总统特朗普否认其政府曾向伊朗提出制裁减免或让伊朗获得冻结资金，并在社交媒体上称相关报道是骗局。 伊朗外长阿拉格奇称，德黑兰通过卡塔尔调解人在纽约与美国进行了进一步间接谈判，美方正式回应“有望”在周二送达。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "fa83fdd85d41852a67415701",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/29/iran-war-live-trump-says-he-did-not-offer-tehran-sanctions-relief?traffic_source=rss",
+          "title": "Trump dismisses ‘hoax’ reports he offered sanctions relief to Iran",
+          "published": "2026-09-29T00:00:00+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "ad7335eb5e3c64afd5ab",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "全球政治与社会",
+      "title": "匈牙利议会取消总理马扎尔及两名欧尔班时期部长的豁免权",
+      "titles": [
+        "Hungary lifts immunity of Prime Minister Magyar, two Orban-era ministers"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/29/hungary-lifts-immunity-of-prime-minister-magyar-two-orban-era-ministers"
+      ],
+      "hashes": [
+        "5bf31f7558b0e605eaae8093cf9e44178c90f2d4c5868415aa3f07d68d00a5f0"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，匈牙利议会取消了现任总理彼得·马扎尔以及前总理欧尔班政府中两名部长的豁免权，为检方分别对他们展开刑事调查扫清道路。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "b578fc47150a1666c32734d5",
+          "url": "https://www.aljazeera.com/news/2026/9/29/hungary-lifts-immunity-of-prime-minister-magyar-two-orban-era-ministers?traffic_source=rss",
+          "title": "Hungary lifts immunity of Prime Minister Magyar, two Orban-era ministers",
+          "published": "2026-09-29T01:01:38+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "b86a9aee9e439cfab9a0",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "全球政治与社会",
+      "title": "阿联酋证实以色列总理内塔尼亚胡访问阿布扎比并与穆罕默德·本·扎耶德会面",
+      "titles": [
+        "UAE confirms Israel PM Netanyahu’s visit to Abu Dhabi"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi"
+      ],
+      "hashes": [
+        "744dea7324272284861c7d8402ee11484ff860a9bca1d6f6913fcfd34b1a5f90"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，阿联酋已确认以色列总理本雅明·内塔尼亚胡在周末访问该国期间，与阿联酋总统谢赫·穆罕默德·本·扎耶德·阿勒纳哈扬会面；阿联酋官方通讯社WAM称双方讨论了阿联酋与以色列的双边关系及加强和发展关系的途径。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "14388629aaf3189afddd2160",
+          "url": "https://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi?traffic_source=rss",
+          "title": "UAE confirms Israel PM Netanyahu’s visit to Abu Dhabi",
+          "published": "2026-09-28T19:42:30+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "ef754302d801ed5669ee",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "科学与思想",
+      "title": "Carbon Brief 分析：卢拉任内巴西至少保住2万平方公里亚马孙森林",
+      "titles": [
+        "Analysis: Lula presidency saved at least 20,000km2 of Brazilian Amazon since 2022 - Carbon Brief"
+      ],
+      "urls": [
+        "https://www.carbonbrief.org/analysis-lula-presidency-saved-at-least-20000km2-of-brazilian-amazon-since-2022"
+      ],
+      "hashes": [
+        "f815a123a47c3ccf3eb9cfcf953e09c38fabb15d63124edb235fe67c47caadfb"
+      ],
+      "facts": {
+        "numbers": [
+          "20",
+          "2022"
+        ],
+        "actions": []
+      },
+      "summary": "Carbon Brief 基于国际研究团队建模的分析估计，自卢拉2022年当选并就任、将亚马孙保护列为优先事项以来，巴西至少避免了2万平方公里的毁林；该估计以“不执行《森林法典》”的情景作为博索纳罗执政的代理假设，属于模型推算而非直接观测。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "684dfe6625a17323bdbd7a81",
+          "url": "https://www.carbonbrief.org/analysis-lula-presidency-saved-at-least-20000km2-of-brazilian-amazon-since-2022",
+          "title": "Analysis: Lula presidency saved at least 20,000km2 of Brazilian Amazon since 2022 - Carbon Brief",
+          "published": "2026-09-28T10:35:12+00:00",
+          "source_id": "s095",
+          "source_name": "Carbon Brief",
+          "group": "source-95",
+          "region": "全球",
+          "category": "科技与科学",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "39b76b25cba6d14e740e",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "非洲政治与安全",
+      "title": "意大利法院缺席判处三名埃及安全官员绑架雷杰尼罪名成立",
+      "titles": [
+        "Italian court convicts three Egyptian agents for kidnap of Giulio Regeni"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni"
+      ],
+      "hashes": [
+        "ed2ab27bf8e80929b0d84a86ca0d8c334a7232d7916dad98e262b537b40835f1"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，意大利一家法院裁定三名埃及安全官员参与绑架学生朱利奥·雷杰尼的罪名成立，并于周一以加重绑架罪判处三人各10年监禁，第四名被告获判无罪；三人系缺席受审。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "9265321698664eeb9ee3e3e1",
+          "url": "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni?traffic_source=rss",
+          "title": "Italian court convicts three Egyptian agents for kidnap of Giulio Regeni",
+          "published": "2026-09-28T19:45:06+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "ab99f2076a628184340d",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "全球政治与社会",
+      "title": "伊朗上诉法院维持对未戴头巾演唱女歌手的74鞭刑判决",
+      "titles": [
+        "Iran court upholds flogging sentence for singer who performed without hijab"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/crn45ed1kqqgo"
+      ],
+      "hashes": [
+        "83c0e149b3170f56fc0ed35b911e81239a17aee2a0bb38a5152c671bf963de65"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据律师说法，伊朗上诉法院确认了对一名知名女歌手处以74下鞭刑的判决；该歌手此前未按强制规定佩戴头巾进行演唱。 据被告律师称，上诉在未举行听证的情况下被上级法院驳回。 报道称，该歌手2024年12月曾在YouTube直播的音乐会中身穿无袖裙演唱；伊朗法律禁止女性公开演出并要求佩戴头巾和端庄着装。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "09e27b831f89ef39869f14d1",
+          "url": "https://www.bbc.com/news/articles/crn45ed1kqqgo?at_campaign=rss&at_medium=RSS",
+          "title": "Iran court upholds flogging sentence for singer who performed without hijab",
+          "published": "2026-09-28T17:15:00.230000+00:00",
+          "source_id": "s015",
+          "source_name": "BBC News",
+          "group": "source-15",
+          "region": "全球",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "9c247bcfa58bcb4f9e88",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "全球政治与社会",
+      "title": "马德里数百人搭帐篷抗议住房成本与驱逐，示威蔓延至巴塞罗那",
+      "titles": [
+        "Hundreds set up tent encampments in Madrid over housing crisis"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/28/hundreds-set-up-tent-encampments-in-madrid-over-housing-crisis"
+      ],
+      "hashes": [
+        "dbe3113589f28c028c30573c49dec3d959ab6c8024c9de98208e1741c0a97b53"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，数百名抗议者在西班牙马德里市中心搭建帐篷营地，要求政府就不断上涨的住房成本和驱逐问题采取行动，示威活动已蔓延至巴塞罗那。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "c8ea9e409733e750a1ffc70f",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/hundreds-set-up-tent-encampments-in-madrid-over-housing-crisis?traffic_source=rss",
+          "title": "Hundreds set up tent encampments in Madrid over housing crisis",
+          "published": "2026-09-28T21:12:29+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "b240771c43948331296c",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "全球政治与社会",
+      "title": "越南被指以“捏造”罪名拘押三名活动人士，含一名澳大利亚人",
+      "titles": [
+        "Vietnamese government accused of abducting Melbourne human rights activist"
+      ],
+      "urls": [
+        "https://www.theguardian.com/australia-news/2026/sep/29/melbourne-human-rights-activist-tran-hiep-missing-cambodia-ntwnfb"
+      ],
+      "hashes": [
+        "1e3d521a153597957b50c81456832800ffca63a0ac9ea6f7dfbf9b2b0260137b"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "《卫报》报道称，越南当局拘押了三名活动人士，其中包括一名澳大利亚人，相关指控被描述为“捏造”。该说法来自报道本身，报道未指明“捏造”一说由谁提出。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "27eb58c9a0344301fdf4ab7e",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/29/melbourne-human-rights-activist-tran-hiep-missing-cambodia-ntwnfb",
+          "title": "Vietnamese government accused of abducting Melbourne human rights activist",
+          "published": "2026-09-29T01:16:28+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "20a424e52440022bc153",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "非洲政治与安全",
+      "title": "刚果（金）执政党在布滕博的要员电台宣传埃博拉防疫后遭殴打身亡",
+      "titles": [
+        "DRC politician beaten to death after radio appearance about Ebola outbreak"
+      ],
+      "urls": [
+        "https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola"
+      ],
+      "hashes": [
+        "46556d17694e396893554eba6200e58dcc7d9fd210fb3ac9b0f8845e75e7ae3d"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "卫报报道称，刚果（金）执政党一名高级成员周日参加一档旨在提高埃博拉疫情认知的电台节目后遭殴打致死，该说法来自一名政党代表。 同一报道引述路透社称，UDPS在布滕博的联邦机构发表声明，指遇害者为该党联邦执行委员会代理主席玛丽-塞莱斯坦·卡隆德瓦（Marie-Celestin Karondwa），布滕博是此次疫情的新热点。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "20a0722b1083a84236053152",
+          "url": "https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola",
+          "title": "DRC politician beaten to death after radio appearance about Ebola outbreak",
+          "published": "2026-09-28T15:54:25+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "d34eec231dc217191bf2",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "AI与计算",
+      "title": "调查：巴西部分政界人士在数字监管议题上被指与大型科技公司立场一致",
+      "titles": [
+        "Os candidatos das Big Techs nas eleições 2026"
+      ],
+      "urls": [
+        "https://apublica.org/2026/09/os-candidatos-das-big-techs-nas-eleicoes-2026/"
+      ],
+      "hashes": [
+        "0545f2650bfdcc5f8d5b34cffbec024a1ebeccffade29705e811c61b6e07daa4"
+      ],
+      "facts": {
+        "numbers": [
+          "2026"
+        ],
+        "actions": []
+      },
+      "summary": "巴西媒体 Agência Pública 报道称，巴西一些政界人士在数字监管议题上的作为与大型科技公司立场一致，反对影响这些公司商业模式的国内监管规定。 报道称，这一结论依据的是非营利组织 Ctrl Z 的专题“我的候选人属于大科技党团吗？”所做的梳理，列出2026年选举中具有此类作为的候选人。 该调查还称，多名政界人士联合推动约13项立法 decree 草案（PDL），试图叫停与《互联网民法》相关的第12.975号和第12.976号法令。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "af47b3554058cbd01da76580",
+          "url": "https://apublica.org/2026/09/os-candidatos-das-big-techs-nas-eleicoes-2026/",
+          "title": "Os candidatos das Big Techs nas eleições 2026",
+          "published": "2026-09-28T18:00:00+00:00",
+          "source_id": "s054",
+          "source_name": "Agência Pública",
+          "group": "source-54",
+          "region": "拉丁美洲",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "39f034db147df0b352ec",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "中东与穆斯林社会",
+      "title": "斯洛文尼亚总理联大期间与内塔尼亚胡会面，半岛电视台报道其对巴政策转向",
+      "titles": [
+        "Slovenia’s U-turn towards Israel"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/28/aje-onl-nf_slovenias-u-turn-towards-israel-280926"
+      ],
+      "hashes": [
+        "00547462236daf6896c1f9ba64edaed5aacebb8b06f707c9a20d878a8fde67fb"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，斯洛文尼亚总理扬沙在联合国大会期间与以色列总理内塔尼亚胡会面。 同一报道称，随着扬沙重新执政，斯洛文尼亚对巴勒斯坦的政策已急剧变化；这是半岛电视台的概括性表述，报道未列出具体政策变动。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "c12504a73e2c9600dd9b07be",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/aje-onl-nf_slovenias-u-turn-towards-israel-280926?traffic_source=rss",
+          "title": "Slovenia’s U-turn towards Israel",
+          "published": "2026-09-28T20:35:51+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "bfac29b0a561d0f0682d",
+      "delivery_id": "daily:2026-09-29",
+      "topic": "俄乌与欧洲安全",
+      "title": "非洲航天博览会阿比让闭幕：从政策宣示转向应用落地，科特迪瓦签署《阿尔忒弥斯协定》",
+      "titles": [
+        "Africa’s space ambitions are moving from policy to practice"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/29/africas-space-ambitions-are-moving-from-policy-to-practice"
+      ],
+      "hashes": [
+        "085e371651c5b5de275aaa6376f844c8803ba8a1cbd22c98582bbe02087bf315"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，非洲航天博览会（ASPEX）上周在科特迪瓦阿比让闭幕，主办方将其定位为航天应用的市场对接平台，聚焦粮食安全、气候韧性、领土监测、连通性和海上安全，把初创企业、项目实验室与投资者聚在一起，推动想法从演示走向部署；报道称博览会并非以火箭和宇航员为展示重点。 同一报道称，该博览会期间产生若干具体协议，其中包括科特迪瓦签署《阿尔忒弥斯协定》，成为该太空探索与发展协定的第75个签署方。该协定签署方数量及签署动作为报道所载，尚待其他渠道确认。 报道以加纳为例说明进展与差距：加纳有航天政策、工程师、研究机构和尝试建立航天产业的企业，但尚未具备把上述能力转化为本国产业的资本和制造能力。这一判断出自该报道的总结性表述，文中主要依据受访者和企业现状。",
+      "sent_at": "2026-09-29T02:38:07.034981+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "8db03d2d936c4f8bfd4405ff",
+          "url": "https://www.aljazeera.com/news/2026/9/29/africas-space-ambitions-are-moving-from-policy-to-practice?traffic_source=rss",
+          "title": "Africa’s space ambitions are moving from policy to practice",
+          "published": "2026-09-29T00:26:22+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -4128,8 +4577,8 @@
       "attempt": 1
     },
     "daily:2026-09-29": {
-      "status": "sending",
-      "updated": "2026-09-29T02:57:52.359080+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-29T02:57:55.858771+00:00",
       "attempt": 1
     }
   }
