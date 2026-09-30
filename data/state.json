@@ -4523,6 +4523,380 @@
           "priority": 5
         }
       ]
+    },
+    {
+      "fingerprint": "f6d6f15cfe55da971a53",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "全球政治与社会",
+      "title": "特朗普称对伊朗战争将“很快”结束但未给细节，半岛电视台报道布伦特油价升破103美元",
+      "titles": [
+        "Trump says Iran war will wrap up ‘very soon’ but shares no details"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details"
+      ],
+      "hashes": [
+        "b4397904e27535d0626e5113b82168ccb22c03347719de5dc77b3314e3a98be8"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，美国总统特朗普表示对伊朗的战争将“很快”结束，但没有提供任何细节，并重申德黑兰不会拥有核武器。 该报道称，油价周三上涨，此前特朗普否认愿意放松对伊朗的制裁，而前一交易日油价曾因中东原油供应恢复而下跌。 同一报道给出的报价为：布伦特原油期货上涨1.14美元、涨幅1.11%，至每桶103.73美元（截至01:30 GMT）。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "d08408ad35a4bd147b7d60c0",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details?traffic_source=rss",
+          "title": "Trump says Iran war will wrap up ‘very soon’ but shares no details",
+          "published": "2026-09-30T00:00:00+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "600be13eab9f72857050",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "中东与穆斯林社会",
+      "title": "美国以涉嫌支持伊朗军方为由制裁10个实体，涉中国、巴基斯坦、土耳其和沙特企业",
+      "titles": [
+        "US sanctions 10 entities for allegedly supporting Iran’s military"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military"
+      ],
+      "hashes": [
+        "718d3363f30e21e7a8ffe0e591ba1a7c558982b5693ef40e312a470e3a8f0bb5"
+      ],
+      "facts": {
+        "numbers": [
+          "10"
+        ],
+        "actions": []
+      },
+      "summary": "据半岛电视台报道，美国财政部在周二的声明中指控位于中国、巴基斯坦、土耳其和沙特的代表及技术公司为伊朗军方采购武器和零部件，10个被制裁个人与公司中有3个位于伊朗。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "c4a36666b5b0760daca81424",
+          "url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
+          "title": "US sanctions 10 entities for allegedly supporting Iran’s military",
+          "published": "2026-09-29T20:48:34+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "3e9a0cc0518383a5a03d",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "中东与穆斯林社会",
+      "title": "卡塔尔首相指责内塔尼亚胡借攻击卡塔尔转移加沙战争罪视线",
+      "titles": [
+        "‘Netanyahu targets Qatar to deflect from Gaza war crimes’"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/video/newsfeed/2026/9/29/netanyahu-targets-qatar-to-deflect-from-gaza-war"
+      ],
+      "hashes": [
+        "3c16a151aab968ccc46dbcab7c495a64e59ca5fb32354024c18d3fc23b15d296"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，卡塔尔首相在接受英国主持人皮尔斯·摩根采访时，指责以色列总理内塔尼亚胡通过攻击卡塔尔来操纵舆论，并称关注焦点应是以色列在加沙所犯的战争罪行。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "682dfe69125c498186d47918",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/netanyahu-targets-qatar-to-deflect-from-gaza-war?traffic_source=rss",
+          "title": "‘Netanyahu targets Qatar to deflect from Gaza war crimes’",
+          "published": "2026-09-29T21:24:07+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "3142197b2fb40c4e7b83",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "全球政治与社会",
+      "title": "被ICE警员枪击的委内瑞拉男子在得州被控袭警，其说法与官方叙述相左",
+      "titles": [
+        "Venezuelan man shot by ICE officer in Texas is charged with assault"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/29/venezuelan-man-shot-by-ice-officer-in-texas-is-charged-with-assault"
+      ],
+      "hashes": [
+        "b968a494c0285a75897e9f32bf26c2a1f5e507e185b3c968441c5c0ca286467f"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，一名在得州被美国移民和海关执法局（ICE）警员从背后枪击的委内瑞拉庇护申请者，正面临联邦袭警指控；检方指控他用汽车的侧后视镜击打警员。 报道称，就自己被枪击前那一刻的经过，威尔伯·拉斐尔·加西斯·佩雷斯向联邦调查人员给出了与官方叙述不同的说法。 报道指出，目前没有公开可得的影像记录起诉书所述的事件，包括枪击本身。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "7caec62355a36bcc72161cd0",
+          "url": "https://www.aljazeera.com/news/2026/9/29/venezuelan-man-shot-by-ice-officer-in-texas-is-charged-with-assault?traffic_source=rss",
+          "title": "Venezuelan man shot by ICE officer in Texas is charged with assault",
+          "published": "2026-09-29T23:15:35+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "8955f1bfd844247e470e",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "全球政治与社会",
+      "title": "杰克·史密斯在参议院司法委员会为调查特朗普辩护，称调查基于证据",
+      "titles": [
+        "Jack Smith defends investigations into Trump during tense US Senate hearing"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/29/jack-smith-defends-investigations-into-trump-during-tense-us-senate-hearing"
+      ],
+      "hashes": [
+        "54174549bf5375eb41725d8ec4c94c842207575d8ff81f6e5046b25f7e91ec65"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "美国前特别检察官杰克·史密斯在参议院司法委员会作证，为其针对总统特朗普的调查辩护，称调查遵循司法部政策并以证据为基础；共和党议员则指控他滥用职权。 听证中共和党人聚焦史密斯的调查手段，委员会主席查克·格拉斯利指控其团队利用调查“勾勒并锁定整个共和党”。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "8d30a3013b3f2d74259dfaac",
+          "url": "https://www.aljazeera.com/news/2026/9/29/jack-smith-defends-investigations-into-trump-during-tense-us-senate-hearing?traffic_source=rss",
+          "title": "Jack Smith defends investigations into Trump during tense US Senate hearing",
+          "published": "2026-09-29T23:28:47+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "4e3f3baaacae388e211a",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "全球政治与社会",
+      "title": "半岛电视台：联合国安理会将海地帮派镇压部队授权延长至2027年3月31日",
+      "titles": [
+        "UN extends mandate of Gang Suppression Force in Haiti for six months"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/9/29/un-extends-mandate-of-gang-suppression-force-in-haiti-for-six-months"
+      ],
+      "hashes": [
+        "0e2bdf5c89be70cc732a2afe0be5823ecaf7c992b9541c2eb530e1915719a08c"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道，联合国安理会于周二投票，将部署在海地的“帮派镇压部队”（GSF）授权延长至2027年3月31日。报道称该部队旨在应对帮派及其他犯罪团伙不断升级的暴力。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "2dd7efc8ebb90070a3834b3e",
+          "url": "https://www.aljazeera.com/news/2026/9/29/un-extends-mandate-of-gang-suppression-force-in-haiti-for-six-months?traffic_source=rss",
+          "title": "UN extends mandate of Gang Suppression Force in Haiti for six months",
+          "published": "2026-09-29T22:38:10+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "cbe9aafe67d4b8857ab0",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "AI与计算",
+      "title": "美国对近10亿美元加拿大商品进口禁令生效，涵盖酒类、乳制品与摩托车",
+      "titles": [
+        "US ban on $1bn of Canadian goods takes effect in Trump’s latest retaliation"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/economy/2026/9/29/us-ban-on-1bn-of-canadian-goods-takes-effect-in-trumps-latest-retaliation"
+      ],
+      "hashes": [
+        "ffb0f5e6f452d1c7a18ec67b785eb8f76cf4659926503afa3e116a9eb256ec65"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，美国正对来自加拿大的近10亿美元进口商品实施禁令，涉及酒精饮料、乳制品和摩托车。 报道称该禁令于周二早些时候生效，并可能进一步加剧美加这两个邻国本已紧张的关系。 按该报道的说法，此举是特朗普对加拿大报复性关税的回应，即美国以禁止10亿美元加拿大商品，报复加拿大对200亿美元美国进口商品征收的反制关税。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "5a3854483fe63db8c682aef8",
+          "url": "https://www.aljazeera.com/economy/2026/9/29/us-ban-on-1bn-of-canadian-goods-takes-effect-in-trumps-latest-retaliation?traffic_source=rss",
+          "title": "US ban on $1bn of Canadian goods takes effect in Trump’s latest retaliation",
+          "published": "2026-09-29T20:08:33+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "057f6b1b067fa4b03227",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "全球政治与社会",
+      "title": "美国消费者信心降至2014年以来最低，中期选举前一个多月承压",
+      "titles": [
+        "US consumer confidence hits its lowest level since 2014 ahead of midterms"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/economy/2026/9/29/us-consumer-confidence-hits-its-lowest-level-since-2014-ahead-of-midterms"
+      ],
+      "hashes": [
+        "87a52c6bc2397d23b95e1e3ae5a400e59779dd8bf13d244113148e7f530a87e2"
+      ],
+      "facts": {
+        "numbers": [
+          "2014"
+        ],
+        "actions": []
+      },
+      "summary": "半岛电视台报道称，美国消费者信心已降至2014年以来最低水平，此时距国会中期选举仅一个多月。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "6d73288e6b4d901350def033",
+          "url": "https://www.aljazeera.com/economy/2026/9/29/us-consumer-confidence-hits-its-lowest-level-since-2014-ahead-of-midterms?traffic_source=rss",
+          "title": "US consumer confidence hits its lowest level since 2014 ahead of midterms",
+          "published": "2026-09-29T22:23:58+00:00",
+          "source_id": "s033",
+          "source_name": "Al Jazeera 半岛电视台",
+          "group": "source-33",
+          "region": "中东",
+          "category": "政治与社会",
+          "priority": 5
+        }
+      ]
+    },
+    {
+      "fingerprint": "4d56f30bb0c8f375a0d2",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "全球政治与社会",
+      "title": "澳大利亚政府承认青少年社媒危害无科学共识，但称“可信风险”足以支持禁令",
+      "titles": [
+        "Australian government concedes no scientific consensus on social media harms for teenagers – but ‘credible risks’ justify ban"
+      ],
+      "urls": [
+        "https://www.theguardian.com/australia-news/2026/sep/30/social-media-ban-australia-high-court-mental-health-risks-teens"
+      ],
+      "hashes": [
+        "fafbab7786f8fb3aea1e4812b2ad1da890fb78a3fdb5d2c0d9d26f358181e640"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "澳大利亚政府在高院为其16岁以下社媒禁令辩护时承认，该“世界领先”禁令是在关于心理健康危害与社媒使用之间联系尚无科学共识的情况下实施的；但政府主张，成瘾行为、焦虑等问题的“可信风险”足以证明该政策合理。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "c38ce7516d4bf3e2420bae3e",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/30/social-media-ban-australia-high-court-mental-health-risks-teens",
+          "title": "Australian government concedes no scientific consensus on social media harms for teenagers – but ‘credible risks’ justify ban",
+          "published": "2026-09-29T15:00:56+00:00",
+          "source_id": "s020",
+          "source_name": "The Guardian 卫报",
+          "group": "source-20",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
+    },
+    {
+      "fingerprint": "077622de5ab20471da11",
+      "delivery_id": "daily:2026-09-30",
+      "topic": "全球政治与社会",
+      "title": "白宫OMB拟禁止联邦拨款用于选民登记，残疾人投票援助组织或受直接冲击",
+      "titles": [
+        "This White House Plan Threatens Funding That Helps Disabled Americans Vote"
+      ],
+      "urls": [
+        "https://www.propublica.org/article/disabled-voters-nonprofit-funding-cuts-omb"
+      ],
+      "hashes": [
+        "24bf268710ef7307d1b6085c541f980c29614e8f67140f1e3843a8a35bef6155"
+      ],
+      "facts": {
+        "numbers": [],
+        "actions": []
+      },
+      "summary": "ProPublica报道称，白宫管理和预算办公室（OMB）拟修改支出规则，禁止任何人将联邦拨款用于选民登记活动或其所称的“相关活动”。 ProPublica报道称，该提案不会在2026年中期选举前生效。 ProPublica报道称，像Disability Rights Nebraska这样的非营利组织及其服务对象将受到最直接冲击。",
+      "sent_at": "2026-09-30T02:14:02.996073+00:00",
+      "kind": "daily",
+      "update": false,
+      "articles": [
+        {
+          "id": "6a8f686711e9b07c366e4914",
+          "url": "https://www.propublica.org/article/disabled-voters-nonprofit-funding-cuts-omb",
+          "title": "This White House Plan Threatens Funding That Helps Disabled Americans Vote",
+          "published": "2026-09-29T09:00:00+00:00",
+          "source_id": "s021",
+          "source_name": "ProPublica",
+          "group": "source-21",
+          "region": "欧美",
+          "category": "政治与社会",
+          "priority": 3
+        }
+      ]
     }
   ],
   "deliveries": {
@@ -4582,8 +4956,8 @@
       "attempt": 1
     },
     "daily:2026-09-30": {
-      "status": "sending",
-      "updated": "2026-09-30T02:37:00.922515+00:00",
+      "status": "smtp_accepted",
+      "updated": "2026-09-30T02:37:07.700728+00:00",
       "attempt": 1
     }
   }
